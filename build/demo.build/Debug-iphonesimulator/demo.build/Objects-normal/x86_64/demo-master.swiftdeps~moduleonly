@@ -1,0 +1,18 @@
+version: "Apple Swift version 5.3.2 (swiftlang-1200.0.45 clang-1200.0.32.28)"
+options: "f8c2c6bb16884c4e2bdc1a26f56bfdb3"
+build_time: [1614453812, 608754000]
+inputs:
+  "/Users/sandy/Downloads/demo  2/demo/Transition.swift": [1614412258, 0]
+  "/Users/sandy/Downloads/demo  2/demo/PostalCodeMapViewController.swift": [1614442599, 447334796]
+  "/Users/sandy/Downloads/demo  2/demo/Extensions.swift": [1614412257, 0]
+  "/Users/sandy/Downloads/demo  2/demo/Struct.swift": [1614449778, 65038853]
+  "/Users/sandy/Downloads/demo  2/demo/MenuViewController.swift": [1614412258, 0]
+  "/Users/sandy/Downloads/demo  2/demo/HomeViewController.swift": [1614450996, 724949472]
+  "/Users/sandy/Downloads/demo  2/demo/SignUpViewController.swift": [1614453394, 925488718]
+  "/Users/sandy/Downloads/demo  2/demo/AppDelegate.swift": [1614412258, 0]
+  "/Users/sandy/Downloads/demo  2/demo/MapViewController.swift": [1614412257, 0]
+  "/Users/sandy/Downloads/demo  2/demo/ProfileViewController.swift": [1614443572, 996591757]
+  "/Users/sandy/Downloads/demo  2/demo/PaymentViewController.swift": [1614453809, 462932623]
+  "/Users/sandy/Downloads/demo  2/demo/SceneDelegate.swift": [1614412258, 0]
+  "/Users/sandy/Downloads/demo  2/demo/LoginViewController.swift": [1614412257, 0]
+  "/Users/sandy/Downloads/demo  2/demo/ContactUsViewController.swift": [1614412257, 0]
