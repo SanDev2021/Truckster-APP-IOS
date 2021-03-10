@@ -27,6 +27,7 @@
 		CEBA53E925DD0ECD00DB1521 /* Transition.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEBA53E825DD0ECD00DB1521 /* Transition.swift */; };
 		CEBA53F125DD17A100DB1521 /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEBA53F025DD17A100DB1521 /* ProfileViewController.swift */; };
 		CEBA53F925DD183300DB1521 /* PaymentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEBA53F825DD183300DB1521 /* PaymentViewController.swift */; };
+		CECF466425F009A7008225B4 /* RideDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CECF466325F009A7008225B4 /* RideDetailsViewController.swift */; };
 		CED1EBB125E6D2C00079BCC4 /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CED1EBB025E6D2C00079BCC4 /* SignUpViewController.swift */; };
 		CED1EBB625E6D3040079BCC4 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CED1EBB525E6D3040079BCC4 /* LoginViewController.swift */; };
 		CED1EBBC25E6D5630079BCC4 /* ContactUsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CED1EBBB25E6D5630079BCC4 /* ContactUsViewController.swift */; };
@@ -84,6 +85,7 @@
 		CEBA53E825DD0ECD00DB1521 /* Transition.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Transition.swift; sourceTree = "<group>"; };
 		CEBA53F025DD17A100DB1521 /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
 		CEBA53F825DD183300DB1521 /* PaymentViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaymentViewController.swift; sourceTree = "<group>"; };
+		CECF466325F009A7008225B4 /* RideDetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RideDetailsViewController.swift; sourceTree = "<group>"; };
 		CED1EBB025E6D2C00079BCC4 /* SignUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
 		CED1EBB525E6D3040079BCC4 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		CED1EBBB25E6D5630079BCC4 /* ContactUsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactUsViewController.swift; sourceTree = "<group>"; };
@@ -180,6 +182,7 @@
 				CE52955B25D6003000A97895 /* demo.xcdatamodeld */,
 				CE4CA13B25EA3043005A5BEE /* PostalCodeMapViewController.swift */,
 				CE4CA15525EA3961005A5BEE /* Struct.swift */,
+				CECF466325F009A7008225B4 /* RideDetailsViewController.swift */,
 			);
 			path = demo;
 			sourceTree = "<group>";
@@ -459,6 +462,7 @@
 				CEBA53E925DD0ECD00DB1521 /* Transition.swift in Sources */,
 				CE4CA13C25EA3043005A5BEE /* PostalCodeMapViewController.swift in Sources */,
 				CE5295B025D60AE400A97895 /* Extensions.swift in Sources */,
+				CECF466425F009A7008225B4 /* RideDetailsViewController.swift in Sources */,
 				CE4CA15625EA3961005A5BEE /* Struct.swift in Sources */,
 				CE9692FE25DCCD560066C45B /* MenuViewController.swift in Sources */,
 				CE52955725D6003000A97895 /* HomeViewController.swift in Sources */,

@@ -3,10 +3,6 @@
 <plist version="1.0">
 <dict>
 	<key>application-identifier</key>
-	<string>GHPAR4N5Y3.com.TrucksterApp</string>
-	<key>keychain-access-groups</key>
-	<array>
-		<string>GHPAR4N5Y3.com.TrucksterApp</string>
-	</array>
+	<string>GHPAR4N5Y3.demo</string>
 </dict>
 </plist>

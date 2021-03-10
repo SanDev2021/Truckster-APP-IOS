@@ -37,6 +37,7 @@ depends-top-level:
 - "Error"
 - "FloatLiteralType"
 - "IntegerLiteralType"
+- "LoginViewController"
 - "PHAuthorizationStatus"
 - !private "PHPhotoLibrary"
 - "PaymentViewController"
@@ -45,12 +46,15 @@ depends-top-level:
 - "String"
 - !private "StringLiteralType"
 - !private "StructOperation"
+- !private "UIAlertAction"
+- !private "UIAlertController"
 - "UIButton"
 - "UIImage"
 - "UIImagePickerController"
 - "UIImagePickerControllerDelegate"
 - "UIImageView"
 - "UINavigationControllerDelegate"
+- "UIStoryboard"
 - "UITextField"
 - "UIViewController"
 - "URL"
@@ -59,6 +63,7 @@ depends-top-level:
 - !private "checkPermissions"
 - !private "imagePickerController"
 - !private "imagePlace"
+- !private "navigationController"
 - "print"
 - !private "signUp"
 - !private "txtEmail"
@@ -75,7 +80,6 @@ depends-member:
 - ["SK", ""]
 - !private ["SK", "init"]
 - !private ["SK", "isEmpty"]
-- !private ["So15CALayerDelegateP", ""]
 - !private ["So15CALayerDelegateP", "image"]
 - !private ["So15CALayerDelegateP", "setTitle"]
 - !private ["So15CALayerDelegateP", "text"]
@@ -91,8 +95,12 @@ depends-member:
 - !private ["s7CVarArgP", "SignUpViewController"]
 - !private ["s7CVarArgP", "Storage"]
 - !private ["s7CVarArgP", "StructOperation"]
+- !private ["s7CVarArgP", "UIAlertAction"]
+- !private ["s7CVarArgP", "UIAlertController"]
 - ["s7CVarArgP", "UIImagePickerController"]
+- !private ["s7CVarArgP", "UIStoryboard"]
 - ["s7CVarArgP", ""]
+- !private ["s7CVarArgP", "addAction"]
 - !private ["s7CVarArgP", "auth"]
 - !private ["s7CVarArgP", "authorizationStatus"]
 - !private ["s7CVarArgP", "btnReg"]
@@ -109,6 +117,7 @@ depends-member:
 - !private ["s7CVarArgP", "imagePlace"]
 - !private ["s7CVarArgP", "imgBtnTapped"]
 - ["s7CVarArgP", "init"]
+- !private ["s7CVarArgP", "instantiateViewController"]
 - !private ["s7CVarArgP", "isEmpty"]
 - !private ["s7CVarArgP", "mySign"]
 - ["s7CVarArgP", "navigationController"]
@@ -116,6 +125,7 @@ depends-member:
 - ["s7CVarArgP", "navigationControllerSupportedInterfaceOrientations"]
 - !private ["s7CVarArgP", "present"]
 - !private ["s7CVarArgP", "print"]
+- !private ["s7CVarArgP", "pushViewController"]
 - !private ["s7CVarArgP", "putFile"]
 - !private ["s7CVarArgP", "reference"]
 - !private ["s7CVarArgP", "requestAuthroizationHandler"]
@@ -154,8 +164,12 @@ depends-member:
 - !private ["s28CustomDebugStringConvertibleP", "SignUpViewController"]
 - !private ["s28CustomDebugStringConvertibleP", "Storage"]
 - !private ["s28CustomDebugStringConvertibleP", "StructOperation"]
+- !private ["s28CustomDebugStringConvertibleP", "UIAlertAction"]
+- !private ["s28CustomDebugStringConvertibleP", "UIAlertController"]
 - ["s28CustomDebugStringConvertibleP", "UIImagePickerController"]
+- !private ["s28CustomDebugStringConvertibleP", "UIStoryboard"]
 - ["s28CustomDebugStringConvertibleP", ""]
+- !private ["s28CustomDebugStringConvertibleP", "addAction"]
 - !private ["s28CustomDebugStringConvertibleP", "auth"]
 - !private ["s28CustomDebugStringConvertibleP", "authorizationStatus"]
 - !private ["s28CustomDebugStringConvertibleP", "btnReg"]
@@ -172,6 +186,7 @@ depends-member:
 - !private ["s28CustomDebugStringConvertibleP", "imagePlace"]
 - !private ["s28CustomDebugStringConvertibleP", "imgBtnTapped"]
 - ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "instantiateViewController"]
 - !private ["s28CustomDebugStringConvertibleP", "isEmpty"]
 - !private ["s28CustomDebugStringConvertibleP", "mySign"]
 - ["s28CustomDebugStringConvertibleP", "navigationController"]
@@ -179,6 +194,7 @@ depends-member:
 - ["s28CustomDebugStringConvertibleP", "navigationControllerSupportedInterfaceOrientations"]
 - !private ["s28CustomDebugStringConvertibleP", "present"]
 - !private ["s28CustomDebugStringConvertibleP", "print"]
+- !private ["s28CustomDebugStringConvertibleP", "pushViewController"]
 - !private ["s28CustomDebugStringConvertibleP", "putFile"]
 - !private ["s28CustomDebugStringConvertibleP", "reference"]
 - !private ["s28CustomDebugStringConvertibleP", "requestAuthroizationHandler"]
@@ -216,8 +232,12 @@ depends-member:
 - !private ["s23CustomStringConvertibleP", "SignUpViewController"]
 - !private ["s23CustomStringConvertibleP", "Storage"]
 - !private ["s23CustomStringConvertibleP", "StructOperation"]
+- !private ["s23CustomStringConvertibleP", "UIAlertAction"]
+- !private ["s23CustomStringConvertibleP", "UIAlertController"]
 - ["s23CustomStringConvertibleP", "UIImagePickerController"]
+- !private ["s23CustomStringConvertibleP", "UIStoryboard"]
 - ["s23CustomStringConvertibleP", ""]
+- !private ["s23CustomStringConvertibleP", "addAction"]
 - !private ["s23CustomStringConvertibleP", "appendInterpolation"]
 - !private ["s23CustomStringConvertibleP", "appendLiteral"]
 - !private ["s23CustomStringConvertibleP", "auth"]
@@ -236,6 +256,7 @@ depends-member:
 - !private ["s23CustomStringConvertibleP", "imagePlace"]
 - !private ["s23CustomStringConvertibleP", "imgBtnTapped"]
 - ["s23CustomStringConvertibleP", "init"]
+- !private ["s23CustomStringConvertibleP", "instantiateViewController"]
 - !private ["s23CustomStringConvertibleP", "isEmpty"]
 - !private ["s23CustomStringConvertibleP", "mySign"]
 - ["s23CustomStringConvertibleP", "navigationController"]
@@ -243,6 +264,7 @@ depends-member:
 - ["s23CustomStringConvertibleP", "navigationControllerSupportedInterfaceOrientations"]
 - !private ["s23CustomStringConvertibleP", "present"]
 - !private ["s23CustomStringConvertibleP", "print"]
+- !private ["s23CustomStringConvertibleP", "pushViewController"]
 - !private ["s23CustomStringConvertibleP", "putFile"]
 - !private ["s23CustomStringConvertibleP", "reference"]
 - !private ["s23CustomStringConvertibleP", "requestAuthroizationHandler"]
@@ -269,7 +291,6 @@ depends-member:
 - !private ["10Foundation12DataProtocolP", "init"]
 - !private ["So11FIRDatabaseC", "database"]
 - !private ["So11FIRDatabaseC", "reference"]
-- ["So16FIRDatabaseQueryC", ""]
 - !private ["So16FIRDatabaseQueryC", "child"]
 - !private ["So16FIRDatabaseQueryC", "setValue"]
 - !private ["So20FIRDatabaseReferenceC", "child"]
@@ -301,12 +322,18 @@ depends-member:
 - !private ["SQ", "SignUpViewController"]
 - !private ["SQ", "Storage"]
 - !private ["SQ", "StructOperation"]
+- !private ["SQ", "UIAlertAction"]
+- !private ["SQ", "UIAlertController"]
 - ["SQ", "UIImagePickerController"]
+- !private ["SQ", "UIStoryboard"]
 - ["SQ", ""]
+- !private ["SQ", "addAction"]
+- !private ["SQ", "alert"]
 - !private ["SQ", "auth"]
 - !private ["SQ", "authorizationStatus"]
 - !private ["SQ", "authorized"]
 - !private ["SQ", "btnReg"]
+- !private ["SQ", "cancel"]
 - !private ["SQ", "checkPermissions"]
 - !private ["SQ", "child"]
 - !private ["SQ", "createUser"]
@@ -321,6 +348,7 @@ depends-member:
 - !private ["SQ", "imageURL"]
 - !private ["SQ", "imgBtnTapped"]
 - ["SQ", "init"]
+- !private ["SQ", "instantiateViewController"]
 - !private ["SQ", "isEmpty"]
 - !private ["SQ", "mySign"]
 - ["SQ", "navigationController"]
@@ -330,6 +358,7 @@ depends-member:
 - !private ["SQ", "photoLibrary"]
 - !private ["SQ", "present"]
 - !private ["SQ", "print"]
+- !private ["SQ", "pushViewController"]
 - !private ["SQ", "putFile"]
 - !private ["SQ", "reference"]
 - !private ["SQ", "requestAuthroizationHandler"]
@@ -384,12 +413,18 @@ depends-member:
 - !private ["SH", "SignUpViewController"]
 - !private ["SH", "Storage"]
 - !private ["SH", "StructOperation"]
+- !private ["SH", "UIAlertAction"]
+- !private ["SH", "UIAlertController"]
 - ["SH", "UIImagePickerController"]
+- !private ["SH", "UIStoryboard"]
 - ["SH", ""]
+- !private ["SH", "addAction"]
+- !private ["SH", "alert"]
 - !private ["SH", "auth"]
 - !private ["SH", "authorizationStatus"]
 - !private ["SH", "authorized"]
 - !private ["SH", "btnReg"]
+- !private ["SH", "cancel"]
 - !private ["SH", "checkPermissions"]
 - !private ["SH", "child"]
 - !private ["SH", "createUser"]
@@ -404,6 +439,7 @@ depends-member:
 - !private ["SH", "imageURL"]
 - !private ["SH", "imgBtnTapped"]
 - ["SH", "init"]
+- !private ["SH", "instantiateViewController"]
 - !private ["SH", "isEmpty"]
 - !private ["SH", "mySign"]
 - ["SH", "navigationController"]
@@ -412,6 +448,7 @@ depends-member:
 - !private ["SH", "photoLibrary"]
 - !private ["SH", "present"]
 - !private ["SH", "print"]
+- !private ["SH", "pushViewController"]
 - !private ["SH", "putFile"]
 - !private ["SH", "reference"]
 - !private ["SH", "requestAuthroizationHandler"]
@@ -452,16 +489,16 @@ depends-member:
 - ["So8NSCodingP", "PaymentViewController"]
 - !private ["So8NSCodingP", "SignUpViewController"]
 - !private ["So8NSCodingP", "Storage"]
-- ["So8NSCodingP", "String"]
 - !private ["So8NSCodingP", "StructOperation"]
-- ["So8NSCodingP", "UIButton"]
+- !private ["So8NSCodingP", "UIAlertAction"]
+- !private ["So8NSCodingP", "UIAlertController"]
 - !private ["So8NSCodingP", "UIImage"]
 - ["So8NSCodingP", "UIImagePickerController"]
 - ["So8NSCodingP", "UIImageView"]
-- ["So8NSCodingP", "UITextField"]
-- ["So8NSCodingP", "URL"]
-- ["So8NSCodingP", "Void"]
+- !private ["So8NSCodingP", "UIStoryboard"]
 - ["So8NSCodingP", ""]
+- !private ["So8NSCodingP", "addAction"]
+- !private ["So8NSCodingP", "alertControllerWithTitle"]
 - ["So8NSCodingP", "btnReg"]
 - ["So8NSCodingP", "btnRegister"]
 - ["So8NSCodingP", "checkPermissions"]
@@ -482,6 +519,7 @@ depends-member:
 - ["So8NSCodingP", "navigationControllerSupportedInterfaceOrientations"]
 - !private ["So8NSCodingP", "present"]
 - !private ["So8NSCodingP", "print"]
+- !private ["So8NSCodingP", "pushViewController"]
 - ["So8NSCodingP", "requestAuthroizationHandler"]
 - ["So8NSCodingP", "setResultLabel"]
 - !private ["So8NSCodingP", "setTitle"]
@@ -497,6 +535,7 @@ depends-member:
 - ["So8NSCodingP", "uploadToCloud"]
 - ["So8NSCodingP", "uploadToDatabase"]
 - ["So8NSCodingP", "viewDidLoad"]
+- !private ["So9NSCopyingP", "init"]
 - !private ["So9NSCopyingP", "isEmpty"]
 - !private ["So26NSExtensionRequestHandlingP", "Auth"]
 - !private ["So26NSExtensionRequestHandlingP", "Data"]
@@ -508,16 +547,16 @@ depends-member:
 - ["So26NSExtensionRequestHandlingP", "PaymentViewController"]
 - !private ["So26NSExtensionRequestHandlingP", "SignUpViewController"]
 - !private ["So26NSExtensionRequestHandlingP", "Storage"]
-- ["So26NSExtensionRequestHandlingP", "String"]
 - !private ["So26NSExtensionRequestHandlingP", "StructOperation"]
-- ["So26NSExtensionRequestHandlingP", "UIButton"]
+- !private ["So26NSExtensionRequestHandlingP", "UIAlertAction"]
+- !private ["So26NSExtensionRequestHandlingP", "UIAlertController"]
 - !private ["So26NSExtensionRequestHandlingP", "UIImage"]
 - ["So26NSExtensionRequestHandlingP", "UIImagePickerController"]
 - ["So26NSExtensionRequestHandlingP", "UIImageView"]
-- ["So26NSExtensionRequestHandlingP", "UITextField"]
-- ["So26NSExtensionRequestHandlingP", "URL"]
-- ["So26NSExtensionRequestHandlingP", "Void"]
+- !private ["So26NSExtensionRequestHandlingP", "UIStoryboard"]
 - ["So26NSExtensionRequestHandlingP", ""]
+- !private ["So26NSExtensionRequestHandlingP", "addAction"]
+- !private ["So26NSExtensionRequestHandlingP", "alertControllerWithTitle"]
 - ["So26NSExtensionRequestHandlingP", "btnReg"]
 - ["So26NSExtensionRequestHandlingP", "btnRegister"]
 - ["So26NSExtensionRequestHandlingP", "checkPermissions"]
@@ -536,6 +575,7 @@ depends-member:
 - ["So26NSExtensionRequestHandlingP", "navigationControllerSupportedInterfaceOrientations"]
 - !private ["So26NSExtensionRequestHandlingP", "present"]
 - !private ["So26NSExtensionRequestHandlingP", "print"]
+- !private ["So26NSExtensionRequestHandlingP", "pushViewController"]
 - ["So26NSExtensionRequestHandlingP", "requestAuthroizationHandler"]
 - ["So26NSExtensionRequestHandlingP", "setResultLabel"]
 - ["So26NSExtensionRequestHandlingP", "signUp"]
@@ -557,6 +597,7 @@ depends-member:
 - !private ["So8NSObjectC", "Database"]
 - ["So8NSObjectC", "Error"]
 - ["So8NSObjectC", "InfoKey"]
+- !private ["So8NSObjectC", "LoginViewController"]
 - ["So8NSObjectC", "PHAuthorizationStatus"]
 - !private ["So8NSObjectC", "PHPhotoLibrary"]
 - ["So8NSObjectC", "PaymentViewController"]
@@ -564,16 +605,21 @@ depends-member:
 - !private ["So8NSObjectC", "Storage"]
 - ["So8NSObjectC", "String"]
 - !private ["So8NSObjectC", "StructOperation"]
+- !private ["So8NSObjectC", "UIAlertAction"]
+- !private ["So8NSObjectC", "UIAlertController"]
 - ["So8NSObjectC", "UIButton"]
 - !private ["So8NSObjectC", "UIImage"]
 - ["So8NSObjectC", "UIImagePickerController"]
 - ["So8NSObjectC", "UIImageView"]
+- !private ["So8NSObjectC", "UIStoryboard"]
 - ["So8NSObjectC", "UITextField"]
 - ["So8NSObjectC", "URL"]
 - ["So8NSObjectC", "Void"]
 - ["So8NSObjectC", ""]
+- !private ["So8NSObjectC", "actionWithTitle"]
+- !private ["So8NSObjectC", "addAction"]
+- !private ["So8NSObjectC", "alertControllerWithTitle"]
 - !private ["So8NSObjectC", "auth"]
-- !private ["So8NSObjectC", "authWithApp"]
 - !private ["So8NSObjectC", "authorizationStatus"]
 - !private ["So8NSObjectC", "authorizationStatusForAccessLevel"]
 - ["So8NSObjectC", "btnReg"]
@@ -584,8 +630,6 @@ depends-member:
 - !private ["So8NSObjectC", "createUserWithEmail"]
 - !private ["So8NSObjectC", "currentUser"]
 - !private ["So8NSObjectC", "database"]
-- !private ["So8NSObjectC", "databaseForApp"]
-- !private ["So8NSObjectC", "databaseWithURL"]
 - !private ["So8NSObjectC", "delegate"]
 - !private ["So8NSObjectC", "dismiss"]
 - !private ["So8NSObjectC", "dismissViewControllerAnimated"]
@@ -596,18 +640,18 @@ depends-member:
 - ["So8NSObjectC", "imgBtn"]
 - ["So8NSObjectC", "imgBtnTapped"]
 - ["So8NSObjectC", "init"]
+- !private ["So8NSObjectC", "instantiateViewController"]
 - !private ["So8NSObjectC", "isEmpty"]
 - ["So8NSObjectC", "mySign"]
 - ["So8NSObjectC", "navigationController"]
 - ["So8NSObjectC", "navigationControllerPreferredInterfaceOrientationForPresentation"]
 - ["So8NSObjectC", "navigationControllerSupportedInterfaceOrientations"]
 - !private ["So8NSObjectC", "present"]
-- !private ["So8NSObjectC", "presentViewController"]
 - !private ["So8NSObjectC", "print"]
+- !private ["So8NSObjectC", "pushViewController"]
 - !private ["So8NSObjectC", "putFile"]
 - !private ["So8NSObjectC", "reference"]
 - !private ["So8NSObjectC", "referenceForURL"]
-- !private ["So8NSObjectC", "referenceFromURL"]
 - !private ["So8NSObjectC", "referenceWithPath"]
 - ["So8NSObjectC", "requestAuthroizationHandler"]
 - !private ["So8NSObjectC", "setResultLabel"]
@@ -640,18 +684,18 @@ depends-member:
 - ["So8NSObjectP", "PaymentViewController"]
 - !private ["So8NSObjectP", "SignUpViewController"]
 - !private ["So8NSObjectP", "Storage"]
-- ["So8NSObjectP", "String"]
 - !private ["So8NSObjectP", "StructOperation"]
-- ["So8NSObjectP", "UIButton"]
+- !private ["So8NSObjectP", "UIAlertAction"]
+- !private ["So8NSObjectP", "UIAlertController"]
 - !private ["So8NSObjectP", "UIImage"]
 - ["So8NSObjectP", "UIImagePickerController"]
 - ["So8NSObjectP", "UIImageView"]
-- ["So8NSObjectP", "UITextField"]
-- ["So8NSObjectP", "URL"]
-- ["So8NSObjectP", "Void"]
+- !private ["So8NSObjectP", "UIStoryboard"]
 - ["So8NSObjectP", ""]
+- !private ["So8NSObjectP", "actionWithTitle"]
+- !private ["So8NSObjectP", "addAction"]
+- !private ["So8NSObjectP", "alertControllerWithTitle"]
 - !private ["So8NSObjectP", "auth"]
-- !private ["So8NSObjectP", "authWithApp"]
 - !private ["So8NSObjectP", "authorizationStatus"]
 - !private ["So8NSObjectP", "authorizationStatusForAccessLevel"]
 - ["So8NSObjectP", "btnReg"]
@@ -662,8 +706,6 @@ depends-member:
 - !private ["So8NSObjectP", "createUserWithEmail"]
 - !private ["So8NSObjectP", "currentUser"]
 - !private ["So8NSObjectP", "database"]
-- !private ["So8NSObjectP", "databaseForApp"]
-- !private ["So8NSObjectP", "databaseWithURL"]
 - ["So8NSObjectP", "deinit"]
 - !private ["So8NSObjectP", "delegate"]
 - !private ["So8NSObjectP", "dismiss"]
@@ -675,19 +717,18 @@ depends-member:
 - ["So8NSObjectP", "imgBtn"]
 - ["So8NSObjectP", "imgBtnTapped"]
 - ["So8NSObjectP", "init"]
+- !private ["So8NSObjectP", "instantiateViewController"]
 - !private ["So8NSObjectP", "isEmpty"]
 - ["So8NSObjectP", "mySign"]
 - ["So8NSObjectP", "navigationController"]
 - ["So8NSObjectP", "navigationControllerPreferredInterfaceOrientationForPresentation"]
 - ["So8NSObjectP", "navigationControllerSupportedInterfaceOrientations"]
 - !private ["So8NSObjectP", "present"]
-- !private ["So8NSObjectP", "presentViewController"]
 - !private ["So8NSObjectP", "print"]
+- !private ["So8NSObjectP", "pushViewController"]
 - !private ["So8NSObjectP", "putFile"]
 - !private ["So8NSObjectP", "reference"]
 - !private ["So8NSObjectP", "referenceForURL"]
-- !private ["So8NSObjectP", "referenceFromURL"]
-- !private ["So8NSObjectP", "referenceWithPath"]
 - ["So8NSObjectP", "requestAuthroizationHandler"]
 - ["So8NSObjectP", "setResultLabel"]
 - !private ["So8NSObjectP", "setTitle"]
@@ -740,7 +781,9 @@ depends-member:
 - !private ["SY", "=="]
 - !private ["SY", "RawValue"]
 - !private ["SY", ""]
+- !private ["SY", "alert"]
 - !private ["SY", "authorized"]
+- !private ["SY", "cancel"]
 - !private ["SY", "imageURL"]
 - !private ["SY", "init"]
 - !private ["SY", "normal"]
@@ -756,6 +799,7 @@ depends-member:
 - !private ["4demo20SignUpViewControllerC", "Data"]
 - !private ["4demo20SignUpViewControllerC", "Database"]
 - ["4demo20SignUpViewControllerC", "Error"]
+- !private ["4demo20SignUpViewControllerC", "LoginViewController"]
 - ["4demo20SignUpViewControllerC", "PHAuthorizationStatus"]
 - !private ["4demo20SignUpViewControllerC", "PHPhotoLibrary"]
 - ["4demo20SignUpViewControllerC", "PaymentViewController"]
@@ -763,10 +807,13 @@ depends-member:
 - !private ["4demo20SignUpViewControllerC", "Storage"]
 - ["4demo20SignUpViewControllerC", "String"]
 - !private ["4demo20SignUpViewControllerC", "StructOperation"]
+- !private ["4demo20SignUpViewControllerC", "UIAlertAction"]
+- !private ["4demo20SignUpViewControllerC", "UIAlertController"]
 - ["4demo20SignUpViewControllerC", "UIButton"]
 - !private ["4demo20SignUpViewControllerC", "UIImage"]
 - ["4demo20SignUpViewControllerC", "UIImagePickerController"]
 - ["4demo20SignUpViewControllerC", "UIImageView"]
+- !private ["4demo20SignUpViewControllerC", "UIStoryboard"]
 - ["4demo20SignUpViewControllerC", "UITextField"]
 - ["4demo20SignUpViewControllerC", "URL"]
 - ["4demo20SignUpViewControllerC", "Void"]
@@ -814,6 +861,8 @@ depends-member:
 - !private ["4demo15StructOperationC", "pass3"]
 - !private ["4demo15StructOperationC", "pass4"]
 - !private ["4demo15StructOperationC", "pass5"]
+- !private ["So22UIAlertControllerStyleV", "alert"]
+- !private ["So18UIAlertActionStyleV", "cancel"]
 - ["s16TextOutputStreamP", ""]
 - !private ["s16TextOutputStreamP", "appendInterpolation"]
 - !private ["s16TextOutputStreamP", "appendLiteral"]
@@ -822,11 +871,13 @@ depends-member:
 - !private ["s20TextOutputStreamableP", "isEmpty"]
 - !private ["So48UIAccessibilityContentSizeCategoryImageAdjustingP", "image"]
 - !private ["So48UIAccessibilityContentSizeCategoryImageAdjustingP", "setTitle"]
-- !private ["So29UIAccessibilityIdentificationP", ""]
 - !private ["So29UIAccessibilityIdentificationP", "image"]
+- !private ["So29UIAccessibilityIdentificationP", "init"]
 - !private ["So29UIAccessibilityIdentificationP", "setTitle"]
 - !private ["So29UIAccessibilityIdentificationP", "text"]
-- !private ["So12UIAppearanceP", ""]
+- !private ["So13UIAlertActionC", "init"]
+- !private ["So17UIAlertControllerC", "addAction"]
+- !private ["So17UIAlertControllerC", "init"]
 - !private ["So12UIAppearanceP", "image"]
 - !private ["So12UIAppearanceP", "setTitle"]
 - !private ["So12UIAppearanceP", "text"]
@@ -840,16 +891,16 @@ depends-member:
 - ["So21UIAppearanceContainerP", "PaymentViewController"]
 - !private ["So21UIAppearanceContainerP", "SignUpViewController"]
 - !private ["So21UIAppearanceContainerP", "Storage"]
-- ["So21UIAppearanceContainerP", "String"]
 - !private ["So21UIAppearanceContainerP", "StructOperation"]
-- ["So21UIAppearanceContainerP", "UIButton"]
+- !private ["So21UIAppearanceContainerP", "UIAlertAction"]
+- !private ["So21UIAppearanceContainerP", "UIAlertController"]
 - !private ["So21UIAppearanceContainerP", "UIImage"]
 - ["So21UIAppearanceContainerP", "UIImagePickerController"]
 - ["So21UIAppearanceContainerP", "UIImageView"]
-- ["So21UIAppearanceContainerP", "UITextField"]
-- ["So21UIAppearanceContainerP", "URL"]
-- ["So21UIAppearanceContainerP", "Void"]
+- !private ["So21UIAppearanceContainerP", "UIStoryboard"]
 - ["So21UIAppearanceContainerP", ""]
+- !private ["So21UIAppearanceContainerP", "addAction"]
+- !private ["So21UIAppearanceContainerP", "alertControllerWithTitle"]
 - ["So21UIAppearanceContainerP", "btnReg"]
 - ["So21UIAppearanceContainerP", "btnRegister"]
 - ["So21UIAppearanceContainerP", "checkPermissions"]
@@ -869,6 +920,7 @@ depends-member:
 - ["So21UIAppearanceContainerP", "navigationControllerSupportedInterfaceOrientations"]
 - !private ["So21UIAppearanceContainerP", "present"]
 - !private ["So21UIAppearanceContainerP", "print"]
+- !private ["So21UIAppearanceContainerP", "pushViewController"]
 - ["So21UIAppearanceContainerP", "requestAuthroizationHandler"]
 - ["So21UIAppearanceContainerP", "setResultLabel"]
 - !private ["So21UIAppearanceContainerP", "setTitle"]
@@ -895,16 +947,16 @@ depends-member:
 - ["So18UIContentContainerP", "PaymentViewController"]
 - !private ["So18UIContentContainerP", "SignUpViewController"]
 - !private ["So18UIContentContainerP", "Storage"]
-- ["So18UIContentContainerP", "String"]
 - !private ["So18UIContentContainerP", "StructOperation"]
-- ["So18UIContentContainerP", "UIButton"]
+- !private ["So18UIContentContainerP", "UIAlertAction"]
+- !private ["So18UIContentContainerP", "UIAlertController"]
 - !private ["So18UIContentContainerP", "UIImage"]
 - ["So18UIContentContainerP", "UIImagePickerController"]
 - ["So18UIContentContainerP", "UIImageView"]
-- ["So18UIContentContainerP", "UITextField"]
-- ["So18UIContentContainerP", "URL"]
-- ["So18UIContentContainerP", "Void"]
+- !private ["So18UIContentContainerP", "UIStoryboard"]
 - ["So18UIContentContainerP", ""]
+- !private ["So18UIContentContainerP", "addAction"]
+- !private ["So18UIContentContainerP", "alertControllerWithTitle"]
 - ["So18UIContentContainerP", "btnReg"]
 - ["So18UIContentContainerP", "btnRegister"]
 - ["So18UIContentContainerP", "checkPermissions"]
@@ -923,6 +975,7 @@ depends-member:
 - ["So18UIContentContainerP", "navigationControllerSupportedInterfaceOrientations"]
 - !private ["So18UIContentContainerP", "present"]
 - !private ["So18UIContentContainerP", "print"]
+- !private ["So18UIContentContainerP", "pushViewController"]
 - ["So18UIContentContainerP", "requestAuthroizationHandler"]
 - ["So18UIContentContainerP", "setResultLabel"]
 - ["So18UIContentContainerP", "signUp"]
@@ -937,17 +990,13 @@ depends-member:
 - ["So18UIContentContainerP", "uploadToDatabase"]
 - ["So18UIContentContainerP", "viewDidLoad"]
 - !private ["So30UIContentSizeCategoryAdjustingP", "text"]
-- !private ["So32UIContextMenuInteractionDelegateP", ""]
 - !private ["So32UIContextMenuInteractionDelegateP", "setTitle"]
 - !private ["So32UIContextMenuInteractionDelegateP", "text"]
-- ["So9UIControlC", ""]
 - !private ["So9UIControlC", "setTitle"]
 - !private ["So9UIControlC", "text"]
-- !private ["So17UICoordinateSpaceP", ""]
 - !private ["So17UICoordinateSpaceP", "image"]
 - !private ["So17UICoordinateSpaceP", "setTitle"]
 - !private ["So17UICoordinateSpaceP", "text"]
-- !private ["So13UIDynamicItemP", ""]
 - !private ["So13UIDynamicItemP", "image"]
 - !private ["So13UIDynamicItemP", "setTitle"]
 - !private ["So13UIDynamicItemP", "text"]
@@ -961,16 +1010,16 @@ depends-member:
 - ["So18UIFocusEnvironmentP", "PaymentViewController"]
 - !private ["So18UIFocusEnvironmentP", "SignUpViewController"]
 - !private ["So18UIFocusEnvironmentP", "Storage"]
-- ["So18UIFocusEnvironmentP", "String"]
 - !private ["So18UIFocusEnvironmentP", "StructOperation"]
-- ["So18UIFocusEnvironmentP", "UIButton"]
+- !private ["So18UIFocusEnvironmentP", "UIAlertAction"]
+- !private ["So18UIFocusEnvironmentP", "UIAlertController"]
 - !private ["So18UIFocusEnvironmentP", "UIImage"]
 - ["So18UIFocusEnvironmentP", "UIImagePickerController"]
 - ["So18UIFocusEnvironmentP", "UIImageView"]
-- ["So18UIFocusEnvironmentP", "UITextField"]
-- ["So18UIFocusEnvironmentP", "URL"]
-- ["So18UIFocusEnvironmentP", "Void"]
+- !private ["So18UIFocusEnvironmentP", "UIStoryboard"]
 - ["So18UIFocusEnvironmentP", ""]
+- !private ["So18UIFocusEnvironmentP", "addAction"]
+- !private ["So18UIFocusEnvironmentP", "alertControllerWithTitle"]
 - ["So18UIFocusEnvironmentP", "btnReg"]
 - ["So18UIFocusEnvironmentP", "btnRegister"]
 - ["So18UIFocusEnvironmentP", "checkPermissions"]
@@ -990,6 +1039,7 @@ depends-member:
 - ["So18UIFocusEnvironmentP", "navigationControllerSupportedInterfaceOrientations"]
 - !private ["So18UIFocusEnvironmentP", "present"]
 - !private ["So18UIFocusEnvironmentP", "print"]
+- !private ["So18UIFocusEnvironmentP", "pushViewController"]
 - ["So18UIFocusEnvironmentP", "requestAuthroizationHandler"]
 - ["So18UIFocusEnvironmentP", "setResultLabel"]
 - !private ["So18UIFocusEnvironmentP", "setTitle"]
@@ -1005,11 +1055,9 @@ depends-member:
 - ["So18UIFocusEnvironmentP", "uploadToCloud"]
 - ["So18UIFocusEnvironmentP", "uploadToDatabase"]
 - ["So18UIFocusEnvironmentP", "viewDidLoad"]
-- !private ["So11UIFocusItemP", ""]
 - !private ["So11UIFocusItemP", "image"]
 - !private ["So11UIFocusItemP", "setTitle"]
 - !private ["So11UIFocusItemP", "text"]
-- !private ["So20UIFocusItemContainerP", ""]
 - !private ["So20UIFocusItemContainerP", "image"]
 - !private ["So20UIFocusItemContainerP", "setTitle"]
 - !private ["So20UIFocusItemContainerP", "text"]
@@ -1027,7 +1075,10 @@ depends-member:
 - !private ["So31UIImagePickerControllerDelegateP", "SignUpViewController"]
 - !private ["So31UIImagePickerControllerDelegateP", "Storage"]
 - !private ["So31UIImagePickerControllerDelegateP", "StructOperation"]
+- !private ["So31UIImagePickerControllerDelegateP", "UIAlertAction"]
+- !private ["So31UIImagePickerControllerDelegateP", "UIAlertController"]
 - ["So31UIImagePickerControllerDelegateP", "UIImagePickerController"]
+- !private ["So31UIImagePickerControllerDelegateP", "UIStoryboard"]
 - ["So31UIImagePickerControllerDelegateP", ""]
 - ["So31UIImagePickerControllerDelegateP", "btnReg"]
 - ["So31UIImagePickerControllerDelegateP", "btnRegister"]
@@ -1057,9 +1108,8 @@ depends-member:
 - ["So31UIImagePickerControllerDelegateP", "uploadToDatabase"]
 - ["So31UIImagePickerControllerDelegateP", "viewDidLoad"]
 - !private ["So11UIImageViewC", "image"]
-- ["So10UIKeyInputP", ""]
+- !private ["So10UIKeyInputP", ""]
 - !private ["So10UIKeyInputP", "text"]
-- !private ["So24UILargeContentViewerItemP", ""]
 - !private ["So24UILargeContentViewerItemP", "image"]
 - !private ["So24UILargeContentViewerItemP", "setTitle"]
 - !private ["So24UILargeContentViewerItemP", "text"]
@@ -1068,6 +1118,7 @@ depends-member:
 - !private ["So22UINavigationControllerC", "delegate"]
 - !private ["So22UINavigationControllerC", "dismiss"]
 - ["So22UINavigationControllerC", "init"]
+- !private ["So22UINavigationControllerC", "pushViewController"]
 - !private ["So22UINavigationControllerC", "sourceType"]
 - !private ["So30UINavigationControllerDelegateP", "Auth"]
 - !private ["So30UINavigationControllerDelegateP", "Data"]
@@ -1078,7 +1129,10 @@ depends-member:
 - !private ["So30UINavigationControllerDelegateP", "SignUpViewController"]
 - !private ["So30UINavigationControllerDelegateP", "Storage"]
 - !private ["So30UINavigationControllerDelegateP", "StructOperation"]
+- !private ["So30UINavigationControllerDelegateP", "UIAlertAction"]
+- !private ["So30UINavigationControllerDelegateP", "UIAlertController"]
 - ["So30UINavigationControllerDelegateP", "UIImagePickerController"]
+- !private ["So30UINavigationControllerDelegateP", "UIStoryboard"]
 - ["So30UINavigationControllerDelegateP", ""]
 - ["So30UINavigationControllerDelegateP", "btnReg"]
 - ["So30UINavigationControllerDelegateP", "btnRegister"]
@@ -1117,16 +1171,16 @@ depends-member:
 - ["So30UIPasteConfigurationSupportingP", "PaymentViewController"]
 - !private ["So30UIPasteConfigurationSupportingP", "SignUpViewController"]
 - !private ["So30UIPasteConfigurationSupportingP", "Storage"]
-- ["So30UIPasteConfigurationSupportingP", "String"]
 - !private ["So30UIPasteConfigurationSupportingP", "StructOperation"]
-- ["So30UIPasteConfigurationSupportingP", "UIButton"]
+- !private ["So30UIPasteConfigurationSupportingP", "UIAlertAction"]
+- !private ["So30UIPasteConfigurationSupportingP", "UIAlertController"]
 - !private ["So30UIPasteConfigurationSupportingP", "UIImage"]
 - ["So30UIPasteConfigurationSupportingP", "UIImagePickerController"]
 - ["So30UIPasteConfigurationSupportingP", "UIImageView"]
-- ["So30UIPasteConfigurationSupportingP", "UITextField"]
-- ["So30UIPasteConfigurationSupportingP", "URL"]
-- ["So30UIPasteConfigurationSupportingP", "Void"]
+- !private ["So30UIPasteConfigurationSupportingP", "UIStoryboard"]
 - ["So30UIPasteConfigurationSupportingP", ""]
+- !private ["So30UIPasteConfigurationSupportingP", "addAction"]
+- !private ["So30UIPasteConfigurationSupportingP", "alertControllerWithTitle"]
 - ["So30UIPasteConfigurationSupportingP", "btnReg"]
 - ["So30UIPasteConfigurationSupportingP", "btnRegister"]
 - ["So30UIPasteConfigurationSupportingP", "checkPermissions"]
@@ -1146,8 +1200,8 @@ depends-member:
 - ["So30UIPasteConfigurationSupportingP", "navigationControllerPreferredInterfaceOrientationForPresentation"]
 - ["So30UIPasteConfigurationSupportingP", "navigationControllerSupportedInterfaceOrientations"]
 - !private ["So30UIPasteConfigurationSupportingP", "present"]
-- !private ["So30UIPasteConfigurationSupportingP", "presentViewController"]
 - !private ["So30UIPasteConfigurationSupportingP", "print"]
+- !private ["So30UIPasteConfigurationSupportingP", "pushViewController"]
 - ["So30UIPasteConfigurationSupportingP", "requestAuthroizationHandler"]
 - ["So30UIPasteConfigurationSupportingP", "setResultLabel"]
 - !private ["So30UIPasteConfigurationSupportingP", "setTitle"]
@@ -1172,6 +1226,7 @@ depends-member:
 - !private ["So11UIResponderC", "Database"]
 - ["So11UIResponderC", "Error"]
 - ["So11UIResponderC", "InfoKey"]
+- !private ["So11UIResponderC", "LoginViewController"]
 - ["So11UIResponderC", "PHAuthorizationStatus"]
 - !private ["So11UIResponderC", "PHPhotoLibrary"]
 - ["So11UIResponderC", "PaymentViewController"]
@@ -1179,14 +1234,19 @@ depends-member:
 - !private ["So11UIResponderC", "Storage"]
 - ["So11UIResponderC", "String"]
 - !private ["So11UIResponderC", "StructOperation"]
+- !private ["So11UIResponderC", "UIAlertAction"]
+- !private ["So11UIResponderC", "UIAlertController"]
 - ["So11UIResponderC", "UIButton"]
 - !private ["So11UIResponderC", "UIImage"]
 - ["So11UIResponderC", "UIImagePickerController"]
 - ["So11UIResponderC", "UIImageView"]
+- !private ["So11UIResponderC", "UIStoryboard"]
 - ["So11UIResponderC", "UITextField"]
 - ["So11UIResponderC", "URL"]
 - ["So11UIResponderC", "Void"]
 - ["So11UIResponderC", ""]
+- !private ["So11UIResponderC", "addAction"]
+- !private ["So11UIResponderC", "alertControllerWithTitle"]
 - ["So11UIResponderC", "btnReg"]
 - ["So11UIResponderC", "btnRegister"]
 - ["So11UIResponderC", "checkPermissions"]
@@ -1205,8 +1265,8 @@ depends-member:
 - ["So11UIResponderC", "navigationControllerPreferredInterfaceOrientationForPresentation"]
 - ["So11UIResponderC", "navigationControllerSupportedInterfaceOrientations"]
 - !private ["So11UIResponderC", "present"]
-- !private ["So11UIResponderC", "presentViewController"]
 - !private ["So11UIResponderC", "print"]
+- !private ["So11UIResponderC", "pushViewController"]
 - ["So11UIResponderC", "requestAuthroizationHandler"]
 - !private ["So11UIResponderC", "setResultLabel"]
 - !private ["So11UIResponderC", "setTitle"]
@@ -1232,16 +1292,16 @@ depends-member:
 - ["So30UIResponderStandardEditActionsP", "PaymentViewController"]
 - !private ["So30UIResponderStandardEditActionsP", "SignUpViewController"]
 - !private ["So30UIResponderStandardEditActionsP", "Storage"]
-- ["So30UIResponderStandardEditActionsP", "String"]
 - !private ["So30UIResponderStandardEditActionsP", "StructOperation"]
-- ["So30UIResponderStandardEditActionsP", "UIButton"]
+- !private ["So30UIResponderStandardEditActionsP", "UIAlertAction"]
+- !private ["So30UIResponderStandardEditActionsP", "UIAlertController"]
 - !private ["So30UIResponderStandardEditActionsP", "UIImage"]
 - ["So30UIResponderStandardEditActionsP", "UIImagePickerController"]
 - ["So30UIResponderStandardEditActionsP", "UIImageView"]
-- ["So30UIResponderStandardEditActionsP", "UITextField"]
-- ["So30UIResponderStandardEditActionsP", "URL"]
-- ["So30UIResponderStandardEditActionsP", "Void"]
+- !private ["So30UIResponderStandardEditActionsP", "UIStoryboard"]
 - ["So30UIResponderStandardEditActionsP", ""]
+- !private ["So30UIResponderStandardEditActionsP", "addAction"]
+- !private ["So30UIResponderStandardEditActionsP", "alertControllerWithTitle"]
 - ["So30UIResponderStandardEditActionsP", "btnReg"]
 - ["So30UIResponderStandardEditActionsP", "btnRegister"]
 - ["So30UIResponderStandardEditActionsP", "checkPermissions"]
@@ -1261,8 +1321,8 @@ depends-member:
 - ["So30UIResponderStandardEditActionsP", "navigationControllerPreferredInterfaceOrientationForPresentation"]
 - ["So30UIResponderStandardEditActionsP", "navigationControllerSupportedInterfaceOrientations"]
 - !private ["So30UIResponderStandardEditActionsP", "present"]
-- !private ["So30UIResponderStandardEditActionsP", "presentViewController"]
 - !private ["So30UIResponderStandardEditActionsP", "print"]
+- !private ["So30UIResponderStandardEditActionsP", "pushViewController"]
 - ["So30UIResponderStandardEditActionsP", "requestAuthroizationHandler"]
 - ["So30UIResponderStandardEditActionsP", "setResultLabel"]
 - !private ["So30UIResponderStandardEditActionsP", "setTitle"]
@@ -1278,6 +1338,8 @@ depends-member:
 - ["So30UIResponderStandardEditActionsP", "uploadToCloud"]
 - ["So30UIResponderStandardEditActionsP", "uploadToDatabase"]
 - ["So30UIResponderStandardEditActionsP", "viewDidLoad"]
+- !private ["So35UISpringLoadedInteractionSupportingP", "addAction"]
+- !private ["So35UISpringLoadedInteractionSupportingP", "init"]
 - !private ["So35UISpringLoadedInteractionSupportingP", "setTitle"]
 - !private ["So16UIStateRestoringP", "Auth"]
 - !private ["So16UIStateRestoringP", "Data"]
@@ -1289,16 +1351,16 @@ depends-member:
 - ["So16UIStateRestoringP", "PaymentViewController"]
 - !private ["So16UIStateRestoringP", "SignUpViewController"]
 - !private ["So16UIStateRestoringP", "Storage"]
-- ["So16UIStateRestoringP", "String"]
 - !private ["So16UIStateRestoringP", "StructOperation"]
-- ["So16UIStateRestoringP", "UIButton"]
+- !private ["So16UIStateRestoringP", "UIAlertAction"]
+- !private ["So16UIStateRestoringP", "UIAlertController"]
 - !private ["So16UIStateRestoringP", "UIImage"]
 - ["So16UIStateRestoringP", "UIImagePickerController"]
 - ["So16UIStateRestoringP", "UIImageView"]
-- ["So16UIStateRestoringP", "UITextField"]
-- ["So16UIStateRestoringP", "URL"]
-- ["So16UIStateRestoringP", "Void"]
+- !private ["So16UIStateRestoringP", "UIStoryboard"]
 - ["So16UIStateRestoringP", ""]
+- !private ["So16UIStateRestoringP", "addAction"]
+- !private ["So16UIStateRestoringP", "alertControllerWithTitle"]
 - ["So16UIStateRestoringP", "btnReg"]
 - ["So16UIStateRestoringP", "btnRegister"]
 - ["So16UIStateRestoringP", "checkPermissions"]
@@ -1317,6 +1379,7 @@ depends-member:
 - ["So16UIStateRestoringP", "navigationControllerSupportedInterfaceOrientations"]
 - !private ["So16UIStateRestoringP", "present"]
 - !private ["So16UIStateRestoringP", "print"]
+- !private ["So16UIStateRestoringP", "pushViewController"]
 - ["So16UIStateRestoringP", "requestAuthroizationHandler"]
 - ["So16UIStateRestoringP", "setResultLabel"]
 - ["So16UIStateRestoringP", "signUp"]
@@ -1330,12 +1393,14 @@ depends-member:
 - ["So16UIStateRestoringP", "uploadToCloud"]
 - ["So16UIStateRestoringP", "uploadToDatabase"]
 - ["So16UIStateRestoringP", "viewDidLoad"]
+- !private ["So12UIStoryboardC", "init"]
+- !private ["So12UIStoryboardC", "instantiateViewController"]
 - !private ["So15UITextDraggableP", "text"]
 - !private ["So15UITextDroppableP", "text"]
 - !private ["So11UITextFieldC", "text"]
 - !private ["So11UITextInputP", ""]
 - !private ["So11UITextInputP", "text"]
-- ["So17UITextInputTraitsP", ""]
+- !private ["So17UITextInputTraitsP", ""]
 - !private ["So17UITextInputTraitsP", "text"]
 - !private ["So34UITextPasteConfigurationSupportingP", ""]
 - !private ["So34UITextPasteConfigurationSupportingP", "text"]
@@ -1349,16 +1414,16 @@ depends-member:
 - ["So18UITraitEnvironmentP", "PaymentViewController"]
 - !private ["So18UITraitEnvironmentP", "SignUpViewController"]
 - !private ["So18UITraitEnvironmentP", "Storage"]
-- ["So18UITraitEnvironmentP", "String"]
 - !private ["So18UITraitEnvironmentP", "StructOperation"]
-- ["So18UITraitEnvironmentP", "UIButton"]
+- !private ["So18UITraitEnvironmentP", "UIAlertAction"]
+- !private ["So18UITraitEnvironmentP", "UIAlertController"]
 - !private ["So18UITraitEnvironmentP", "UIImage"]
 - ["So18UITraitEnvironmentP", "UIImagePickerController"]
 - ["So18UITraitEnvironmentP", "UIImageView"]
-- ["So18UITraitEnvironmentP", "UITextField"]
-- ["So18UITraitEnvironmentP", "URL"]
-- ["So18UITraitEnvironmentP", "Void"]
+- !private ["So18UITraitEnvironmentP", "UIStoryboard"]
 - ["So18UITraitEnvironmentP", ""]
+- !private ["So18UITraitEnvironmentP", "addAction"]
+- !private ["So18UITraitEnvironmentP", "alertControllerWithTitle"]
 - ["So18UITraitEnvironmentP", "btnReg"]
 - ["So18UITraitEnvironmentP", "btnRegister"]
 - ["So18UITraitEnvironmentP", "checkPermissions"]
@@ -1378,6 +1443,7 @@ depends-member:
 - ["So18UITraitEnvironmentP", "navigationControllerSupportedInterfaceOrientations"]
 - !private ["So18UITraitEnvironmentP", "present"]
 - !private ["So18UITraitEnvironmentP", "print"]
+- !private ["So18UITraitEnvironmentP", "pushViewController"]
 - ["So18UITraitEnvironmentP", "requestAuthroizationHandler"]
 - ["So18UITraitEnvironmentP", "setResultLabel"]
 - !private ["So18UITraitEnvironmentP", "setTitle"]
@@ -1403,16 +1469,16 @@ depends-member:
 - ["So23UIUserActivityRestoringP", "PaymentViewController"]
 - !private ["So23UIUserActivityRestoringP", "SignUpViewController"]
 - !private ["So23UIUserActivityRestoringP", "Storage"]
-- ["So23UIUserActivityRestoringP", "String"]
 - !private ["So23UIUserActivityRestoringP", "StructOperation"]
-- ["So23UIUserActivityRestoringP", "UIButton"]
+- !private ["So23UIUserActivityRestoringP", "UIAlertAction"]
+- !private ["So23UIUserActivityRestoringP", "UIAlertController"]
 - !private ["So23UIUserActivityRestoringP", "UIImage"]
 - ["So23UIUserActivityRestoringP", "UIImagePickerController"]
 - ["So23UIUserActivityRestoringP", "UIImageView"]
-- ["So23UIUserActivityRestoringP", "UITextField"]
-- ["So23UIUserActivityRestoringP", "URL"]
-- ["So23UIUserActivityRestoringP", "Void"]
+- !private ["So23UIUserActivityRestoringP", "UIStoryboard"]
 - ["So23UIUserActivityRestoringP", ""]
+- !private ["So23UIUserActivityRestoringP", "addAction"]
+- !private ["So23UIUserActivityRestoringP", "alertControllerWithTitle"]
 - ["So23UIUserActivityRestoringP", "btnReg"]
 - ["So23UIUserActivityRestoringP", "btnRegister"]
 - ["So23UIUserActivityRestoringP", "checkPermissions"]
@@ -1432,8 +1498,8 @@ depends-member:
 - ["So23UIUserActivityRestoringP", "navigationControllerPreferredInterfaceOrientationForPresentation"]
 - ["So23UIUserActivityRestoringP", "navigationControllerSupportedInterfaceOrientations"]
 - !private ["So23UIUserActivityRestoringP", "present"]
-- !private ["So23UIUserActivityRestoringP", "presentViewController"]
 - !private ["So23UIUserActivityRestoringP", "print"]
+- !private ["So23UIUserActivityRestoringP", "pushViewController"]
 - ["So23UIUserActivityRestoringP", "requestAuthroizationHandler"]
 - ["So23UIUserActivityRestoringP", "setResultLabel"]
 - !private ["So23UIUserActivityRestoringP", "setTitle"]
@@ -1458,6 +1524,7 @@ depends-member:
 - !private ["So16UIViewControllerC", "Database"]
 - ["So16UIViewControllerC", "Error"]
 - ["So16UIViewControllerC", "InfoKey"]
+- !private ["So16UIViewControllerC", "LoginViewController"]
 - ["So16UIViewControllerC", "PHAuthorizationStatus"]
 - !private ["So16UIViewControllerC", "PHPhotoLibrary"]
 - ["So16UIViewControllerC", "PaymentViewController"]
@@ -1465,14 +1532,19 @@ depends-member:
 - !private ["So16UIViewControllerC", "Storage"]
 - ["So16UIViewControllerC", "String"]
 - !private ["So16UIViewControllerC", "StructOperation"]
+- !private ["So16UIViewControllerC", "UIAlertAction"]
+- !private ["So16UIViewControllerC", "UIAlertController"]
 - ["So16UIViewControllerC", "UIButton"]
 - !private ["So16UIViewControllerC", "UIImage"]
 - ["So16UIViewControllerC", "UIImagePickerController"]
 - ["So16UIViewControllerC", "UIImageView"]
+- !private ["So16UIViewControllerC", "UIStoryboard"]
 - ["So16UIViewControllerC", "UITextField"]
 - ["So16UIViewControllerC", "URL"]
 - ["So16UIViewControllerC", "Void"]
 - ["So16UIViewControllerC", ""]
+- !private ["So16UIViewControllerC", "addAction"]
+- !private ["So16UIViewControllerC", "alertControllerWithTitle"]
 - ["So16UIViewControllerC", "btnReg"]
 - ["So16UIViewControllerC", "btnRegister"]
 - ["So16UIViewControllerC", "checkPermissions"]
@@ -1490,6 +1562,7 @@ depends-member:
 - ["So16UIViewControllerC", "navigationControllerSupportedInterfaceOrientations"]
 - !private ["So16UIViewControllerC", "present"]
 - !private ["So16UIViewControllerC", "print"]
+- !private ["So16UIViewControllerC", "pushViewController"]
 - ["So16UIViewControllerC", "requestAuthroizationHandler"]
 - !private ["So16UIViewControllerC", "setResultLabel"]
 - ["So16UIViewControllerC", "signUp"]
@@ -1509,7 +1582,7 @@ depends-member:
 - !private ["s35_ExpressibleByBuiltinBooleanLiteralP", "init"]
 - ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", ""]
 - !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "isEmpty"]
-- ["s35_ExpressibleByBuiltinIntegerLiteralP", "init"]
+- !private ["s35_ExpressibleByBuiltinIntegerLiteralP", "init"]
 - !private ["s34_ExpressibleByBuiltinStringLiteralP", "init"]
 - !private ["s34_ExpressibleByBuiltinStringLiteralP", "isEmpty"]
 - ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", ""]
@@ -1531,8 +1604,12 @@ depends-member:
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "SignUpViewController"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "Storage"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "StructOperation"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "UIAlertAction"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "UIAlertController"]
 - ["10Foundation27_KeyValueCodingAndObservingP", "UIImagePickerController"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "UIStoryboard"]
 - ["10Foundation27_KeyValueCodingAndObservingP", ""]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "addAction"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "auth"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "authorizationStatus"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "btnReg"]
@@ -1549,6 +1626,7 @@ depends-member:
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "imagePlace"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "imgBtnTapped"]
 - ["10Foundation27_KeyValueCodingAndObservingP", "init"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "instantiateViewController"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "isEmpty"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "mySign"]
 - ["10Foundation27_KeyValueCodingAndObservingP", "navigationController"]
@@ -1556,6 +1634,7 @@ depends-member:
 - ["10Foundation27_KeyValueCodingAndObservingP", "navigationControllerSupportedInterfaceOrientations"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "present"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "print"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "pushViewController"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "putFile"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "reference"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "requestAuthroizationHandler"]
@@ -1586,8 +1665,12 @@ depends-member:
 - !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "SignUpViewController"]
 - !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "Storage"]
 - !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "StructOperation"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "UIAlertAction"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "UIAlertController"]
 - ["10Foundation37_KeyValueCodingAndObservingPublishingP", "UIImagePickerController"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "UIStoryboard"]
 - ["10Foundation37_KeyValueCodingAndObservingPublishingP", ""]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "addAction"]
 - !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "auth"]
 - !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "authorizationStatus"]
 - !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "btnReg"]
@@ -1604,6 +1687,7 @@ depends-member:
 - !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "imagePlace"]
 - !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "imgBtnTapped"]
 - ["10Foundation37_KeyValueCodingAndObservingPublishingP", "init"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "instantiateViewController"]
 - !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "isEmpty"]
 - !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "mySign"]
 - ["10Foundation37_KeyValueCodingAndObservingPublishingP", "navigationController"]
@@ -1611,6 +1695,7 @@ depends-member:
 - ["10Foundation37_KeyValueCodingAndObservingPublishingP", "navigationControllerSupportedInterfaceOrientations"]
 - !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "present"]
 - !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "print"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "pushViewController"]
 - !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "putFile"]
 - !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "reference"]
 - !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "requestAuthroizationHandler"]
@@ -1634,10 +1719,6 @@ depends-member:
 - !private ["s21_ObjectiveCBridgeableP", "RawValue"]
 - !private ["s21_ObjectiveCBridgeableP", ""]
 - !private ["s21_ObjectiveCBridgeableP", "_ObjectiveCType"]
-- !private ["s21_ObjectiveCBridgeableP", "_bridgeToObjectiveC"]
-- !private ["s21_ObjectiveCBridgeableP", "_conditionallyBridgeFromObjectiveC"]
-- !private ["s21_ObjectiveCBridgeableP", "_forceBridgeFromObjectiveC"]
-- !private ["s21_ObjectiveCBridgeableP", "_unconditionallyBridgeFromObjectiveC"]
 - !private ["s21_ObjectiveCBridgeableP", "image"]
 - !private ["s21_ObjectiveCBridgeableP", "imageURL"]
 - !private ["s21_ObjectiveCBridgeableP", "init"]
@@ -1668,7 +1749,7 @@ depends-nominal:
 - !private "10Foundation4DataV"
 - !private "10Foundation12DataProtocolP"
 - !private "So11FIRDatabaseC"
-- "So16FIRDatabaseQueryC"
+- !private "So16FIRDatabaseQueryC"
 - !private "So20FIRDatabaseReferenceC"
 - !private "Se"
 - !private "s26DefaultStringInterpolationV"
@@ -1719,17 +1800,21 @@ depends-nominal:
 - !private "s27StringInterpolationProtocolP"
 - !private "Sy"
 - !private "4demo15StructOperationC"
+- !private "So22UIAlertControllerStyleV"
+- !private "So18UIAlertActionStyleV"
 - "s16TextOutputStreamP"
 - "s20TextOutputStreamableP"
 - !private "So48UIAccessibilityContentSizeCategoryImageAdjustingP"
 - !private "So29UIAccessibilityIdentificationP"
+- !private "So13UIAlertActionC"
+- !private "So17UIAlertControllerC"
 - !private "So12UIAppearanceP"
 - "So21UIAppearanceContainerP"
 - !private "So8UIButtonC"
 - "So18UIContentContainerP"
 - !private "So30UIContentSizeCategoryAdjustingP"
 - !private "So32UIContextMenuInteractionDelegateP"
-- "So9UIControlC"
+- !private "So9UIControlC"
 - !private "So17UICoordinateSpaceP"
 - !private "So13UIDynamicItemP"
 - "So18UIFocusEnvironmentP"
@@ -1738,7 +1823,7 @@ depends-nominal:
 - "So23UIImagePickerControllerC"
 - "So31UIImagePickerControllerDelegateP"
 - !private "So11UIImageViewC"
-- "So10UIKeyInputP"
+- !private "So10UIKeyInputP"
 - !private "So24UILargeContentViewerItemP"
 - "So22UINavigationControllerC"
 - "So30UINavigationControllerDelegateP"
@@ -1749,11 +1834,12 @@ depends-nominal:
 - "So30UIResponderStandardEditActionsP"
 - !private "So35UISpringLoadedInteractionSupportingP"
 - "So16UIStateRestoringP"
+- !private "So12UIStoryboardC"
 - !private "So15UITextDraggableP"
 - !private "So15UITextDroppableP"
 - !private "So11UITextFieldC"
 - !private "So11UITextInputP"
-- "So17UITextInputTraitsP"
+- !private "So17UITextInputTraitsP"
 - !private "So34UITextPasteConfigurationSupportingP"
 - "So18UITraitEnvironmentP"
 - "So23UIUserActivityRestoringP"
@@ -1764,7 +1850,7 @@ depends-nominal:
 - !private "s30_CustomPlaygroundQuickLookableP"
 - !private "s35_ExpressibleByBuiltinBooleanLiteralP"
 - "s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP"
-- "s35_ExpressibleByBuiltinIntegerLiteralP"
+- !private "s35_ExpressibleByBuiltinIntegerLiteralP"
 - !private "s34_ExpressibleByBuiltinStringLiteralP"
 - "s41_ExpressibleByBuiltinUnicodeScalarLiteralP"
 - !private "s19_HasContiguousBytesP"
@@ -1802,91 +1888,91 @@ depends-external:
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CloudKit.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/MapKit.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/SwiftOnoneSupport.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
-- "/Users/sandy/Downloads/demo  2/build/Debug-iphonesimulator/FirebaseStorage/FirebaseStorage.framework/Headers/FirebaseStorage-umbrella.h"
-- "/Users/sandy/Downloads/demo  2/build/Debug-iphonesimulator/FirebaseCore/FirebaseCore.framework/Headers/FirebaseCore-umbrella.h"
-- "/Users/sandy/Downloads/demo  2/build/Debug-iphonesimulator/FirebaseDatabase/FirebaseDatabase.framework/Headers/FirebaseDatabase-umbrella.h"
-- "/Users/sandy/Downloads/demo  2/build/Debug-iphonesimulator/FirebaseAuth/FirebaseAuth.framework/Headers/FirebaseAuth-umbrella.h"
-- "/Users/sandy/Downloads/demo  2/build/Debug-iphonesimulator/FirebaseInstallations/FirebaseInstallations.framework/Headers/FirebaseInstallations-umbrella.h"
-- "/Users/sandy/Downloads/demo  2/build/Debug-iphonesimulator/FirebaseDatabase/FirebaseDatabase.framework/Headers/FIRMutableData.h"
-- "/Users/sandy/Downloads/demo  2/build/Debug-iphonesimulator/FirebaseStorage/FirebaseStorage.framework/Headers/FIRStorageMetadata.h"
-- "/Users/sandy/Downloads/demo  2/build/Debug-iphonesimulator/FirebaseAuth/FirebaseAuth.framework/Headers/FIRUserMetadata.h"
-- "/Users/sandy/Downloads/demo  2/build/Debug-iphonesimulator/FirebaseStorage/FirebaseStorage.framework/Headers/FIRStorageReference.h"
-- "/Users/sandy/Downloads/demo  2/build/Debug-iphonesimulator/FirebaseDatabase/FirebaseDatabase.framework/Headers/FIRDatabaseReference.h"
-- "/Users/sandy/Downloads/demo  2/build/Debug-iphonesimulator/FirebaseStorage/FirebaseStorage.framework/Headers/FIRStorage.h"
-- "/Users/sandy/Downloads/demo  2/build/Debug-iphonesimulator/FirebaseStorage/FirebaseStorage.framework/Headers/FirebaseStorage.h"
-- "/Users/sandy/Downloads/demo  2/build/Debug-iphonesimulator/FirebaseAuth/FirebaseAuth.framework/Headers/FIRAuthAPNSTokenType.h"
-- "/Users/sandy/Downloads/demo  2/build/Debug-iphonesimulator/FirebaseDatabase/FirebaseDatabase.framework/Headers/FIRDataEventType.h"
-- "/Users/sandy/Downloads/demo  2/build/Debug-iphonesimulator/FirebaseCore/FirebaseCore.framework/Headers/FirebaseCore.h"
-- "/Users/sandy/Downloads/demo  2/build/Debug-iphonesimulator/FirebaseDatabase/FirebaseDatabase.framework/Headers/FIRDatabase.h"
-- "/Users/sandy/Downloads/demo  2/build/Debug-iphonesimulator/FirebaseDatabase/FirebaseDatabase.framework/Headers/FirebaseDatabase.h"
-- "/Users/sandy/Downloads/demo  2/Pods/Firebase/CoreOnly/Sources/Firebase.h"
-- "/Users/sandy/Downloads/demo  2/build/Debug-iphonesimulator/FirebaseAuth/FirebaseAuth.framework/Headers/FIRAuthUIDelegate.h"
-- "/Users/sandy/Downloads/demo  2/build/Debug-iphonesimulator/XCFrameworkIntermediates/FirebaseAnalytics/FirebaseAnalytics.framework/Headers/FIRAnalytics+AppDelegate.h"
-- "/Users/sandy/Downloads/demo  2/build/Debug-iphonesimulator/FirebaseDatabase/FirebaseDatabase.framework/Headers/FIRServerValue.h"
-- "/Users/sandy/Downloads/demo  2/build/Debug-iphonesimulator/FirebaseAuth/FirebaseAuth.framework/Headers/FIRAuth.h"
-- "/Users/sandy/Downloads/demo  2/build/Debug-iphonesimulator/FirebaseAuth/FirebaseAuth.framework/Headers/FirebaseAuth.h"
-- "/Users/sandy/Downloads/demo  2/build/Debug-iphonesimulator/FirebaseStorage/FirebaseStorage.framework/Headers/FIRStorageDownloadTask.h"
-- "/Users/sandy/Downloads/demo  2/build/Debug-iphonesimulator/FirebaseStorage/FirebaseStorage.framework/Headers/FIRStorageUploadTask.h"
-- "/Users/sandy/Downloads/demo  2/build/Debug-iphonesimulator/FirebaseStorage/FirebaseStorage.framework/Headers/FIRStorageTask.h"
-- "/Users/sandy/Downloads/demo  2/build/Debug-iphonesimulator/FirebaseStorage/FirebaseStorage.framework/Headers/FIRStorageObservableTask.h"
-- "/Users/sandy/Downloads/demo  2/build/Debug-iphonesimulator/FirebaseAuth/FirebaseAuth.framework/Headers/FIROAuthCredential.h"
-- "/Users/sandy/Downloads/demo  2/build/Debug-iphonesimulator/FirebaseAuth/FirebaseAuth.framework/Headers/FIRAuthCredential.h"
-- "/Users/sandy/Downloads/demo  2/build/Debug-iphonesimulator/FirebaseAuth/FirebaseAuth.framework/Headers/FIRPhoneAuthCredential.h"
-- "/Users/sandy/Downloads/demo  2/build/Debug-iphonesimulator/FirebaseCore/FirebaseCore.framework/Headers/FIRLoggerLevel.h"
-- "/Users/sandy/Downloads/demo  2/build/Debug-iphonesimulator/FirebaseCore/FirebaseCore.framework/Headers/FIRVersion.h"
-- "/Users/sandy/Downloads/demo  2/build/Debug-iphonesimulator/FirebaseAuth/FirebaseAuth.framework/Headers/FIRMultiFactorSession.h"
-- "/Users/sandy/Downloads/demo  2/build/Debug-iphonesimulator/FirebaseCore/FirebaseCore.framework/Headers/FIRConfiguration.h"
-- "/Users/sandy/Downloads/demo  2/build/Debug-iphonesimulator/FirebaseAuth/FirebaseAuth.framework/Headers/FIRMultiFactorAssertion.h"
-- "/Users/sandy/Downloads/demo  2/build/Debug-iphonesimulator/FirebaseAuth/FirebaseAuth.framework/Headers/FIRPhoneMultiFactorAssertion.h"
-- "/Users/sandy/Downloads/demo  2/build/Debug-iphonesimulator/FirebaseAuth/FirebaseAuth.framework/Headers/FIRUserInfo.h"
-- "/Users/sandy/Downloads/demo  2/build/Debug-iphonesimulator/FirebaseAuth/FirebaseAuth.framework/Headers/FIRAdditionalUserInfo.h"
-- "/Users/sandy/Downloads/demo  2/build/Debug-iphonesimulator/FirebaseAuth/FirebaseAuth.framework/Headers/FIRMultiFactorInfo.h"
-- "/Users/sandy/Downloads/demo  2/build/Debug-iphonesimulator/FirebaseAuth/FirebaseAuth.framework/Headers/FIRPhoneMultiFactorInfo.h"
-- "/Users/sandy/Downloads/demo  2/build/Debug-iphonesimulator/FirebaseCore/FirebaseCore.framework/Headers/FIRApp.h"
-- "/Users/sandy/Downloads/demo  2/build/Debug-iphonesimulator/FirebaseAuth/FirebaseAuth.framework/Headers/FIROAuthProvider.h"
-- "/Users/sandy/Downloads/demo  2/build/Debug-iphonesimulator/FirebaseAuth/FirebaseAuth.framework/Headers/FIRGitHubAuthProvider.h"
-- "/Users/sandy/Downloads/demo  2/build/Debug-iphonesimulator/FirebaseAuth/FirebaseAuth.framework/Headers/FIRFederatedAuthProvider.h"
-- "/Users/sandy/Downloads/demo  2/build/Debug-iphonesimulator/FirebaseAuth/FirebaseAuth.framework/Headers/FIRGoogleAuthProvider.h"
-- "/Users/sandy/Downloads/demo  2/build/Debug-iphonesimulator/FirebaseAuth/FirebaseAuth.framework/Headers/FIRPhoneAuthProvider.h"
-- "/Users/sandy/Downloads/demo  2/build/Debug-iphonesimulator/FirebaseAuth/FirebaseAuth.framework/Headers/FIRFacebookAuthProvider.h"
-- "/Users/sandy/Downloads/demo  2/build/Debug-iphonesimulator/FirebaseAuth/FirebaseAuth.framework/Headers/FIREmailAuthProvider.h"
-- "/Users/sandy/Downloads/demo  2/build/Debug-iphonesimulator/FirebaseAuth/FirebaseAuth.framework/Headers/FIRGameCenterAuthProvider.h"
-- "/Users/sandy/Downloads/demo  2/build/Debug-iphonesimulator/FirebaseAuth/FirebaseAuth.framework/Headers/FIRTwitterAuthProvider.h"
-- "/Users/sandy/Downloads/demo  2/build/Debug-iphonesimulator/FirebaseAuth/FirebaseAuth.framework/Headers/FIRUser.h"
-- "/Users/sandy/Downloads/demo  2/build/Debug-iphonesimulator/FirebaseAuth/FirebaseAuth.framework/Headers/FIRMultiFactorResolver.h"
-- "/Users/sandy/Downloads/demo  2/build/Debug-iphonesimulator/FirebaseAuth/FirebaseAuth.framework/Headers/FIRPhoneMultiFactorGenerator.h"
-- "/Users/sandy/Downloads/demo  2/build/Debug-iphonesimulator/FirebaseAuth/FirebaseAuth.framework/Headers/FIRMultiFactor.h"
-- "/Users/sandy/Downloads/demo  2/build/Debug-iphonesimulator/XCFrameworkIntermediates/FirebaseAnalytics/FirebaseAnalytics.framework/Headers/FIRAnalytics.h"
-- "/Users/sandy/Downloads/demo  2/build/Debug-iphonesimulator/XCFrameworkIntermediates/FirebaseAnalytics/FirebaseAnalytics.framework/Headers/FirebaseAnalytics.h"
-- "/Users/sandy/Downloads/demo  2/build/Debug-iphonesimulator/XCFrameworkIntermediates/FirebaseAnalytics/FirebaseAnalytics.framework/Headers/FIRParameterNames.h"
-- "/Users/sandy/Downloads/demo  2/build/Debug-iphonesimulator/XCFrameworkIntermediates/FirebaseAnalytics/FirebaseAnalytics.framework/Headers/FIREventNames.h"
-- "/Users/sandy/Downloads/demo  2/build/Debug-iphonesimulator/XCFrameworkIntermediates/FirebaseAnalytics/FirebaseAnalytics.framework/Headers/FIRUserPropertyNames.h"
-- "/Users/sandy/Downloads/demo  2/build/Debug-iphonesimulator/FirebaseAuth/FirebaseAuth.framework/Headers/FIRActionCodeSettings.h"
-- "/Users/sandy/Downloads/demo  2/build/Debug-iphonesimulator/FirebaseAuth/FirebaseAuth.framework/Headers/FIRAuthSettings.h"
-- "/Users/sandy/Downloads/demo  2/build/Debug-iphonesimulator/FirebaseInstallations/FirebaseInstallations.framework/Headers/FIRInstallations.h"
-- "/Users/sandy/Downloads/demo  2/build/Debug-iphonesimulator/FirebaseInstallations/FirebaseInstallations.framework/Headers/FirebaseInstallations.h"
-- "/Users/sandy/Downloads/demo  2/build/Debug-iphonesimulator/FirebaseCore/FirebaseCore.framework/Headers/FIROptions.h"
-- "/Users/sandy/Downloads/demo  2/build/Debug-iphonesimulator/FirebaseAuth/FirebaseAuth.framework/Headers/FIRAuthErrors.h"
-- "/Users/sandy/Downloads/demo  2/build/Debug-iphonesimulator/FirebaseInstallations/FirebaseInstallations.framework/Headers/FIRInstallationsErrors.h"
-- "/Users/sandy/Downloads/demo  2/build/Debug-iphonesimulator/FirebaseStorage/FirebaseStorage.framework/Headers/FIRStorageConstants.h"
-- "/Users/sandy/Downloads/demo  2/build/Debug-iphonesimulator/FirebaseAuth/FirebaseAuth.framework/Headers/FIRAuthDataResult.h"
-- "/Users/sandy/Downloads/demo  2/build/Debug-iphonesimulator/FirebaseAuth/FirebaseAuth.framework/Headers/FIRAuthTokenResult.h"
-- "/Users/sandy/Downloads/demo  2/build/Debug-iphonesimulator/FirebaseInstallations/FirebaseInstallations.framework/Headers/FIRInstallationsAuthTokenResult.h"
-- "/Users/sandy/Downloads/demo  2/build/Debug-iphonesimulator/FirebaseDatabase/FirebaseDatabase.framework/Headers/FIRTransactionResult.h"
-- "/Users/sandy/Downloads/demo  2/build/Debug-iphonesimulator/FirebaseStorage/FirebaseStorage.framework/Headers/FIRStorageListResult.h"
-- "/Users/sandy/Downloads/demo  2/build/Debug-iphonesimulator/XCFrameworkIntermediates/FirebaseAnalytics/FirebaseAnalytics.framework/Headers/FIRAnalytics+Consent.h"
-- "/Users/sandy/Downloads/demo  2/build/Debug-iphonesimulator/FirebaseDatabase/FirebaseDatabase.framework/Headers/FIRDataSnapshot.h"
-- "/Users/sandy/Downloads/demo  2/build/Debug-iphonesimulator/FirebaseStorage/FirebaseStorage.framework/Headers/FIRStorageTaskSnapshot.h"
-- "/Users/sandy/Downloads/demo  2/build/Debug-iphonesimulator/FirebaseDatabase/FirebaseDatabase.framework/Headers/FIRDatabaseQuery.h"
+- "/Users/sandy/Downloads/demo2/build/Debug-iphonesimulator/FirebaseStorage/FirebaseStorage.framework/Headers/FirebaseStorage-umbrella.h"
+- "/Users/sandy/Downloads/demo2/build/Debug-iphonesimulator/FirebaseCore/FirebaseCore.framework/Headers/FirebaseCore-umbrella.h"
+- "/Users/sandy/Downloads/demo2/build/Debug-iphonesimulator/FirebaseDatabase/FirebaseDatabase.framework/Headers/FirebaseDatabase-umbrella.h"
+- "/Users/sandy/Downloads/demo2/build/Debug-iphonesimulator/FirebaseAuth/FirebaseAuth.framework/Headers/FirebaseAuth-umbrella.h"
+- "/Users/sandy/Downloads/demo2/build/Debug-iphonesimulator/FirebaseInstallations/FirebaseInstallations.framework/Headers/FirebaseInstallations-umbrella.h"
+- "/Users/sandy/Downloads/demo2/build/Debug-iphonesimulator/FirebaseDatabase/FirebaseDatabase.framework/Headers/FIRMutableData.h"
+- "/Users/sandy/Downloads/demo2/build/Debug-iphonesimulator/FirebaseStorage/FirebaseStorage.framework/Headers/FIRStorageMetadata.h"
+- "/Users/sandy/Downloads/demo2/build/Debug-iphonesimulator/FirebaseAuth/FirebaseAuth.framework/Headers/FIRUserMetadata.h"
+- "/Users/sandy/Downloads/demo2/build/Debug-iphonesimulator/FirebaseStorage/FirebaseStorage.framework/Headers/FIRStorageReference.h"
+- "/Users/sandy/Downloads/demo2/build/Debug-iphonesimulator/FirebaseDatabase/FirebaseDatabase.framework/Headers/FIRDatabaseReference.h"
+- "/Users/sandy/Downloads/demo2/build/Debug-iphonesimulator/FirebaseStorage/FirebaseStorage.framework/Headers/FIRStorage.h"
+- "/Users/sandy/Downloads/demo2/build/Debug-iphonesimulator/FirebaseStorage/FirebaseStorage.framework/Headers/FirebaseStorage.h"
+- "/Users/sandy/Downloads/demo2/build/Debug-iphonesimulator/FirebaseAuth/FirebaseAuth.framework/Headers/FIRAuthAPNSTokenType.h"
+- "/Users/sandy/Downloads/demo2/build/Debug-iphonesimulator/FirebaseDatabase/FirebaseDatabase.framework/Headers/FIRDataEventType.h"
+- "/Users/sandy/Downloads/demo2/build/Debug-iphonesimulator/FirebaseCore/FirebaseCore.framework/Headers/FirebaseCore.h"
+- "/Users/sandy/Downloads/demo2/build/Debug-iphonesimulator/FirebaseDatabase/FirebaseDatabase.framework/Headers/FIRDatabase.h"
+- "/Users/sandy/Downloads/demo2/build/Debug-iphonesimulator/FirebaseDatabase/FirebaseDatabase.framework/Headers/FirebaseDatabase.h"
+- "/Users/sandy/Downloads/demo2/Pods/Firebase/CoreOnly/Sources/Firebase.h"
+- "/Users/sandy/Downloads/demo2/build/Debug-iphonesimulator/FirebaseAuth/FirebaseAuth.framework/Headers/FIRAuthUIDelegate.h"
+- "/Users/sandy/Downloads/demo2/build/Debug-iphonesimulator/XCFrameworkIntermediates/FirebaseAnalytics/FirebaseAnalytics.framework/Headers/FIRAnalytics+AppDelegate.h"
+- "/Users/sandy/Downloads/demo2/build/Debug-iphonesimulator/FirebaseDatabase/FirebaseDatabase.framework/Headers/FIRServerValue.h"
+- "/Users/sandy/Downloads/demo2/build/Debug-iphonesimulator/FirebaseAuth/FirebaseAuth.framework/Headers/FIRAuth.h"
+- "/Users/sandy/Downloads/demo2/build/Debug-iphonesimulator/FirebaseAuth/FirebaseAuth.framework/Headers/FirebaseAuth.h"
+- "/Users/sandy/Downloads/demo2/build/Debug-iphonesimulator/FirebaseStorage/FirebaseStorage.framework/Headers/FIRStorageDownloadTask.h"
+- "/Users/sandy/Downloads/demo2/build/Debug-iphonesimulator/FirebaseStorage/FirebaseStorage.framework/Headers/FIRStorageUploadTask.h"
+- "/Users/sandy/Downloads/demo2/build/Debug-iphonesimulator/FirebaseStorage/FirebaseStorage.framework/Headers/FIRStorageTask.h"
+- "/Users/sandy/Downloads/demo2/build/Debug-iphonesimulator/FirebaseStorage/FirebaseStorage.framework/Headers/FIRStorageObservableTask.h"
+- "/Users/sandy/Downloads/demo2/build/Debug-iphonesimulator/FirebaseAuth/FirebaseAuth.framework/Headers/FIROAuthCredential.h"
+- "/Users/sandy/Downloads/demo2/build/Debug-iphonesimulator/FirebaseAuth/FirebaseAuth.framework/Headers/FIRAuthCredential.h"
+- "/Users/sandy/Downloads/demo2/build/Debug-iphonesimulator/FirebaseAuth/FirebaseAuth.framework/Headers/FIRPhoneAuthCredential.h"
+- "/Users/sandy/Downloads/demo2/build/Debug-iphonesimulator/FirebaseCore/FirebaseCore.framework/Headers/FIRLoggerLevel.h"
+- "/Users/sandy/Downloads/demo2/build/Debug-iphonesimulator/FirebaseCore/FirebaseCore.framework/Headers/FIRVersion.h"
+- "/Users/sandy/Downloads/demo2/build/Debug-iphonesimulator/FirebaseAuth/FirebaseAuth.framework/Headers/FIRMultiFactorSession.h"
+- "/Users/sandy/Downloads/demo2/build/Debug-iphonesimulator/FirebaseCore/FirebaseCore.framework/Headers/FIRConfiguration.h"
+- "/Users/sandy/Downloads/demo2/build/Debug-iphonesimulator/FirebaseAuth/FirebaseAuth.framework/Headers/FIRMultiFactorAssertion.h"
+- "/Users/sandy/Downloads/demo2/build/Debug-iphonesimulator/FirebaseAuth/FirebaseAuth.framework/Headers/FIRPhoneMultiFactorAssertion.h"
+- "/Users/sandy/Downloads/demo2/build/Debug-iphonesimulator/FirebaseAuth/FirebaseAuth.framework/Headers/FIRUserInfo.h"
+- "/Users/sandy/Downloads/demo2/build/Debug-iphonesimulator/FirebaseAuth/FirebaseAuth.framework/Headers/FIRAdditionalUserInfo.h"
+- "/Users/sandy/Downloads/demo2/build/Debug-iphonesimulator/FirebaseAuth/FirebaseAuth.framework/Headers/FIRMultiFactorInfo.h"
+- "/Users/sandy/Downloads/demo2/build/Debug-iphonesimulator/FirebaseAuth/FirebaseAuth.framework/Headers/FIRPhoneMultiFactorInfo.h"
+- "/Users/sandy/Downloads/demo2/build/Debug-iphonesimulator/FirebaseCore/FirebaseCore.framework/Headers/FIRApp.h"
+- "/Users/sandy/Downloads/demo2/build/Debug-iphonesimulator/FirebaseAuth/FirebaseAuth.framework/Headers/FIROAuthProvider.h"
+- "/Users/sandy/Downloads/demo2/build/Debug-iphonesimulator/FirebaseAuth/FirebaseAuth.framework/Headers/FIRGitHubAuthProvider.h"
+- "/Users/sandy/Downloads/demo2/build/Debug-iphonesimulator/FirebaseAuth/FirebaseAuth.framework/Headers/FIRFederatedAuthProvider.h"
+- "/Users/sandy/Downloads/demo2/build/Debug-iphonesimulator/FirebaseAuth/FirebaseAuth.framework/Headers/FIRGoogleAuthProvider.h"
+- "/Users/sandy/Downloads/demo2/build/Debug-iphonesimulator/FirebaseAuth/FirebaseAuth.framework/Headers/FIRPhoneAuthProvider.h"
+- "/Users/sandy/Downloads/demo2/build/Debug-iphonesimulator/FirebaseAuth/FirebaseAuth.framework/Headers/FIRFacebookAuthProvider.h"
+- "/Users/sandy/Downloads/demo2/build/Debug-iphonesimulator/FirebaseAuth/FirebaseAuth.framework/Headers/FIREmailAuthProvider.h"
+- "/Users/sandy/Downloads/demo2/build/Debug-iphonesimulator/FirebaseAuth/FirebaseAuth.framework/Headers/FIRGameCenterAuthProvider.h"
+- "/Users/sandy/Downloads/demo2/build/Debug-iphonesimulator/FirebaseAuth/FirebaseAuth.framework/Headers/FIRTwitterAuthProvider.h"
+- "/Users/sandy/Downloads/demo2/build/Debug-iphonesimulator/FirebaseAuth/FirebaseAuth.framework/Headers/FIRUser.h"
+- "/Users/sandy/Downloads/demo2/build/Debug-iphonesimulator/FirebaseAuth/FirebaseAuth.framework/Headers/FIRMultiFactorResolver.h"
+- "/Users/sandy/Downloads/demo2/build/Debug-iphonesimulator/FirebaseAuth/FirebaseAuth.framework/Headers/FIRPhoneMultiFactorGenerator.h"
+- "/Users/sandy/Downloads/demo2/build/Debug-iphonesimulator/FirebaseAuth/FirebaseAuth.framework/Headers/FIRMultiFactor.h"
+- "/Users/sandy/Downloads/demo2/build/Debug-iphonesimulator/XCFrameworkIntermediates/FirebaseAnalytics/FirebaseAnalytics.framework/Headers/FIRAnalytics.h"
+- "/Users/sandy/Downloads/demo2/build/Debug-iphonesimulator/XCFrameworkIntermediates/FirebaseAnalytics/FirebaseAnalytics.framework/Headers/FirebaseAnalytics.h"
+- "/Users/sandy/Downloads/demo2/build/Debug-iphonesimulator/XCFrameworkIntermediates/FirebaseAnalytics/FirebaseAnalytics.framework/Headers/FIRParameterNames.h"
+- "/Users/sandy/Downloads/demo2/build/Debug-iphonesimulator/XCFrameworkIntermediates/FirebaseAnalytics/FirebaseAnalytics.framework/Headers/FIREventNames.h"
+- "/Users/sandy/Downloads/demo2/build/Debug-iphonesimulator/XCFrameworkIntermediates/FirebaseAnalytics/FirebaseAnalytics.framework/Headers/FIRUserPropertyNames.h"
+- "/Users/sandy/Downloads/demo2/build/Debug-iphonesimulator/FirebaseAuth/FirebaseAuth.framework/Headers/FIRActionCodeSettings.h"
+- "/Users/sandy/Downloads/demo2/build/Debug-iphonesimulator/FirebaseAuth/FirebaseAuth.framework/Headers/FIRAuthSettings.h"
+- "/Users/sandy/Downloads/demo2/build/Debug-iphonesimulator/FirebaseInstallations/FirebaseInstallations.framework/Headers/FIRInstallations.h"
+- "/Users/sandy/Downloads/demo2/build/Debug-iphonesimulator/FirebaseInstallations/FirebaseInstallations.framework/Headers/FirebaseInstallations.h"
+- "/Users/sandy/Downloads/demo2/build/Debug-iphonesimulator/FirebaseCore/FirebaseCore.framework/Headers/FIROptions.h"
+- "/Users/sandy/Downloads/demo2/build/Debug-iphonesimulator/FirebaseAuth/FirebaseAuth.framework/Headers/FIRAuthErrors.h"
+- "/Users/sandy/Downloads/demo2/build/Debug-iphonesimulator/FirebaseInstallations/FirebaseInstallations.framework/Headers/FIRInstallationsErrors.h"
+- "/Users/sandy/Downloads/demo2/build/Debug-iphonesimulator/FirebaseStorage/FirebaseStorage.framework/Headers/FIRStorageConstants.h"
+- "/Users/sandy/Downloads/demo2/build/Debug-iphonesimulator/FirebaseAuth/FirebaseAuth.framework/Headers/FIRAuthDataResult.h"
+- "/Users/sandy/Downloads/demo2/build/Debug-iphonesimulator/FirebaseAuth/FirebaseAuth.framework/Headers/FIRAuthTokenResult.h"
+- "/Users/sandy/Downloads/demo2/build/Debug-iphonesimulator/FirebaseInstallations/FirebaseInstallations.framework/Headers/FIRInstallationsAuthTokenResult.h"
+- "/Users/sandy/Downloads/demo2/build/Debug-iphonesimulator/FirebaseDatabase/FirebaseDatabase.framework/Headers/FIRTransactionResult.h"
+- "/Users/sandy/Downloads/demo2/build/Debug-iphonesimulator/FirebaseStorage/FirebaseStorage.framework/Headers/FIRStorageListResult.h"
+- "/Users/sandy/Downloads/demo2/build/Debug-iphonesimulator/XCFrameworkIntermediates/FirebaseAnalytics/FirebaseAnalytics.framework/Headers/FIRAnalytics+Consent.h"
+- "/Users/sandy/Downloads/demo2/build/Debug-iphonesimulator/FirebaseDatabase/FirebaseDatabase.framework/Headers/FIRDataSnapshot.h"
+- "/Users/sandy/Downloads/demo2/build/Debug-iphonesimulator/FirebaseStorage/FirebaseStorage.framework/Headers/FIRStorageTaskSnapshot.h"
+- "/Users/sandy/Downloads/demo2/build/Debug-iphonesimulator/FirebaseDatabase/FirebaseDatabase.framework/Headers/FIRDatabaseQuery.h"
 - "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.4.sdk/usr/include/mach-o/dyld.modulemap"
-- "/Users/sandy/Downloads/demo /Pods/Firebase/CoreOnly/Sources/module.modulemap"
-- "/Users/sandy/Downloads/demo  2/Pods/Firebase/CoreOnly/Sources/module.modulemap"
-- "/Users/sandy/Downloads/demo  2/build/Debug-iphonesimulator/FirebaseStorage/FirebaseStorage.framework/Modules/module.modulemap"
-- "/Users/sandy/Downloads/demo  2/build/Debug-iphonesimulator/FirebaseCore/FirebaseCore.framework/Modules/module.modulemap"
-- "/Users/sandy/Downloads/demo  2/build/Debug-iphonesimulator/FirebaseDatabase/FirebaseDatabase.framework/Modules/module.modulemap"
-- "/Users/sandy/Downloads/demo  2/build/Debug-iphonesimulator/FirebaseAuth/FirebaseAuth.framework/Modules/module.modulemap"
-- "/Users/sandy/Downloads/demo  2/build/Debug-iphonesimulator/XCFrameworkIntermediates/FirebaseAnalytics/FirebaseAnalytics.framework/Modules/module.modulemap"
-- "/Users/sandy/Downloads/demo  2/build/Debug-iphonesimulator/FirebaseInstallations/FirebaseInstallations.framework/Modules/module.modulemap"
+- "/Users/sandy/Downloads/demo  /Pods/Firebase/CoreOnly/Sources/module.modulemap"
+- "/Users/sandy/Downloads/demo2/Pods/Firebase/CoreOnly/Sources/module.modulemap"
+- "/Users/sandy/Downloads/demo2/build/Debug-iphonesimulator/FirebaseStorage/FirebaseStorage.framework/Modules/module.modulemap"
+- "/Users/sandy/Downloads/demo2/build/Debug-iphonesimulator/FirebaseCore/FirebaseCore.framework/Modules/module.modulemap"
+- "/Users/sandy/Downloads/demo2/build/Debug-iphonesimulator/FirebaseDatabase/FirebaseDatabase.framework/Modules/module.modulemap"
+- "/Users/sandy/Downloads/demo2/build/Debug-iphonesimulator/FirebaseAuth/FirebaseAuth.framework/Modules/module.modulemap"
+- "/Users/sandy/Downloads/demo2/build/Debug-iphonesimulator/XCFrameworkIntermediates/FirebaseAnalytics/FirebaseAnalytics.framework/Modules/module.modulemap"
+- "/Users/sandy/Downloads/demo2/build/Debug-iphonesimulator/FirebaseInstallations/FirebaseInstallations.framework/Modules/module.modulemap"
 - "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.4.sdk/usr/include/mach-o/compact_unwind_encoding.modulemap"
 - "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.4.sdk/usr/include/objc/ObjectiveC.apinotes"
 - "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.4.sdk/System/Library/Frameworks/MessageUI.framework/Headers/MessageUI.apinotes"

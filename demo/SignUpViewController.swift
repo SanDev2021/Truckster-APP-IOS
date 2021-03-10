@@ -64,9 +64,7 @@ class SignUpViewController: UIViewController,UIImagePickerControllerDelegate,UIN
         navigationController?.pushViewController(homeVC, animated: true)
         
         let alert = UIAlertController(title: "Registeration Success!", message: "You have been Succesfully Registered now. Please Login", preferredStyle: .alert)
-      
-        
-        alert.addAction(UIAlertAction(title: "Cancel", style: .cancel, handler: nil))
+        alert.addAction(UIAlertAction(title: "OK", style: .cancel, handler: nil))
         
         self.present(alert, animated: true, completion: nil)
     }

@@ -96,8 +96,7 @@ func login(){
             self?.segue()
             let alert = UIAlertController(title: "Login Success!", message: "Welcome, You loggedin now!", preferredStyle: .alert)
           
-            
-            alert.addAction(UIAlertAction(title: "Cancel", style: .cancel, handler: nil))
+            alert.addAction(UIAlertAction(title: "Continue", style: .cancel, handler: nil))
             
             self!.present(alert, animated: true, completion: nil)
         }

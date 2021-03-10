@@ -246,15 +246,18 @@ SWIFT_CLASS("_TtC4demo23ContactUsViewController")
 
 @class UITextField;
 @class UILabel;
+@class CLLocationManager;
+@class CLLocation;
 @class UIBarButtonItem;
 
 SWIFT_CLASS("_TtC4demo18HomeViewController")
-@interface HomeViewController : UIViewController
+@interface HomeViewController : UIViewController <CLLocationManagerDelegate>
 @property (nonatomic, weak) IBOutlet UIButton * _Null_unspecified searchButton;
 @property (nonatomic, weak) IBOutlet UITextField * _Null_unspecified txtDemo;
 @property (nonatomic, weak) IBOutlet UILabel * _Null_unspecified lblMessage;
 - (void)viewDidLoad;
 - (IBAction)btnSearch:(UIButton * _Nonnull)sender;
+- (void)locationManager:(CLLocationManager * _Nonnull)manager didUpdateLocations:(NSArray<CLLocation *> * _Nonnull)locations;
 - (IBAction)verifyPostalCode:(id _Nonnull)sender;
 - (IBAction)signout:(id _Nonnull)sender;
 - (IBAction)menuButton:(UIBarButtonItem * _Nonnull)sender;
@@ -288,8 +291,6 @@ SWIFT_CLASS("_TtC4demo19LoginViewController")
 @end
 
 @class MKMapView;
-@class CLLocationManager;
-@class CLLocation;
 
 SWIFT_CLASS("_TtC4demo17MapViewController")
 @interface MapViewController : UIViewController <CLLocationManagerDelegate>
@@ -342,13 +343,18 @@ SWIFT_CLASS("_TtC4demo21PaymentViewController")
 - (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)coder OBJC_DESIGNATED_INITIALIZER;
 @end
 
+@class UISegmentedControl;
 
 SWIFT_CLASS("_TtC4demo27PostalCodeMapViewController")
 @interface PostalCodeMapViewController : UIViewController <CLLocationManagerDelegate>
 @property (nonatomic, weak) IBOutlet MKMapView * _Null_unspecified mapView;
+@property (nonatomic, weak) IBOutlet UISegmentedControl * _Null_unspecified sgmtCtrl;
 - (void)viewDidLoad;
 - (void)locationManager:(CLLocationManager * _Nonnull)manager didUpdateLocations:(NSArray<CLLocation *> * _Nonnull)locations;
+- (IBAction)btnZoomIn:(id _Nonnull)sender;
+- (IBAction)btnZoomOut:(id _Nonnull)sender;
 - (IBAction)btnRoute:(UIButton * _Nonnull)sender;
+- (IBAction)viewType:(UISegmentedControl * _Nonnull)sender;
 - (nonnull instancetype)initWithNibName:(NSString * _Nullable)nibNameOrNil bundle:(NSBundle * _Nullable)nibBundleOrNil OBJC_DESIGNATED_INITIALIZER;
 - (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)coder OBJC_DESIGNATED_INITIALIZER;
 @end
@@ -367,6 +373,27 @@ SWIFT_CLASS("_TtC4demo21ProfileViewController")
 @property (nonatomic, weak) IBOutlet UILabel * _Null_unspecified lblEmail;
 - (void)viewDidLoad;
 - (IBAction)Signout:(UIButton * _Nonnull)sender;
+- (nonnull instancetype)initWithNibName:(NSString * _Nullable)nibNameOrNil bundle:(NSBundle * _Nullable)nibBundleOrNil OBJC_DESIGNATED_INITIALIZER;
+- (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)coder OBJC_DESIGNATED_INITIALIZER;
+@end
+
+
+SWIFT_CLASS("_TtC4demo25RideDetailsViewController")
+@interface RideDetailsViewController : UIViewController <UIPickerViewDataSource, UIPickerViewDelegate>
+@property (nonatomic, weak) IBOutlet UILabel * _Null_unspecified lblCost;
+@property (nonatomic, weak) IBOutlet UIPickerView * _Null_unspecified dropdown;
+@property (nonatomic, weak) IBOutlet UILabel * _Null_unspecified lblDestination;
+@property (nonatomic, weak) IBOutlet UILabel * _Null_unspecified lblDistance;
+@property (nonatomic, weak) IBOutlet UITextField * _Null_unspecified txtTruck;
+- (NSInteger)numberOfComponentsInPickerView:(UIPickerView * _Nonnull)pickerView SWIFT_WARN_UNUSED_RESULT;
+- (NSInteger)pickerView:(UIPickerView * _Nonnull)pickerView numberOfRowsInComponent:(NSInteger)component SWIFT_WARN_UNUSED_RESULT;
+- (NSString * _Nullable)pickerView:(UIPickerView * _Nonnull)pickerView titleForRow:(NSInteger)row forComponent:(NSInteger)component SWIFT_WARN_UNUSED_RESULT;
+- (void)pickerView:(UIPickerView * _Nonnull)pickerView didSelectRow:(NSInteger)row inComponent:(NSInteger)component;
+- (IBAction)enable:(UITextField * _Nonnull)sender;
+- (void)viewDidLoad;
+- (IBAction)mapButton:(UIButton * _Nonnull)sender;
+- (IBAction)btnCalculateFare:(UIButton * _Nonnull)sender;
+- (IBAction)btnConfirm:(id _Nonnull)sender;
 - (nonnull instancetype)initWithNibName:(NSString * _Nullable)nibNameOrNil bundle:(NSBundle * _Nullable)nibBundleOrNil OBJC_DESIGNATED_INITIALIZER;
 - (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)coder OBJC_DESIGNATED_INITIALIZER;
 @end

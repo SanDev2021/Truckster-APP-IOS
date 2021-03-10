@@ -1,111 +1,111 @@
-/Users/sandy/Downloads/demo  2/build/Pods.build/Debug-iphonesimulator/FirebaseAuth.build/Objects-normal/x86_64/FirebaseAuth_vers.o
-/Users/sandy/Downloads/demo  2/build/Pods.build/Debug-iphonesimulator/FirebaseAuth.build/Objects-normal/x86_64/FIRActionCodeSettings.o
-/Users/sandy/Downloads/demo  2/build/Pods.build/Debug-iphonesimulator/FirebaseAuth.build/Objects-normal/x86_64/FIRAdditionalUserInfo.o
-/Users/sandy/Downloads/demo  2/build/Pods.build/Debug-iphonesimulator/FirebaseAuth.build/Objects-normal/x86_64/FIRAuth.o
-/Users/sandy/Downloads/demo  2/build/Pods.build/Debug-iphonesimulator/FirebaseAuth.build/Objects-normal/x86_64/FIRAuthAPNSToken.o
-/Users/sandy/Downloads/demo  2/build/Pods.build/Debug-iphonesimulator/FirebaseAuth.build/Objects-normal/x86_64/FIRAuthAPNSTokenManager.o
-/Users/sandy/Downloads/demo  2/build/Pods.build/Debug-iphonesimulator/FirebaseAuth.build/Objects-normal/x86_64/FIRAuthAppCredential.o
-/Users/sandy/Downloads/demo  2/build/Pods.build/Debug-iphonesimulator/FirebaseAuth.build/Objects-normal/x86_64/FIRAuthAppCredentialManager.o
-/Users/sandy/Downloads/demo  2/build/Pods.build/Debug-iphonesimulator/FirebaseAuth.build/Objects-normal/x86_64/FIRAuthBackend+MultiFactor.o
-/Users/sandy/Downloads/demo  2/build/Pods.build/Debug-iphonesimulator/FirebaseAuth.build/Objects-normal/x86_64/FIRAuthBackend.o
-/Users/sandy/Downloads/demo  2/build/Pods.build/Debug-iphonesimulator/FirebaseAuth.build/Objects-normal/x86_64/FIRAuthCredential.o
-/Users/sandy/Downloads/demo  2/build/Pods.build/Debug-iphonesimulator/FirebaseAuth.build/Objects-normal/x86_64/FIRAuthDataResult.o
-/Users/sandy/Downloads/demo  2/build/Pods.build/Debug-iphonesimulator/FirebaseAuth.build/Objects-normal/x86_64/FIRAuthDefaultUIDelegate.o
-/Users/sandy/Downloads/demo  2/build/Pods.build/Debug-iphonesimulator/FirebaseAuth.build/Objects-normal/x86_64/FIRAuthDispatcher.o
-/Users/sandy/Downloads/demo  2/build/Pods.build/Debug-iphonesimulator/FirebaseAuth.build/Objects-normal/x86_64/FIRAuthErrorUtils.o
-/Users/sandy/Downloads/demo  2/build/Pods.build/Debug-iphonesimulator/FirebaseAuth.build/Objects-normal/x86_64/FIRAuthExceptionUtils.o
-/Users/sandy/Downloads/demo  2/build/Pods.build/Debug-iphonesimulator/FirebaseAuth.build/Objects-normal/x86_64/FIRAuthGlobalWorkQueue.o
-/Users/sandy/Downloads/demo  2/build/Pods.build/Debug-iphonesimulator/FirebaseAuth.build/Objects-normal/x86_64/FIRAuthKeychainServices.o
-/Users/sandy/Downloads/demo  2/build/Pods.build/Debug-iphonesimulator/FirebaseAuth.build/Objects-normal/x86_64/FIRAuthNotificationManager.o
-/Users/sandy/Downloads/demo  2/build/Pods.build/Debug-iphonesimulator/FirebaseAuth.build/Objects-normal/x86_64/FIRAuthProtoFinalizeMFAPhoneRequestInfo.o
-/Users/sandy/Downloads/demo  2/build/Pods.build/Debug-iphonesimulator/FirebaseAuth.build/Objects-normal/x86_64/FIRAuthProtoFinalizeMFAPhoneResponseInfo.o
-/Users/sandy/Downloads/demo  2/build/Pods.build/Debug-iphonesimulator/FirebaseAuth.build/Objects-normal/x86_64/FIRAuthProtoMFAEnrollment.o
-/Users/sandy/Downloads/demo  2/build/Pods.build/Debug-iphonesimulator/FirebaseAuth.build/Objects-normal/x86_64/FIRAuthProtoStartMFAPhoneRequestInfo.o
-/Users/sandy/Downloads/demo  2/build/Pods.build/Debug-iphonesimulator/FirebaseAuth.build/Objects-normal/x86_64/FIRAuthProtoStartMFAPhoneResponseInfo.o
-/Users/sandy/Downloads/demo  2/build/Pods.build/Debug-iphonesimulator/FirebaseAuth.build/Objects-normal/x86_64/FIRAuthProvider.o
-/Users/sandy/Downloads/demo  2/build/Pods.build/Debug-iphonesimulator/FirebaseAuth.build/Objects-normal/x86_64/FIRAuthRequestConfiguration.o
-/Users/sandy/Downloads/demo  2/build/Pods.build/Debug-iphonesimulator/FirebaseAuth.build/Objects-normal/x86_64/FIRAuthSerialTaskQueue.o
-/Users/sandy/Downloads/demo  2/build/Pods.build/Debug-iphonesimulator/FirebaseAuth.build/Objects-normal/x86_64/FIRAuthSettings.o
-/Users/sandy/Downloads/demo  2/build/Pods.build/Debug-iphonesimulator/FirebaseAuth.build/Objects-normal/x86_64/FIRAuthStoredUserManager.o
-/Users/sandy/Downloads/demo  2/build/Pods.build/Debug-iphonesimulator/FirebaseAuth.build/Objects-normal/x86_64/FIRAuthTokenResult.o
-/Users/sandy/Downloads/demo  2/build/Pods.build/Debug-iphonesimulator/FirebaseAuth.build/Objects-normal/x86_64/FIRAuthURLPresenter.o
-/Users/sandy/Downloads/demo  2/build/Pods.build/Debug-iphonesimulator/FirebaseAuth.build/Objects-normal/x86_64/FIRAuthUserDefaults.o
-/Users/sandy/Downloads/demo  2/build/Pods.build/Debug-iphonesimulator/FirebaseAuth.build/Objects-normal/x86_64/FIRAuthWebUtils.o
-/Users/sandy/Downloads/demo  2/build/Pods.build/Debug-iphonesimulator/FirebaseAuth.build/Objects-normal/x86_64/FIRAuthWebView.o
-/Users/sandy/Downloads/demo  2/build/Pods.build/Debug-iphonesimulator/FirebaseAuth.build/Objects-normal/x86_64/FIRAuthWebViewController.o
-/Users/sandy/Downloads/demo  2/build/Pods.build/Debug-iphonesimulator/FirebaseAuth.build/Objects-normal/x86_64/FIRCreateAuthURIRequest.o
-/Users/sandy/Downloads/demo  2/build/Pods.build/Debug-iphonesimulator/FirebaseAuth.build/Objects-normal/x86_64/FIRCreateAuthURIResponse.o
-/Users/sandy/Downloads/demo  2/build/Pods.build/Debug-iphonesimulator/FirebaseAuth.build/Objects-normal/x86_64/FIRDeleteAccountRequest.o
-/Users/sandy/Downloads/demo  2/build/Pods.build/Debug-iphonesimulator/FirebaseAuth.build/Objects-normal/x86_64/FIRDeleteAccountResponse.o
-/Users/sandy/Downloads/demo  2/build/Pods.build/Debug-iphonesimulator/FirebaseAuth.build/Objects-normal/x86_64/FirebaseAuth-dummy.o
-/Users/sandy/Downloads/demo  2/build/Pods.build/Debug-iphonesimulator/FirebaseAuth.build/Objects-normal/x86_64/FIREmailAuthProvider.o
-/Users/sandy/Downloads/demo  2/build/Pods.build/Debug-iphonesimulator/FirebaseAuth.build/Objects-normal/x86_64/FIREmailLinkSignInRequest.o
-/Users/sandy/Downloads/demo  2/build/Pods.build/Debug-iphonesimulator/FirebaseAuth.build/Objects-normal/x86_64/FIREmailLinkSignInResponse.o
-/Users/sandy/Downloads/demo  2/build/Pods.build/Debug-iphonesimulator/FirebaseAuth.build/Objects-normal/x86_64/FIREmailPasswordAuthCredential.o
-/Users/sandy/Downloads/demo  2/build/Pods.build/Debug-iphonesimulator/FirebaseAuth.build/Objects-normal/x86_64/FIRFacebookAuthCredential.o
-/Users/sandy/Downloads/demo  2/build/Pods.build/Debug-iphonesimulator/FirebaseAuth.build/Objects-normal/x86_64/FIRFacebookAuthProvider.o
-/Users/sandy/Downloads/demo  2/build/Pods.build/Debug-iphonesimulator/FirebaseAuth.build/Objects-normal/x86_64/FIRFinalizeMFAEnrollmentRequest.o
-/Users/sandy/Downloads/demo  2/build/Pods.build/Debug-iphonesimulator/FirebaseAuth.build/Objects-normal/x86_64/FIRFinalizeMFAEnrollmentResponse.o
-/Users/sandy/Downloads/demo  2/build/Pods.build/Debug-iphonesimulator/FirebaseAuth.build/Objects-normal/x86_64/FIRFinalizeMFASignInRequest.o
-/Users/sandy/Downloads/demo  2/build/Pods.build/Debug-iphonesimulator/FirebaseAuth.build/Objects-normal/x86_64/FIRFinalizeMFASignInResponse.o
-/Users/sandy/Downloads/demo  2/build/Pods.build/Debug-iphonesimulator/FirebaseAuth.build/Objects-normal/x86_64/FIRGameCenterAuthCredential.o
-/Users/sandy/Downloads/demo  2/build/Pods.build/Debug-iphonesimulator/FirebaseAuth.build/Objects-normal/x86_64/FIRGameCenterAuthProvider.o
-/Users/sandy/Downloads/demo  2/build/Pods.build/Debug-iphonesimulator/FirebaseAuth.build/Objects-normal/x86_64/FIRGetAccountInfoRequest.o
-/Users/sandy/Downloads/demo  2/build/Pods.build/Debug-iphonesimulator/FirebaseAuth.build/Objects-normal/x86_64/FIRGetAccountInfoResponse.o
-/Users/sandy/Downloads/demo  2/build/Pods.build/Debug-iphonesimulator/FirebaseAuth.build/Objects-normal/x86_64/FIRGetOOBConfirmationCodeRequest.o
-/Users/sandy/Downloads/demo  2/build/Pods.build/Debug-iphonesimulator/FirebaseAuth.build/Objects-normal/x86_64/FIRGetOOBConfirmationCodeResponse.o
-/Users/sandy/Downloads/demo  2/build/Pods.build/Debug-iphonesimulator/FirebaseAuth.build/Objects-normal/x86_64/FIRGetProjectConfigRequest.o
-/Users/sandy/Downloads/demo  2/build/Pods.build/Debug-iphonesimulator/FirebaseAuth.build/Objects-normal/x86_64/FIRGetProjectConfigResponse.o
-/Users/sandy/Downloads/demo  2/build/Pods.build/Debug-iphonesimulator/FirebaseAuth.build/Objects-normal/x86_64/FIRGitHubAuthCredential.o
-/Users/sandy/Downloads/demo  2/build/Pods.build/Debug-iphonesimulator/FirebaseAuth.build/Objects-normal/x86_64/FIRGitHubAuthProvider.o
-/Users/sandy/Downloads/demo  2/build/Pods.build/Debug-iphonesimulator/FirebaseAuth.build/Objects-normal/x86_64/FIRGoogleAuthCredential.o
-/Users/sandy/Downloads/demo  2/build/Pods.build/Debug-iphonesimulator/FirebaseAuth.build/Objects-normal/x86_64/FIRGoogleAuthProvider.o
-/Users/sandy/Downloads/demo  2/build/Pods.build/Debug-iphonesimulator/FirebaseAuth.build/Objects-normal/x86_64/FIRIdentityToolkitRequest.o
-/Users/sandy/Downloads/demo  2/build/Pods.build/Debug-iphonesimulator/FirebaseAuth.build/Objects-normal/x86_64/FIRMultiFactor.o
-/Users/sandy/Downloads/demo  2/build/Pods.build/Debug-iphonesimulator/FirebaseAuth.build/Objects-normal/x86_64/FIRMultiFactorAssertion.o
-/Users/sandy/Downloads/demo  2/build/Pods.build/Debug-iphonesimulator/FirebaseAuth.build/Objects-normal/x86_64/FIRMultiFactorConstants.o
-/Users/sandy/Downloads/demo  2/build/Pods.build/Debug-iphonesimulator/FirebaseAuth.build/Objects-normal/x86_64/FIRMultiFactorInfo.o
-/Users/sandy/Downloads/demo  2/build/Pods.build/Debug-iphonesimulator/FirebaseAuth.build/Objects-normal/x86_64/FIRMultiFactorResolver.o
-/Users/sandy/Downloads/demo  2/build/Pods.build/Debug-iphonesimulator/FirebaseAuth.build/Objects-normal/x86_64/FIRMultiFactorSession.o
-/Users/sandy/Downloads/demo  2/build/Pods.build/Debug-iphonesimulator/FirebaseAuth.build/Objects-normal/x86_64/FIROAuthCredential.o
-/Users/sandy/Downloads/demo  2/build/Pods.build/Debug-iphonesimulator/FirebaseAuth.build/Objects-normal/x86_64/FIROAuthProvider.o
-/Users/sandy/Downloads/demo  2/build/Pods.build/Debug-iphonesimulator/FirebaseAuth.build/Objects-normal/x86_64/FIRPhoneAuthCredential.o
-/Users/sandy/Downloads/demo  2/build/Pods.build/Debug-iphonesimulator/FirebaseAuth.build/Objects-normal/x86_64/FIRPhoneAuthProvider.o
-/Users/sandy/Downloads/demo  2/build/Pods.build/Debug-iphonesimulator/FirebaseAuth.build/Objects-normal/x86_64/FIRPhoneMultiFactorAssertion.o
-/Users/sandy/Downloads/demo  2/build/Pods.build/Debug-iphonesimulator/FirebaseAuth.build/Objects-normal/x86_64/FIRPhoneMultiFactorGenerator.o
-/Users/sandy/Downloads/demo  2/build/Pods.build/Debug-iphonesimulator/FirebaseAuth.build/Objects-normal/x86_64/FIRPhoneMultiFactorInfo.o
-/Users/sandy/Downloads/demo  2/build/Pods.build/Debug-iphonesimulator/FirebaseAuth.build/Objects-normal/x86_64/FIRResetPasswordRequest.o
-/Users/sandy/Downloads/demo  2/build/Pods.build/Debug-iphonesimulator/FirebaseAuth.build/Objects-normal/x86_64/FIRResetPasswordResponse.o
-/Users/sandy/Downloads/demo  2/build/Pods.build/Debug-iphonesimulator/FirebaseAuth.build/Objects-normal/x86_64/FIRSecureTokenRequest.o
-/Users/sandy/Downloads/demo  2/build/Pods.build/Debug-iphonesimulator/FirebaseAuth.build/Objects-normal/x86_64/FIRSecureTokenResponse.o
-/Users/sandy/Downloads/demo  2/build/Pods.build/Debug-iphonesimulator/FirebaseAuth.build/Objects-normal/x86_64/FIRSecureTokenService.o
-/Users/sandy/Downloads/demo  2/build/Pods.build/Debug-iphonesimulator/FirebaseAuth.build/Objects-normal/x86_64/FIRSendVerificationCodeRequest.o
-/Users/sandy/Downloads/demo  2/build/Pods.build/Debug-iphonesimulator/FirebaseAuth.build/Objects-normal/x86_64/FIRSendVerificationCodeResponse.o
-/Users/sandy/Downloads/demo  2/build/Pods.build/Debug-iphonesimulator/FirebaseAuth.build/Objects-normal/x86_64/FIRSetAccountInfoRequest.o
-/Users/sandy/Downloads/demo  2/build/Pods.build/Debug-iphonesimulator/FirebaseAuth.build/Objects-normal/x86_64/FIRSetAccountInfoResponse.o
-/Users/sandy/Downloads/demo  2/build/Pods.build/Debug-iphonesimulator/FirebaseAuth.build/Objects-normal/x86_64/FIRSignInWithGameCenterRequest.o
-/Users/sandy/Downloads/demo  2/build/Pods.build/Debug-iphonesimulator/FirebaseAuth.build/Objects-normal/x86_64/FIRSignInWithGameCenterResponse.o
-/Users/sandy/Downloads/demo  2/build/Pods.build/Debug-iphonesimulator/FirebaseAuth.build/Objects-normal/x86_64/FIRSignUpNewUserRequest.o
-/Users/sandy/Downloads/demo  2/build/Pods.build/Debug-iphonesimulator/FirebaseAuth.build/Objects-normal/x86_64/FIRSignUpNewUserResponse.o
-/Users/sandy/Downloads/demo  2/build/Pods.build/Debug-iphonesimulator/FirebaseAuth.build/Objects-normal/x86_64/FIRStartMFAEnrollmentRequest.o
-/Users/sandy/Downloads/demo  2/build/Pods.build/Debug-iphonesimulator/FirebaseAuth.build/Objects-normal/x86_64/FIRStartMFAEnrollmentResponse.o
-/Users/sandy/Downloads/demo  2/build/Pods.build/Debug-iphonesimulator/FirebaseAuth.build/Objects-normal/x86_64/FIRStartMFASignInRequest.o
-/Users/sandy/Downloads/demo  2/build/Pods.build/Debug-iphonesimulator/FirebaseAuth.build/Objects-normal/x86_64/FIRStartMFASignInResponse.o
-/Users/sandy/Downloads/demo  2/build/Pods.build/Debug-iphonesimulator/FirebaseAuth.build/Objects-normal/x86_64/FIRTwitterAuthCredential.o
-/Users/sandy/Downloads/demo  2/build/Pods.build/Debug-iphonesimulator/FirebaseAuth.build/Objects-normal/x86_64/FIRTwitterAuthProvider.o
-/Users/sandy/Downloads/demo  2/build/Pods.build/Debug-iphonesimulator/FirebaseAuth.build/Objects-normal/x86_64/FIRUser.o
-/Users/sandy/Downloads/demo  2/build/Pods.build/Debug-iphonesimulator/FirebaseAuth.build/Objects-normal/x86_64/FIRUserInfoImpl.o
-/Users/sandy/Downloads/demo  2/build/Pods.build/Debug-iphonesimulator/FirebaseAuth.build/Objects-normal/x86_64/FIRUserMetadata.o
-/Users/sandy/Downloads/demo  2/build/Pods.build/Debug-iphonesimulator/FirebaseAuth.build/Objects-normal/x86_64/FIRVerifyAssertionRequest.o
-/Users/sandy/Downloads/demo  2/build/Pods.build/Debug-iphonesimulator/FirebaseAuth.build/Objects-normal/x86_64/FIRVerifyAssertionResponse.o
-/Users/sandy/Downloads/demo  2/build/Pods.build/Debug-iphonesimulator/FirebaseAuth.build/Objects-normal/x86_64/FIRVerifyClientRequest.o
-/Users/sandy/Downloads/demo  2/build/Pods.build/Debug-iphonesimulator/FirebaseAuth.build/Objects-normal/x86_64/FIRVerifyClientResponse.o
-/Users/sandy/Downloads/demo  2/build/Pods.build/Debug-iphonesimulator/FirebaseAuth.build/Objects-normal/x86_64/FIRVerifyCustomTokenRequest.o
-/Users/sandy/Downloads/demo  2/build/Pods.build/Debug-iphonesimulator/FirebaseAuth.build/Objects-normal/x86_64/FIRVerifyCustomTokenResponse.o
-/Users/sandy/Downloads/demo  2/build/Pods.build/Debug-iphonesimulator/FirebaseAuth.build/Objects-normal/x86_64/FIRVerifyPasswordRequest.o
-/Users/sandy/Downloads/demo  2/build/Pods.build/Debug-iphonesimulator/FirebaseAuth.build/Objects-normal/x86_64/FIRVerifyPasswordResponse.o
-/Users/sandy/Downloads/demo  2/build/Pods.build/Debug-iphonesimulator/FirebaseAuth.build/Objects-normal/x86_64/FIRVerifyPhoneNumberRequest.o
-/Users/sandy/Downloads/demo  2/build/Pods.build/Debug-iphonesimulator/FirebaseAuth.build/Objects-normal/x86_64/FIRVerifyPhoneNumberResponse.o
-/Users/sandy/Downloads/demo  2/build/Pods.build/Debug-iphonesimulator/FirebaseAuth.build/Objects-normal/x86_64/FIRWithdrawMFARequest.o
-/Users/sandy/Downloads/demo  2/build/Pods.build/Debug-iphonesimulator/FirebaseAuth.build/Objects-normal/x86_64/FIRWithdrawMFAResponse.o
-/Users/sandy/Downloads/demo  2/build/Pods.build/Debug-iphonesimulator/FirebaseAuth.build/Objects-normal/x86_64/NSData+FIRBase64.o
+/Users/sandy/Downloads/demo2/build/Pods.build/Debug-iphonesimulator/FirebaseAuth.build/Objects-normal/x86_64/FirebaseAuth_vers.o
+/Users/sandy/Downloads/demo2/build/Pods.build/Debug-iphonesimulator/FirebaseAuth.build/Objects-normal/x86_64/FIRActionCodeSettings.o
+/Users/sandy/Downloads/demo2/build/Pods.build/Debug-iphonesimulator/FirebaseAuth.build/Objects-normal/x86_64/FIRAdditionalUserInfo.o
+/Users/sandy/Downloads/demo2/build/Pods.build/Debug-iphonesimulator/FirebaseAuth.build/Objects-normal/x86_64/FIRAuth.o
+/Users/sandy/Downloads/demo2/build/Pods.build/Debug-iphonesimulator/FirebaseAuth.build/Objects-normal/x86_64/FIRAuthAPNSToken.o
+/Users/sandy/Downloads/demo2/build/Pods.build/Debug-iphonesimulator/FirebaseAuth.build/Objects-normal/x86_64/FIRAuthAPNSTokenManager.o
+/Users/sandy/Downloads/demo2/build/Pods.build/Debug-iphonesimulator/FirebaseAuth.build/Objects-normal/x86_64/FIRAuthAppCredential.o
+/Users/sandy/Downloads/demo2/build/Pods.build/Debug-iphonesimulator/FirebaseAuth.build/Objects-normal/x86_64/FIRAuthAppCredentialManager.o
+/Users/sandy/Downloads/demo2/build/Pods.build/Debug-iphonesimulator/FirebaseAuth.build/Objects-normal/x86_64/FIRAuthBackend+MultiFactor.o
+/Users/sandy/Downloads/demo2/build/Pods.build/Debug-iphonesimulator/FirebaseAuth.build/Objects-normal/x86_64/FIRAuthBackend.o
+/Users/sandy/Downloads/demo2/build/Pods.build/Debug-iphonesimulator/FirebaseAuth.build/Objects-normal/x86_64/FIRAuthCredential.o
+/Users/sandy/Downloads/demo2/build/Pods.build/Debug-iphonesimulator/FirebaseAuth.build/Objects-normal/x86_64/FIRAuthDataResult.o
+/Users/sandy/Downloads/demo2/build/Pods.build/Debug-iphonesimulator/FirebaseAuth.build/Objects-normal/x86_64/FIRAuthDefaultUIDelegate.o
+/Users/sandy/Downloads/demo2/build/Pods.build/Debug-iphonesimulator/FirebaseAuth.build/Objects-normal/x86_64/FIRAuthDispatcher.o
+/Users/sandy/Downloads/demo2/build/Pods.build/Debug-iphonesimulator/FirebaseAuth.build/Objects-normal/x86_64/FIRAuthErrorUtils.o
+/Users/sandy/Downloads/demo2/build/Pods.build/Debug-iphonesimulator/FirebaseAuth.build/Objects-normal/x86_64/FIRAuthExceptionUtils.o
+/Users/sandy/Downloads/demo2/build/Pods.build/Debug-iphonesimulator/FirebaseAuth.build/Objects-normal/x86_64/FIRAuthGlobalWorkQueue.o
+/Users/sandy/Downloads/demo2/build/Pods.build/Debug-iphonesimulator/FirebaseAuth.build/Objects-normal/x86_64/FIRAuthKeychainServices.o
+/Users/sandy/Downloads/demo2/build/Pods.build/Debug-iphonesimulator/FirebaseAuth.build/Objects-normal/x86_64/FIRAuthNotificationManager.o
+/Users/sandy/Downloads/demo2/build/Pods.build/Debug-iphonesimulator/FirebaseAuth.build/Objects-normal/x86_64/FIRAuthProtoFinalizeMFAPhoneRequestInfo.o
+/Users/sandy/Downloads/demo2/build/Pods.build/Debug-iphonesimulator/FirebaseAuth.build/Objects-normal/x86_64/FIRAuthProtoFinalizeMFAPhoneResponseInfo.o
+/Users/sandy/Downloads/demo2/build/Pods.build/Debug-iphonesimulator/FirebaseAuth.build/Objects-normal/x86_64/FIRAuthProtoMFAEnrollment.o
+/Users/sandy/Downloads/demo2/build/Pods.build/Debug-iphonesimulator/FirebaseAuth.build/Objects-normal/x86_64/FIRAuthProtoStartMFAPhoneRequestInfo.o
+/Users/sandy/Downloads/demo2/build/Pods.build/Debug-iphonesimulator/FirebaseAuth.build/Objects-normal/x86_64/FIRAuthProtoStartMFAPhoneResponseInfo.o
+/Users/sandy/Downloads/demo2/build/Pods.build/Debug-iphonesimulator/FirebaseAuth.build/Objects-normal/x86_64/FIRAuthProvider.o
+/Users/sandy/Downloads/demo2/build/Pods.build/Debug-iphonesimulator/FirebaseAuth.build/Objects-normal/x86_64/FIRAuthRequestConfiguration.o
+/Users/sandy/Downloads/demo2/build/Pods.build/Debug-iphonesimulator/FirebaseAuth.build/Objects-normal/x86_64/FIRAuthSerialTaskQueue.o
+/Users/sandy/Downloads/demo2/build/Pods.build/Debug-iphonesimulator/FirebaseAuth.build/Objects-normal/x86_64/FIRAuthSettings.o
+/Users/sandy/Downloads/demo2/build/Pods.build/Debug-iphonesimulator/FirebaseAuth.build/Objects-normal/x86_64/FIRAuthStoredUserManager.o
+/Users/sandy/Downloads/demo2/build/Pods.build/Debug-iphonesimulator/FirebaseAuth.build/Objects-normal/x86_64/FIRAuthTokenResult.o
+/Users/sandy/Downloads/demo2/build/Pods.build/Debug-iphonesimulator/FirebaseAuth.build/Objects-normal/x86_64/FIRAuthURLPresenter.o
+/Users/sandy/Downloads/demo2/build/Pods.build/Debug-iphonesimulator/FirebaseAuth.build/Objects-normal/x86_64/FIRAuthUserDefaults.o
+/Users/sandy/Downloads/demo2/build/Pods.build/Debug-iphonesimulator/FirebaseAuth.build/Objects-normal/x86_64/FIRAuthWebUtils.o
+/Users/sandy/Downloads/demo2/build/Pods.build/Debug-iphonesimulator/FirebaseAuth.build/Objects-normal/x86_64/FIRAuthWebView.o
+/Users/sandy/Downloads/demo2/build/Pods.build/Debug-iphonesimulator/FirebaseAuth.build/Objects-normal/x86_64/FIRAuthWebViewController.o
+/Users/sandy/Downloads/demo2/build/Pods.build/Debug-iphonesimulator/FirebaseAuth.build/Objects-normal/x86_64/FIRCreateAuthURIRequest.o
+/Users/sandy/Downloads/demo2/build/Pods.build/Debug-iphonesimulator/FirebaseAuth.build/Objects-normal/x86_64/FIRCreateAuthURIResponse.o
+/Users/sandy/Downloads/demo2/build/Pods.build/Debug-iphonesimulator/FirebaseAuth.build/Objects-normal/x86_64/FIRDeleteAccountRequest.o
+/Users/sandy/Downloads/demo2/build/Pods.build/Debug-iphonesimulator/FirebaseAuth.build/Objects-normal/x86_64/FIRDeleteAccountResponse.o
+/Users/sandy/Downloads/demo2/build/Pods.build/Debug-iphonesimulator/FirebaseAuth.build/Objects-normal/x86_64/FirebaseAuth-dummy.o
+/Users/sandy/Downloads/demo2/build/Pods.build/Debug-iphonesimulator/FirebaseAuth.build/Objects-normal/x86_64/FIREmailAuthProvider.o
+/Users/sandy/Downloads/demo2/build/Pods.build/Debug-iphonesimulator/FirebaseAuth.build/Objects-normal/x86_64/FIREmailLinkSignInRequest.o
+/Users/sandy/Downloads/demo2/build/Pods.build/Debug-iphonesimulator/FirebaseAuth.build/Objects-normal/x86_64/FIREmailLinkSignInResponse.o
+/Users/sandy/Downloads/demo2/build/Pods.build/Debug-iphonesimulator/FirebaseAuth.build/Objects-normal/x86_64/FIREmailPasswordAuthCredential.o
+/Users/sandy/Downloads/demo2/build/Pods.build/Debug-iphonesimulator/FirebaseAuth.build/Objects-normal/x86_64/FIRFacebookAuthCredential.o
+/Users/sandy/Downloads/demo2/build/Pods.build/Debug-iphonesimulator/FirebaseAuth.build/Objects-normal/x86_64/FIRFacebookAuthProvider.o
+/Users/sandy/Downloads/demo2/build/Pods.build/Debug-iphonesimulator/FirebaseAuth.build/Objects-normal/x86_64/FIRFinalizeMFAEnrollmentRequest.o
+/Users/sandy/Downloads/demo2/build/Pods.build/Debug-iphonesimulator/FirebaseAuth.build/Objects-normal/x86_64/FIRFinalizeMFAEnrollmentResponse.o
+/Users/sandy/Downloads/demo2/build/Pods.build/Debug-iphonesimulator/FirebaseAuth.build/Objects-normal/x86_64/FIRFinalizeMFASignInRequest.o
+/Users/sandy/Downloads/demo2/build/Pods.build/Debug-iphonesimulator/FirebaseAuth.build/Objects-normal/x86_64/FIRFinalizeMFASignInResponse.o
+/Users/sandy/Downloads/demo2/build/Pods.build/Debug-iphonesimulator/FirebaseAuth.build/Objects-normal/x86_64/FIRGameCenterAuthCredential.o
+/Users/sandy/Downloads/demo2/build/Pods.build/Debug-iphonesimulator/FirebaseAuth.build/Objects-normal/x86_64/FIRGameCenterAuthProvider.o
+/Users/sandy/Downloads/demo2/build/Pods.build/Debug-iphonesimulator/FirebaseAuth.build/Objects-normal/x86_64/FIRGetAccountInfoRequest.o
+/Users/sandy/Downloads/demo2/build/Pods.build/Debug-iphonesimulator/FirebaseAuth.build/Objects-normal/x86_64/FIRGetAccountInfoResponse.o
+/Users/sandy/Downloads/demo2/build/Pods.build/Debug-iphonesimulator/FirebaseAuth.build/Objects-normal/x86_64/FIRGetOOBConfirmationCodeRequest.o
+/Users/sandy/Downloads/demo2/build/Pods.build/Debug-iphonesimulator/FirebaseAuth.build/Objects-normal/x86_64/FIRGetOOBConfirmationCodeResponse.o
+/Users/sandy/Downloads/demo2/build/Pods.build/Debug-iphonesimulator/FirebaseAuth.build/Objects-normal/x86_64/FIRGetProjectConfigRequest.o
+/Users/sandy/Downloads/demo2/build/Pods.build/Debug-iphonesimulator/FirebaseAuth.build/Objects-normal/x86_64/FIRGetProjectConfigResponse.o
+/Users/sandy/Downloads/demo2/build/Pods.build/Debug-iphonesimulator/FirebaseAuth.build/Objects-normal/x86_64/FIRGitHubAuthCredential.o
+/Users/sandy/Downloads/demo2/build/Pods.build/Debug-iphonesimulator/FirebaseAuth.build/Objects-normal/x86_64/FIRGitHubAuthProvider.o
+/Users/sandy/Downloads/demo2/build/Pods.build/Debug-iphonesimulator/FirebaseAuth.build/Objects-normal/x86_64/FIRGoogleAuthCredential.o
+/Users/sandy/Downloads/demo2/build/Pods.build/Debug-iphonesimulator/FirebaseAuth.build/Objects-normal/x86_64/FIRGoogleAuthProvider.o
+/Users/sandy/Downloads/demo2/build/Pods.build/Debug-iphonesimulator/FirebaseAuth.build/Objects-normal/x86_64/FIRIdentityToolkitRequest.o
+/Users/sandy/Downloads/demo2/build/Pods.build/Debug-iphonesimulator/FirebaseAuth.build/Objects-normal/x86_64/FIRMultiFactor.o
+/Users/sandy/Downloads/demo2/build/Pods.build/Debug-iphonesimulator/FirebaseAuth.build/Objects-normal/x86_64/FIRMultiFactorAssertion.o
+/Users/sandy/Downloads/demo2/build/Pods.build/Debug-iphonesimulator/FirebaseAuth.build/Objects-normal/x86_64/FIRMultiFactorConstants.o
+/Users/sandy/Downloads/demo2/build/Pods.build/Debug-iphonesimulator/FirebaseAuth.build/Objects-normal/x86_64/FIRMultiFactorInfo.o
+/Users/sandy/Downloads/demo2/build/Pods.build/Debug-iphonesimulator/FirebaseAuth.build/Objects-normal/x86_64/FIRMultiFactorResolver.o
+/Users/sandy/Downloads/demo2/build/Pods.build/Debug-iphonesimulator/FirebaseAuth.build/Objects-normal/x86_64/FIRMultiFactorSession.o
+/Users/sandy/Downloads/demo2/build/Pods.build/Debug-iphonesimulator/FirebaseAuth.build/Objects-normal/x86_64/FIROAuthCredential.o
+/Users/sandy/Downloads/demo2/build/Pods.build/Debug-iphonesimulator/FirebaseAuth.build/Objects-normal/x86_64/FIROAuthProvider.o
+/Users/sandy/Downloads/demo2/build/Pods.build/Debug-iphonesimulator/FirebaseAuth.build/Objects-normal/x86_64/FIRPhoneAuthCredential.o
+/Users/sandy/Downloads/demo2/build/Pods.build/Debug-iphonesimulator/FirebaseAuth.build/Objects-normal/x86_64/FIRPhoneAuthProvider.o
+/Users/sandy/Downloads/demo2/build/Pods.build/Debug-iphonesimulator/FirebaseAuth.build/Objects-normal/x86_64/FIRPhoneMultiFactorAssertion.o
+/Users/sandy/Downloads/demo2/build/Pods.build/Debug-iphonesimulator/FirebaseAuth.build/Objects-normal/x86_64/FIRPhoneMultiFactorGenerator.o
+/Users/sandy/Downloads/demo2/build/Pods.build/Debug-iphonesimulator/FirebaseAuth.build/Objects-normal/x86_64/FIRPhoneMultiFactorInfo.o
+/Users/sandy/Downloads/demo2/build/Pods.build/Debug-iphonesimulator/FirebaseAuth.build/Objects-normal/x86_64/FIRResetPasswordRequest.o
+/Users/sandy/Downloads/demo2/build/Pods.build/Debug-iphonesimulator/FirebaseAuth.build/Objects-normal/x86_64/FIRResetPasswordResponse.o
+/Users/sandy/Downloads/demo2/build/Pods.build/Debug-iphonesimulator/FirebaseAuth.build/Objects-normal/x86_64/FIRSecureTokenRequest.o
+/Users/sandy/Downloads/demo2/build/Pods.build/Debug-iphonesimulator/FirebaseAuth.build/Objects-normal/x86_64/FIRSecureTokenResponse.o
+/Users/sandy/Downloads/demo2/build/Pods.build/Debug-iphonesimulator/FirebaseAuth.build/Objects-normal/x86_64/FIRSecureTokenService.o
+/Users/sandy/Downloads/demo2/build/Pods.build/Debug-iphonesimulator/FirebaseAuth.build/Objects-normal/x86_64/FIRSendVerificationCodeRequest.o
+/Users/sandy/Downloads/demo2/build/Pods.build/Debug-iphonesimulator/FirebaseAuth.build/Objects-normal/x86_64/FIRSendVerificationCodeResponse.o
+/Users/sandy/Downloads/demo2/build/Pods.build/Debug-iphonesimulator/FirebaseAuth.build/Objects-normal/x86_64/FIRSetAccountInfoRequest.o
+/Users/sandy/Downloads/demo2/build/Pods.build/Debug-iphonesimulator/FirebaseAuth.build/Objects-normal/x86_64/FIRSetAccountInfoResponse.o
+/Users/sandy/Downloads/demo2/build/Pods.build/Debug-iphonesimulator/FirebaseAuth.build/Objects-normal/x86_64/FIRSignInWithGameCenterRequest.o
+/Users/sandy/Downloads/demo2/build/Pods.build/Debug-iphonesimulator/FirebaseAuth.build/Objects-normal/x86_64/FIRSignInWithGameCenterResponse.o
+/Users/sandy/Downloads/demo2/build/Pods.build/Debug-iphonesimulator/FirebaseAuth.build/Objects-normal/x86_64/FIRSignUpNewUserRequest.o
+/Users/sandy/Downloads/demo2/build/Pods.build/Debug-iphonesimulator/FirebaseAuth.build/Objects-normal/x86_64/FIRSignUpNewUserResponse.o
+/Users/sandy/Downloads/demo2/build/Pods.build/Debug-iphonesimulator/FirebaseAuth.build/Objects-normal/x86_64/FIRStartMFAEnrollmentRequest.o
+/Users/sandy/Downloads/demo2/build/Pods.build/Debug-iphonesimulator/FirebaseAuth.build/Objects-normal/x86_64/FIRStartMFAEnrollmentResponse.o
+/Users/sandy/Downloads/demo2/build/Pods.build/Debug-iphonesimulator/FirebaseAuth.build/Objects-normal/x86_64/FIRStartMFASignInRequest.o
+/Users/sandy/Downloads/demo2/build/Pods.build/Debug-iphonesimulator/FirebaseAuth.build/Objects-normal/x86_64/FIRStartMFASignInResponse.o
+/Users/sandy/Downloads/demo2/build/Pods.build/Debug-iphonesimulator/FirebaseAuth.build/Objects-normal/x86_64/FIRTwitterAuthCredential.o
+/Users/sandy/Downloads/demo2/build/Pods.build/Debug-iphonesimulator/FirebaseAuth.build/Objects-normal/x86_64/FIRTwitterAuthProvider.o
+/Users/sandy/Downloads/demo2/build/Pods.build/Debug-iphonesimulator/FirebaseAuth.build/Objects-normal/x86_64/FIRUser.o
+/Users/sandy/Downloads/demo2/build/Pods.build/Debug-iphonesimulator/FirebaseAuth.build/Objects-normal/x86_64/FIRUserInfoImpl.o
+/Users/sandy/Downloads/demo2/build/Pods.build/Debug-iphonesimulator/FirebaseAuth.build/Objects-normal/x86_64/FIRUserMetadata.o
+/Users/sandy/Downloads/demo2/build/Pods.build/Debug-iphonesimulator/FirebaseAuth.build/Objects-normal/x86_64/FIRVerifyAssertionRequest.o
+/Users/sandy/Downloads/demo2/build/Pods.build/Debug-iphonesimulator/FirebaseAuth.build/Objects-normal/x86_64/FIRVerifyAssertionResponse.o
+/Users/sandy/Downloads/demo2/build/Pods.build/Debug-iphonesimulator/FirebaseAuth.build/Objects-normal/x86_64/FIRVerifyClientRequest.o
+/Users/sandy/Downloads/demo2/build/Pods.build/Debug-iphonesimulator/FirebaseAuth.build/Objects-normal/x86_64/FIRVerifyClientResponse.o
+/Users/sandy/Downloads/demo2/build/Pods.build/Debug-iphonesimulator/FirebaseAuth.build/Objects-normal/x86_64/FIRVerifyCustomTokenRequest.o
+/Users/sandy/Downloads/demo2/build/Pods.build/Debug-iphonesimulator/FirebaseAuth.build/Objects-normal/x86_64/FIRVerifyCustomTokenResponse.o
+/Users/sandy/Downloads/demo2/build/Pods.build/Debug-iphonesimulator/FirebaseAuth.build/Objects-normal/x86_64/FIRVerifyPasswordRequest.o
+/Users/sandy/Downloads/demo2/build/Pods.build/Debug-iphonesimulator/FirebaseAuth.build/Objects-normal/x86_64/FIRVerifyPasswordResponse.o
+/Users/sandy/Downloads/demo2/build/Pods.build/Debug-iphonesimulator/FirebaseAuth.build/Objects-normal/x86_64/FIRVerifyPhoneNumberRequest.o
+/Users/sandy/Downloads/demo2/build/Pods.build/Debug-iphonesimulator/FirebaseAuth.build/Objects-normal/x86_64/FIRVerifyPhoneNumberResponse.o
+/Users/sandy/Downloads/demo2/build/Pods.build/Debug-iphonesimulator/FirebaseAuth.build/Objects-normal/x86_64/FIRWithdrawMFARequest.o
+/Users/sandy/Downloads/demo2/build/Pods.build/Debug-iphonesimulator/FirebaseAuth.build/Objects-normal/x86_64/FIRWithdrawMFAResponse.o
+/Users/sandy/Downloads/demo2/build/Pods.build/Debug-iphonesimulator/FirebaseAuth.build/Objects-normal/x86_64/NSData+FIRBase64.o

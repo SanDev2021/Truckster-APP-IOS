@@ -27,6 +27,8 @@ class MapViewController: UIViewController,CLLocationManagerDelegate {
         locationManager.startUpdatingLocation()
     }
     
+ 
+    
     func locationManager(_ manager: CLLocationManager, didUpdateLocations locations: [CLLocation]) {
         
         let userLocation:CLLocation=locations[0]

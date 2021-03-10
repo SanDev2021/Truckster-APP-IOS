@@ -9,14 +9,17 @@ import UIKit
 import Firebase
 import FirebaseAuth
 import FirebaseDatabase
+import CoreLocation
 
-class HomeViewController: UIViewController {
+class HomeViewController: UIViewController, CLLocationManagerDelegate {
     let transiton = Transition()
     var topView: UIView?
     @IBOutlet weak var searchButton: UIButton!
-   
+    let locationManager = CLLocationManager()
     var lat=0.0
     var long=0.0
+    var ul=0.0
+    var ulo=0.0
     
     @IBOutlet weak var txtDemo: UITextField!
     
@@ -26,7 +29,12 @@ class HomeViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-       
+        locationManager.delegate=self
+        locationManager.desiredAccuracy=kCLLocationAccuracyBest
+        locationManager.requestWhenInUseAuthorization()
+        locationManager.startUpdatingLocation()
+        
+      
         //self.navigationItem.title = "Truckster"
     searchButton.isHidden=true
     
@@ -34,7 +42,7 @@ class HomeViewController: UIViewController {
     }
     @IBAction func btnSearch(_ sender: UIButton) {
         let mainSB : UIStoryboard = UIStoryboard(name: "Main", bundle: nil)
-        let homeVC = mainSB.instantiateViewController(withIdentifier: "PostalMapVc") as! PostalCodeMapViewController
+        let homeVC = mainSB.instantiateViewController(withIdentifier: "rideVC") as! RideDetailsViewController
         navigationController?.pushViewController(homeVC, animated: true)
         
      let postalCode=txtDemo.text!
@@ -54,15 +62,24 @@ class HomeViewController: UIViewController {
                                 lat=((jsonResult["Latitude"]!as? Double)!)
                                 long=((jsonResult["Longitude"]!as? Double)!)
                                 
-                                var ref = Database.database().reference()
+                                let d1=CLLocation(latitude: ul, longitude: ulo)
+                                print(ul)
+                                let d2=CLLocation(latitude: lat, longitude: long)
+                                print(lat)
+                                let dis = ((d1.distance(from: d2))/1000).rounded(.up)
+                           
+                                let distance = "\(dis) Km"
+                                print(distance)
+                                
+                                let ref = Database.database().reference()
                              
                                 
                                 let uid = Auth.auth().currentUser?.uid
-                                ref.child("users").child(uid!).child("LocationDetails").setValue(["DestinationPostalCode": postalCode, "Latitude": lat,"Longitude":long])
-                                print(lat)
+                                ref.child("users").child(uid!).child("LocationDetails").setValue(["DestinationPostalCode": postalCode, "Latitude": lat,"Longitude":long,"Distance":distance])
                                 
                                 
-                                var myLat=StructOperation()
+                                
+                                let myLat=StructOperation()
                                 let latt=myLat.pass(lat: lat)
                                 let longg=myLat.pass1(long: long)
                                
@@ -87,14 +104,21 @@ class HomeViewController: UIViewController {
                 //start the task
                 task.resume()
         
-     
+       
         
     }
-    
+    func locationManager(_ manager: CLLocationManager, didUpdateLocations locations: [CLLocation]) {
+        guard let locValue: CLLocationCoordinate2D = manager.location?.coordinate else { return }
+        //print("locations = \(locValue.latitude) \(locValue.longitude)")
+        ul=locValue.latitude
+        ulo=locValue.longitude
+        
+        
+    }
    
     @IBAction func verifyPostalCode(_ sender: Any) {
     
-    
+ 
     guard let text = txtDemo.text  else { return }
                 if text.isValid(validityType){
             searchButton.isHidden=false
@@ -108,6 +132,7 @@ class HomeViewController: UIViewController {
             lblMessage.text = "This postal code is not valid! \nPlease Enter in the format of A1A 1A1"
         }
     }
+    
     
     
     @IBAction func signout(_ sender: Any) {
@@ -163,6 +188,10 @@ extension HomeViewController: UIViewControllerTransitioningDelegate {
         transiton.isPresenting = false
         return transiton
     }
+    
+    
+    
+  
 }
 
 
