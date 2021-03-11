@@ -1,0 +1,2 @@
+# TrucksterApp-IOS
+Truckster app wireframing We are Developing a app for IOS users called Trucksters which is a moving company helps the people to move there stuff around the cities. this app let the user to sign up and save the payment and profile detail in the user . and asks the user to enter the Postal code of the destination and calculate the ride detail by route KMS and the size of the truck to be chosen for the user .
