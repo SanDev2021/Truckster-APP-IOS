@@ -1,45 +1,45 @@
 dependencies: \
-  /Users/sandy/Downloads/demo2/Pods/FirebaseAuth/FirebaseAuth/Sources/AuthProvider/OAuth/FIROAuthProvider.m \
-  /Users/sandy/Downloads/demo2/build/Pods.build/Debug-iphonesimulator/FirebaseAuth.build/module.modulemap \
-  /Users/sandy/Downloads/demo2/Pods/FirebaseAuth/FirebaseAuth/Sources/Public/FirebaseAuth/FIROAuthProvider.h \
+  /Users/sandy/Desktop/demo2\ 2/Pods/FirebaseAuth/FirebaseAuth/Sources/AuthProvider/OAuth/FIROAuthProvider.m \
+  /Users/sandy/Desktop/demo2\ 2/build/Pods.build/Debug-iphonesimulator/FirebaseAuth.build/module.modulemap \
+  /Users/sandy/Desktop/demo2\ 2/Pods/FirebaseAuth/FirebaseAuth/Sources/Public/FirebaseAuth/FIROAuthProvider.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.4.sdk/usr/include/mach-o/compact_unwind_encoding.modulemap \
   /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.4.sdk/usr/include/mach-o/dyld.modulemap \
-  /Users/sandy/Downloads/demo2/Pods/FirebaseAuth/FirebaseAuth/Sources/Public/FirebaseAuth/FIRFederatedAuthProvider.h \
-  /Users/sandy/Downloads/demo2/Pods/FirebaseAuth/FirebaseAuth/Sources/Public/FirebaseAuth/FIRAuthUIDelegate.h \
-  /Users/sandy/Downloads/demo2/Pods/FirebaseAuth/FirebaseAuth/Sources/Public/FirebaseAuth/FIRFacebookAuthProvider.h \
-  /Users/sandy/Downloads/demo2/Pods/FirebaseAuth/FirebaseAuth/Sources/Public/FirebaseAuth/FIROAuthCredential.h \
-  /Users/sandy/Downloads/demo2/Pods/FirebaseAuth/FirebaseAuth/Sources/Public/FirebaseAuth/FIRAuthCredential.h \
-  /Users/sandy/Downloads/demo2/Pods/FirebaseAuth/FirebaseCore/Sources/Private/FirebaseCoreInternal.h \
-  /Users/sandy/Downloads/demo2/build/Pods.build/Debug-iphonesimulator/FirebaseCore.build/module.modulemap \
-  /Users/sandy/Downloads/demo2/Pods/FirebaseCore/FirebaseCore/Sources/Public/FirebaseCore/FIRVersion.h \
-  /Users/sandy/Downloads/demo2/Pods/FirebaseCore/FirebaseCore/Sources/Public/FirebaseCore/FIROptions.h \
-  /Users/sandy/Downloads/demo2/Pods/FirebaseCore/FirebaseCore/Sources/Public/FirebaseCore/FirebaseCore.h \
-  /Users/sandy/Downloads/demo2/Pods/FirebaseCore/FirebaseCore/Sources/Public/FirebaseCore/FIRLoggerLevel.h \
-  /Users/sandy/Downloads/demo2/Pods/FirebaseCore/FirebaseCore/Sources/Public/FirebaseCore/FIRConfiguration.h \
-  /Users/sandy/Downloads/demo2/Pods/FirebaseCore/FirebaseCore/Sources/Public/FirebaseCore/FIRApp.h \
-  /Users/sandy/Downloads/demo2/Pods/Target\ Support\ Files/FirebaseCore/FirebaseCore-umbrella.h \
-  /Users/sandy/Downloads/demo2/Pods/FirebaseAuth/FirebaseCore/Sources/Private/FIRAppInternal.h \
-  /Users/sandy/Downloads/demo2/Pods/FirebaseAuth/FirebaseCore/Sources/Private/FIRComponent.h \
-  /Users/sandy/Downloads/demo2/Pods/FirebaseAuth/FirebaseCore/Sources/Private/FIRComponentContainer.h \
-  /Users/sandy/Downloads/demo2/Pods/FirebaseAuth/FirebaseCore/Sources/Private/FIRComponentType.h \
-  /Users/sandy/Downloads/demo2/Pods/FirebaseAuth/FirebaseCore/Sources/Private/FIRDependency.h \
-  /Users/sandy/Downloads/demo2/Pods/FirebaseAuth/FirebaseCore/Sources/Private/FIRHeartbeatInfo.h \
-  /Users/sandy/Downloads/demo2/Pods/FirebaseAuth/FirebaseCore/Sources/Private/FIRLibrary.h \
-  /Users/sandy/Downloads/demo2/Pods/FirebaseAuth/FirebaseCore/Sources/Private/FIRLogger.h \
-  /Users/sandy/Downloads/demo2/Pods/FirebaseAuth/FirebaseCore/Sources/Private/FIROptionsInternal.h \
-  /Users/sandy/Downloads/demo2/Pods/FirebaseAuth/FirebaseAuth/Sources/Auth/FIRAuthGlobalWorkQueue.h \
-  /Users/sandy/Downloads/demo2/Pods/FirebaseAuth/FirebaseAuth/Sources/Auth/FIRAuth_Internal.h \
-  /Users/sandy/Downloads/demo2/Pods/FirebaseAuth/FirebaseAuth/Sources/Public/FirebaseAuth/FIRAuth.h \
-  /Users/sandy/Downloads/demo2/Pods/FirebaseAuth/FirebaseAuth/Sources/Public/FirebaseAuth/FIRAuthErrors.h \
-  /Users/sandy/Downloads/demo2/Pods/FirebaseAuth/FirebaseAuth/Sources/Public/FirebaseAuth/FIRAuthAPNSTokenType.h \
-  /Users/sandy/Downloads/demo2/Pods/FirebaseAuth/Interop/Auth/Public/FIRAuthInterop.h \
-  /Users/sandy/Downloads/demo2/Pods/FirebaseAuth/FirebaseAuth/Sources/AuthProvider/OAuth/FIROAuthCredential_Internal.h \
-  /Users/sandy/Downloads/demo2/Pods/FirebaseAuth/FirebaseAuth/Sources/Backend/FIRAuthBackend.h \
-  /Users/sandy/Downloads/demo2/Pods/FirebaseAuth/FirebaseAuth/Sources/Backend/FIRAuthRPCRequest.h \
-  /Users/sandy/Downloads/demo2/Pods/FirebaseAuth/FirebaseAuth/Sources/Backend/FIRAuthRPCResponse.h \
-  /Users/sandy/Downloads/demo2/Pods/FirebaseAuth/FirebaseAuth/Sources/Backend/FIRAuthRequestConfiguration.h \
-  /Users/sandy/Downloads/demo2/Pods/FirebaseAuth/FirebaseAuth/Sources/Utilities/FIRAuthErrorUtils.h \
-  /Users/sandy/Downloads/demo2/Pods/FirebaseAuth/FirebaseAuth/Sources/Public/FirebaseAuth/FIRMultiFactorInfo.h \
-  /Users/sandy/Downloads/demo2/Pods/FirebaseAuth/FirebaseAuth/Sources/Utilities/FIRAuthInternalErrors.h \
-  /Users/sandy/Downloads/demo2/Pods/FirebaseAuth/FirebaseAuth/Sources/Utilities/FIRAuthWebUtils.h \
-  /Users/sandy/Downloads/demo2/Pods/FirebaseAuth/FirebaseAuth/Sources/Utilities/FIRAuthURLPresenter.h
+  /Users/sandy/Desktop/demo2\ 2/Pods/FirebaseAuth/FirebaseAuth/Sources/Public/FirebaseAuth/FIRFederatedAuthProvider.h \
+  /Users/sandy/Desktop/demo2\ 2/Pods/FirebaseAuth/FirebaseAuth/Sources/Public/FirebaseAuth/FIRAuthUIDelegate.h \
+  /Users/sandy/Desktop/demo2\ 2/Pods/FirebaseAuth/FirebaseAuth/Sources/Public/FirebaseAuth/FIRFacebookAuthProvider.h \
+  /Users/sandy/Desktop/demo2\ 2/Pods/FirebaseAuth/FirebaseAuth/Sources/Public/FirebaseAuth/FIROAuthCredential.h \
+  /Users/sandy/Desktop/demo2\ 2/Pods/FirebaseAuth/FirebaseAuth/Sources/Public/FirebaseAuth/FIRAuthCredential.h \
+  /Users/sandy/Desktop/demo2\ 2/Pods/FirebaseAuth/FirebaseCore/Sources/Private/FirebaseCoreInternal.h \
+  /Users/sandy/Desktop/demo2\ 2/build/Pods.build/Debug-iphonesimulator/FirebaseCore.build/module.modulemap \
+  /Users/sandy/Desktop/demo2\ 2/Pods/FirebaseCore/FirebaseCore/Sources/Public/FirebaseCore/FIRVersion.h \
+  /Users/sandy/Desktop/demo2\ 2/Pods/FirebaseCore/FirebaseCore/Sources/Public/FirebaseCore/FIROptions.h \
+  /Users/sandy/Desktop/demo2\ 2/Pods/FirebaseCore/FirebaseCore/Sources/Public/FirebaseCore/FirebaseCore.h \
+  /Users/sandy/Desktop/demo2\ 2/Pods/FirebaseCore/FirebaseCore/Sources/Public/FirebaseCore/FIRLoggerLevel.h \
+  /Users/sandy/Desktop/demo2\ 2/Pods/FirebaseCore/FirebaseCore/Sources/Public/FirebaseCore/FIRConfiguration.h \
+  /Users/sandy/Desktop/demo2\ 2/Pods/FirebaseCore/FirebaseCore/Sources/Public/FirebaseCore/FIRApp.h \
+  /Users/sandy/Desktop/demo2\ 2/Pods/Target\ Support\ Files/FirebaseCore/FirebaseCore-umbrella.h \
+  /Users/sandy/Desktop/demo2\ 2/Pods/FirebaseAuth/FirebaseCore/Sources/Private/FIRAppInternal.h \
+  /Users/sandy/Desktop/demo2\ 2/Pods/FirebaseAuth/FirebaseCore/Sources/Private/FIRComponent.h \
+  /Users/sandy/Desktop/demo2\ 2/Pods/FirebaseAuth/FirebaseCore/Sources/Private/FIRComponentContainer.h \
+  /Users/sandy/Desktop/demo2\ 2/Pods/FirebaseAuth/FirebaseCore/Sources/Private/FIRComponentType.h \
+  /Users/sandy/Desktop/demo2\ 2/Pods/FirebaseAuth/FirebaseCore/Sources/Private/FIRDependency.h \
+  /Users/sandy/Desktop/demo2\ 2/Pods/FirebaseAuth/FirebaseCore/Sources/Private/FIRHeartbeatInfo.h \
+  /Users/sandy/Desktop/demo2\ 2/Pods/FirebaseAuth/FirebaseCore/Sources/Private/FIRLibrary.h \
+  /Users/sandy/Desktop/demo2\ 2/Pods/FirebaseAuth/FirebaseCore/Sources/Private/FIRLogger.h \
+  /Users/sandy/Desktop/demo2\ 2/Pods/FirebaseAuth/FirebaseCore/Sources/Private/FIROptionsInternal.h \
+  /Users/sandy/Desktop/demo2\ 2/Pods/FirebaseAuth/FirebaseAuth/Sources/Auth/FIRAuthGlobalWorkQueue.h \
+  /Users/sandy/Desktop/demo2\ 2/Pods/FirebaseAuth/FirebaseAuth/Sources/Auth/FIRAuth_Internal.h \
+  /Users/sandy/Desktop/demo2\ 2/Pods/FirebaseAuth/FirebaseAuth/Sources/Public/FirebaseAuth/FIRAuth.h \
+  /Users/sandy/Desktop/demo2\ 2/Pods/FirebaseAuth/FirebaseAuth/Sources/Public/FirebaseAuth/FIRAuthErrors.h \
+  /Users/sandy/Desktop/demo2\ 2/Pods/FirebaseAuth/FirebaseAuth/Sources/Public/FirebaseAuth/FIRAuthAPNSTokenType.h \
+  /Users/sandy/Desktop/demo2\ 2/Pods/FirebaseAuth/Interop/Auth/Public/FIRAuthInterop.h \
+  /Users/sandy/Desktop/demo2\ 2/Pods/FirebaseAuth/FirebaseAuth/Sources/AuthProvider/OAuth/FIROAuthCredential_Internal.h \
+  /Users/sandy/Desktop/demo2\ 2/Pods/FirebaseAuth/FirebaseAuth/Sources/Backend/FIRAuthBackend.h \
+  /Users/sandy/Desktop/demo2\ 2/Pods/FirebaseAuth/FirebaseAuth/Sources/Backend/FIRAuthRPCRequest.h \
+  /Users/sandy/Desktop/demo2\ 2/Pods/FirebaseAuth/FirebaseAuth/Sources/Backend/FIRAuthRPCResponse.h \
+  /Users/sandy/Desktop/demo2\ 2/Pods/FirebaseAuth/FirebaseAuth/Sources/Backend/FIRAuthRequestConfiguration.h \
+  /Users/sandy/Desktop/demo2\ 2/Pods/FirebaseAuth/FirebaseAuth/Sources/Utilities/FIRAuthErrorUtils.h \
+  /Users/sandy/Desktop/demo2\ 2/Pods/FirebaseAuth/FirebaseAuth/Sources/Public/FirebaseAuth/FIRMultiFactorInfo.h \
+  /Users/sandy/Desktop/demo2\ 2/Pods/FirebaseAuth/FirebaseAuth/Sources/Utilities/FIRAuthInternalErrors.h \
+  /Users/sandy/Desktop/demo2\ 2/Pods/FirebaseAuth/FirebaseAuth/Sources/Utilities/FIRAuthWebUtils.h \
+  /Users/sandy/Desktop/demo2\ 2/Pods/FirebaseAuth/FirebaseAuth/Sources/Utilities/FIRAuthURLPresenter.h

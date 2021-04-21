@@ -24,7 +24,7 @@ class SignUpViewController: UIViewController,UIImagePickerControllerDelegate,UIN
     @IBOutlet weak var btnReg:UIButton!
     @IBOutlet weak var imgBtn: UIButton!
     @IBOutlet weak var imagePlace: UIImageView!
-    
+    var imgURL=""
     
     var imagePickerController = UIImagePickerController()
     override func viewDidLoad() {
@@ -75,14 +75,14 @@ class SignUpViewController: UIViewController,UIImagePickerControllerDelegate,UIN
                 print("sign up ")
                 return
             }
-            SignUpViewController.uploadToDatabase(email: email, name: name, lastname: lastname, phone: phone) {
+            SignUpViewController.uploadToDatabase(email: email, name: name, lastname: lastname, imgURL: self.imgURL, phone: phone) {
                 onSuccess()
             }}}
     //uploaind to dtabase
-    static func uploadToDatabase(email: String, name: String, lastname: String, phone: String, onSuccess: @escaping () -> Void){
+    static func uploadToDatabase(email: String, name: String, lastname: String,imgURL:String, phone: String, onSuccess: @escaping () -> Void){
         var ref = Database.database().reference()
         let uid = Auth.auth().currentUser?.uid
-        ref.child("users").child(uid!).child("UserInfo").setValue(["email": email, "name": name,"lastname": lastname,"phone": phone])
+        ref.child("users").child(uid!).child("UserInfo").setValue(["email": email, "name": name,"lastname": lastname,"imgURL":imgURL,"phone": phone])
         print("SigN Up")
         onSuccess()
         
@@ -120,6 +120,10 @@ class SignUpViewController: UIViewController,UIImagePickerControllerDelegate,UIN
         
         //getting url for the photo
         if let url = info[UIImagePickerController.InfoKey.imageURL] as? URL {
+            imgURL="\(url)"
+            var ref = Database.database().reference()
+            let uid = Auth.auth().currentUser?.uid
+            ref.child("users").child(uid!).child("UserInfo").setValue(["imgURL": imgURL])
             
         print(url)
             uploadToCloud(fileURL: url)

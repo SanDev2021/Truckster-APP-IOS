@@ -654,7 +654,7 @@
 				CODE_SIGN_ENTITLEMENTS = demo/demo.entitlements;
 				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = GHPAR4N5Y3;
+				DEVELOPMENT_TEAM = 2J53HJ333V;
 				INFOPLIST_FILE = demo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -677,7 +677,7 @@
 				CODE_SIGN_ENTITLEMENTS = demo/demo.entitlements;
 				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = GHPAR4N5Y3;
+				DEVELOPMENT_TEAM = 2J53HJ333V;
 				INFOPLIST_FILE = demo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",

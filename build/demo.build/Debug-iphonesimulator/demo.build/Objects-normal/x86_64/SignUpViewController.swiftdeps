@@ -13,6 +13,7 @@ provides-dynamic-lookup:
 - "imagePlace"
 - "imgBtn"
 - "imgBtnTapped"
+- "imgURL"
 - "mySign"
 - "requestAuthroizationHandler"
 - "signUp"
@@ -44,7 +45,7 @@ depends-top-level:
 - "SignUpViewController"
 - !private "Storage"
 - "String"
-- !private "StringLiteralType"
+- "StringLiteralType"
 - !private "StructOperation"
 - !private "UIAlertAction"
 - !private "UIAlertController"
@@ -63,6 +64,7 @@ depends-top-level:
 - !private "checkPermissions"
 - !private "imagePickerController"
 - !private "imagePlace"
+- !private "imgURL"
 - !private "navigationController"
 - "print"
 - !private "signUp"
@@ -116,6 +118,7 @@ depends-member:
 - ["s7CVarArgP", "imagePickerControllerDidCancel"]
 - !private ["s7CVarArgP", "imagePlace"]
 - !private ["s7CVarArgP", "imgBtnTapped"]
+- !private ["s7CVarArgP", "imgURL"]
 - ["s7CVarArgP", "init"]
 - !private ["s7CVarArgP", "instantiateViewController"]
 - !private ["s7CVarArgP", "isEmpty"]
@@ -185,6 +188,7 @@ depends-member:
 - ["s28CustomDebugStringConvertibleP", "imagePickerControllerDidCancel"]
 - !private ["s28CustomDebugStringConvertibleP", "imagePlace"]
 - !private ["s28CustomDebugStringConvertibleP", "imgBtnTapped"]
+- !private ["s28CustomDebugStringConvertibleP", "imgURL"]
 - ["s28CustomDebugStringConvertibleP", "init"]
 - !private ["s28CustomDebugStringConvertibleP", "instantiateViewController"]
 - !private ["s28CustomDebugStringConvertibleP", "isEmpty"]
@@ -255,6 +259,7 @@ depends-member:
 - ["s23CustomStringConvertibleP", "imagePickerControllerDidCancel"]
 - !private ["s23CustomStringConvertibleP", "imagePlace"]
 - !private ["s23CustomStringConvertibleP", "imgBtnTapped"]
+- !private ["s23CustomStringConvertibleP", "imgURL"]
 - ["s23CustomStringConvertibleP", "init"]
 - !private ["s23CustomStringConvertibleP", "instantiateViewController"]
 - !private ["s23CustomStringConvertibleP", "isEmpty"]
@@ -347,6 +352,7 @@ depends-member:
 - !private ["SQ", "imagePlace"]
 - !private ["SQ", "imageURL"]
 - !private ["SQ", "imgBtnTapped"]
+- !private ["SQ", "imgURL"]
 - ["SQ", "init"]
 - !private ["SQ", "instantiateViewController"]
 - !private ["SQ", "isEmpty"]
@@ -438,6 +444,7 @@ depends-member:
 - !private ["SH", "imagePlace"]
 - !private ["SH", "imageURL"]
 - !private ["SH", "imgBtnTapped"]
+- !private ["SH", "imgURL"]
 - ["SH", "init"]
 - !private ["SH", "instantiateViewController"]
 - !private ["SH", "isEmpty"]
@@ -511,6 +518,7 @@ depends-member:
 - ["So8NSCodingP", "imagePlace"]
 - ["So8NSCodingP", "imgBtn"]
 - ["So8NSCodingP", "imgBtnTapped"]
+- ["So8NSCodingP", "imgURL"]
 - ["So8NSCodingP", "init"]
 - !private ["So8NSCodingP", "isEmpty"]
 - ["So8NSCodingP", "mySign"]
@@ -568,6 +576,7 @@ depends-member:
 - ["So26NSExtensionRequestHandlingP", "imagePlace"]
 - ["So26NSExtensionRequestHandlingP", "imgBtn"]
 - ["So26NSExtensionRequestHandlingP", "imgBtnTapped"]
+- ["So26NSExtensionRequestHandlingP", "imgURL"]
 - ["So26NSExtensionRequestHandlingP", "init"]
 - ["So26NSExtensionRequestHandlingP", "mySign"]
 - ["So26NSExtensionRequestHandlingP", "navigationController"]
@@ -639,6 +648,7 @@ depends-member:
 - ["So8NSObjectC", "imagePlace"]
 - ["So8NSObjectC", "imgBtn"]
 - ["So8NSObjectC", "imgBtnTapped"]
+- ["So8NSObjectC", "imgURL"]
 - ["So8NSObjectC", "init"]
 - !private ["So8NSObjectC", "instantiateViewController"]
 - !private ["So8NSObjectC", "isEmpty"]
@@ -716,6 +726,7 @@ depends-member:
 - ["So8NSObjectP", "imagePlace"]
 - ["So8NSObjectP", "imgBtn"]
 - ["So8NSObjectP", "imgBtnTapped"]
+- ["So8NSObjectP", "imgURL"]
 - ["So8NSObjectP", "init"]
 - !private ["So8NSObjectP", "instantiateViewController"]
 - !private ["So8NSObjectP", "isEmpty"]
@@ -827,6 +838,7 @@ depends-member:
 - ["4demo20SignUpViewControllerC", "imagePlace"]
 - ["4demo20SignUpViewControllerC", "imgBtn"]
 - ["4demo20SignUpViewControllerC", "imgBtnTapped"]
+- ["4demo20SignUpViewControllerC", "imgURL"]
 - ["4demo20SignUpViewControllerC", "init"]
 - ["4demo20SignUpViewControllerC", "mySign"]
 - ["4demo20SignUpViewControllerC", "navigationController"]
@@ -913,6 +925,7 @@ depends-member:
 - ["So21UIAppearanceContainerP", "imagePlace"]
 - ["So21UIAppearanceContainerP", "imgBtn"]
 - ["So21UIAppearanceContainerP", "imgBtnTapped"]
+- ["So21UIAppearanceContainerP", "imgURL"]
 - ["So21UIAppearanceContainerP", "init"]
 - ["So21UIAppearanceContainerP", "mySign"]
 - ["So21UIAppearanceContainerP", "navigationController"]
@@ -968,6 +981,7 @@ depends-member:
 - ["So18UIContentContainerP", "imagePlace"]
 - ["So18UIContentContainerP", "imgBtn"]
 - ["So18UIContentContainerP", "imgBtnTapped"]
+- ["So18UIContentContainerP", "imgURL"]
 - ["So18UIContentContainerP", "init"]
 - ["So18UIContentContainerP", "mySign"]
 - ["So18UIContentContainerP", "navigationController"]
@@ -1032,6 +1046,7 @@ depends-member:
 - ["So18UIFocusEnvironmentP", "imagePlace"]
 - ["So18UIFocusEnvironmentP", "imgBtn"]
 - ["So18UIFocusEnvironmentP", "imgBtnTapped"]
+- ["So18UIFocusEnvironmentP", "imgURL"]
 - ["So18UIFocusEnvironmentP", "init"]
 - ["So18UIFocusEnvironmentP", "mySign"]
 - ["So18UIFocusEnvironmentP", "navigationController"]
@@ -1089,6 +1104,7 @@ depends-member:
 - ["So31UIImagePickerControllerDelegateP", "imagePlace"]
 - ["So31UIImagePickerControllerDelegateP", "imgBtn"]
 - ["So31UIImagePickerControllerDelegateP", "imgBtnTapped"]
+- ["So31UIImagePickerControllerDelegateP", "imgURL"]
 - ["So31UIImagePickerControllerDelegateP", "init"]
 - ["So31UIImagePickerControllerDelegateP", "mySign"]
 - ["So31UIImagePickerControllerDelegateP", "navigationController"]
@@ -1143,6 +1159,7 @@ depends-member:
 - ["So30UINavigationControllerDelegateP", "imagePlace"]
 - ["So30UINavigationControllerDelegateP", "imgBtn"]
 - ["So30UINavigationControllerDelegateP", "imgBtnTapped"]
+- ["So30UINavigationControllerDelegateP", "imgURL"]
 - ["So30UINavigationControllerDelegateP", "init"]
 - ["So30UINavigationControllerDelegateP", "mySign"]
 - ["So30UINavigationControllerDelegateP", "navigationController"]
@@ -1194,6 +1211,7 @@ depends-member:
 - ["So30UIPasteConfigurationSupportingP", "imagePlace"]
 - ["So30UIPasteConfigurationSupportingP", "imgBtn"]
 - ["So30UIPasteConfigurationSupportingP", "imgBtnTapped"]
+- ["So30UIPasteConfigurationSupportingP", "imgURL"]
 - ["So30UIPasteConfigurationSupportingP", "init"]
 - ["So30UIPasteConfigurationSupportingP", "mySign"]
 - ["So30UIPasteConfigurationSupportingP", "navigationController"]
@@ -1259,6 +1277,7 @@ depends-member:
 - ["So11UIResponderC", "imagePlace"]
 - ["So11UIResponderC", "imgBtn"]
 - ["So11UIResponderC", "imgBtnTapped"]
+- ["So11UIResponderC", "imgURL"]
 - ["So11UIResponderC", "init"]
 - ["So11UIResponderC", "mySign"]
 - ["So11UIResponderC", "navigationController"]
@@ -1315,6 +1334,7 @@ depends-member:
 - ["So30UIResponderStandardEditActionsP", "imagePlace"]
 - ["So30UIResponderStandardEditActionsP", "imgBtn"]
 - ["So30UIResponderStandardEditActionsP", "imgBtnTapped"]
+- ["So30UIResponderStandardEditActionsP", "imgURL"]
 - ["So30UIResponderStandardEditActionsP", "init"]
 - ["So30UIResponderStandardEditActionsP", "mySign"]
 - ["So30UIResponderStandardEditActionsP", "navigationController"]
@@ -1372,6 +1392,7 @@ depends-member:
 - ["So16UIStateRestoringP", "imagePlace"]
 - ["So16UIStateRestoringP", "imgBtn"]
 - ["So16UIStateRestoringP", "imgBtnTapped"]
+- ["So16UIStateRestoringP", "imgURL"]
 - ["So16UIStateRestoringP", "init"]
 - ["So16UIStateRestoringP", "mySign"]
 - ["So16UIStateRestoringP", "navigationController"]
@@ -1436,6 +1457,7 @@ depends-member:
 - ["So18UITraitEnvironmentP", "imagePlace"]
 - ["So18UITraitEnvironmentP", "imgBtn"]
 - ["So18UITraitEnvironmentP", "imgBtnTapped"]
+- ["So18UITraitEnvironmentP", "imgURL"]
 - ["So18UITraitEnvironmentP", "init"]
 - ["So18UITraitEnvironmentP", "mySign"]
 - ["So18UITraitEnvironmentP", "navigationController"]
@@ -1492,6 +1514,7 @@ depends-member:
 - ["So23UIUserActivityRestoringP", "imagePlace"]
 - ["So23UIUserActivityRestoringP", "imgBtn"]
 - ["So23UIUserActivityRestoringP", "imgBtnTapped"]
+- ["So23UIUserActivityRestoringP", "imgURL"]
 - ["So23UIUserActivityRestoringP", "init"]
 - ["So23UIUserActivityRestoringP", "mySign"]
 - ["So23UIUserActivityRestoringP", "navigationController"]
@@ -1555,6 +1578,7 @@ depends-member:
 - ["So16UIViewControllerC", "imagePlace"]
 - ["So16UIViewControllerC", "imgBtn"]
 - ["So16UIViewControllerC", "imgBtnTapped"]
+- ["So16UIViewControllerC", "imgURL"]
 - ["So16UIViewControllerC", "init"]
 - ["So16UIViewControllerC", "mySign"]
 - ["So16UIViewControllerC", "navigationController"]
@@ -1583,7 +1607,7 @@ depends-member:
 - ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", ""]
 - !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "isEmpty"]
 - !private ["s35_ExpressibleByBuiltinIntegerLiteralP", "init"]
-- !private ["s34_ExpressibleByBuiltinStringLiteralP", "init"]
+- ["s34_ExpressibleByBuiltinStringLiteralP", "init"]
 - !private ["s34_ExpressibleByBuiltinStringLiteralP", "isEmpty"]
 - ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", ""]
 - !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "isEmpty"]
@@ -1625,6 +1649,7 @@ depends-member:
 - ["10Foundation27_KeyValueCodingAndObservingP", "imagePickerControllerDidCancel"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "imagePlace"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "imgBtnTapped"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "imgURL"]
 - ["10Foundation27_KeyValueCodingAndObservingP", "init"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "instantiateViewController"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "isEmpty"]
@@ -1686,6 +1711,7 @@ depends-member:
 - ["10Foundation37_KeyValueCodingAndObservingPublishingP", "imagePickerControllerDidCancel"]
 - !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "imagePlace"]
 - !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "imgBtnTapped"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "imgURL"]
 - ["10Foundation37_KeyValueCodingAndObservingPublishingP", "init"]
 - !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "instantiateViewController"]
 - !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "isEmpty"]
@@ -1851,7 +1877,7 @@ depends-nominal:
 - !private "s35_ExpressibleByBuiltinBooleanLiteralP"
 - "s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP"
 - !private "s35_ExpressibleByBuiltinIntegerLiteralP"
-- !private "s34_ExpressibleByBuiltinStringLiteralP"
+- "s34_ExpressibleByBuiltinStringLiteralP"
 - "s41_ExpressibleByBuiltinUnicodeScalarLiteralP"
 - !private "s19_HasContiguousBytesP"
 - !private "s35_HasCustomAnyHashableRepresentationP"
@@ -1888,91 +1914,90 @@ depends-external:
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CloudKit.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/MapKit.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/SwiftOnoneSupport.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
-- "/Users/sandy/Downloads/demo2/build/Debug-iphonesimulator/FirebaseStorage/FirebaseStorage.framework/Headers/FirebaseStorage-umbrella.h"
-- "/Users/sandy/Downloads/demo2/build/Debug-iphonesimulator/FirebaseCore/FirebaseCore.framework/Headers/FirebaseCore-umbrella.h"
-- "/Users/sandy/Downloads/demo2/build/Debug-iphonesimulator/FirebaseDatabase/FirebaseDatabase.framework/Headers/FirebaseDatabase-umbrella.h"
-- "/Users/sandy/Downloads/demo2/build/Debug-iphonesimulator/FirebaseAuth/FirebaseAuth.framework/Headers/FirebaseAuth-umbrella.h"
-- "/Users/sandy/Downloads/demo2/build/Debug-iphonesimulator/FirebaseInstallations/FirebaseInstallations.framework/Headers/FirebaseInstallations-umbrella.h"
-- "/Users/sandy/Downloads/demo2/build/Debug-iphonesimulator/FirebaseDatabase/FirebaseDatabase.framework/Headers/FIRMutableData.h"
-- "/Users/sandy/Downloads/demo2/build/Debug-iphonesimulator/FirebaseStorage/FirebaseStorage.framework/Headers/FIRStorageMetadata.h"
-- "/Users/sandy/Downloads/demo2/build/Debug-iphonesimulator/FirebaseAuth/FirebaseAuth.framework/Headers/FIRUserMetadata.h"
-- "/Users/sandy/Downloads/demo2/build/Debug-iphonesimulator/FirebaseStorage/FirebaseStorage.framework/Headers/FIRStorageReference.h"
-- "/Users/sandy/Downloads/demo2/build/Debug-iphonesimulator/FirebaseDatabase/FirebaseDatabase.framework/Headers/FIRDatabaseReference.h"
-- "/Users/sandy/Downloads/demo2/build/Debug-iphonesimulator/FirebaseStorage/FirebaseStorage.framework/Headers/FIRStorage.h"
-- "/Users/sandy/Downloads/demo2/build/Debug-iphonesimulator/FirebaseStorage/FirebaseStorage.framework/Headers/FirebaseStorage.h"
-- "/Users/sandy/Downloads/demo2/build/Debug-iphonesimulator/FirebaseAuth/FirebaseAuth.framework/Headers/FIRAuthAPNSTokenType.h"
-- "/Users/sandy/Downloads/demo2/build/Debug-iphonesimulator/FirebaseDatabase/FirebaseDatabase.framework/Headers/FIRDataEventType.h"
-- "/Users/sandy/Downloads/demo2/build/Debug-iphonesimulator/FirebaseCore/FirebaseCore.framework/Headers/FirebaseCore.h"
-- "/Users/sandy/Downloads/demo2/build/Debug-iphonesimulator/FirebaseDatabase/FirebaseDatabase.framework/Headers/FIRDatabase.h"
-- "/Users/sandy/Downloads/demo2/build/Debug-iphonesimulator/FirebaseDatabase/FirebaseDatabase.framework/Headers/FirebaseDatabase.h"
-- "/Users/sandy/Downloads/demo2/Pods/Firebase/CoreOnly/Sources/Firebase.h"
-- "/Users/sandy/Downloads/demo2/build/Debug-iphonesimulator/FirebaseAuth/FirebaseAuth.framework/Headers/FIRAuthUIDelegate.h"
-- "/Users/sandy/Downloads/demo2/build/Debug-iphonesimulator/XCFrameworkIntermediates/FirebaseAnalytics/FirebaseAnalytics.framework/Headers/FIRAnalytics+AppDelegate.h"
-- "/Users/sandy/Downloads/demo2/build/Debug-iphonesimulator/FirebaseDatabase/FirebaseDatabase.framework/Headers/FIRServerValue.h"
-- "/Users/sandy/Downloads/demo2/build/Debug-iphonesimulator/FirebaseAuth/FirebaseAuth.framework/Headers/FIRAuth.h"
-- "/Users/sandy/Downloads/demo2/build/Debug-iphonesimulator/FirebaseAuth/FirebaseAuth.framework/Headers/FirebaseAuth.h"
-- "/Users/sandy/Downloads/demo2/build/Debug-iphonesimulator/FirebaseStorage/FirebaseStorage.framework/Headers/FIRStorageDownloadTask.h"
-- "/Users/sandy/Downloads/demo2/build/Debug-iphonesimulator/FirebaseStorage/FirebaseStorage.framework/Headers/FIRStorageUploadTask.h"
-- "/Users/sandy/Downloads/demo2/build/Debug-iphonesimulator/FirebaseStorage/FirebaseStorage.framework/Headers/FIRStorageTask.h"
-- "/Users/sandy/Downloads/demo2/build/Debug-iphonesimulator/FirebaseStorage/FirebaseStorage.framework/Headers/FIRStorageObservableTask.h"
-- "/Users/sandy/Downloads/demo2/build/Debug-iphonesimulator/FirebaseAuth/FirebaseAuth.framework/Headers/FIROAuthCredential.h"
-- "/Users/sandy/Downloads/demo2/build/Debug-iphonesimulator/FirebaseAuth/FirebaseAuth.framework/Headers/FIRAuthCredential.h"
-- "/Users/sandy/Downloads/demo2/build/Debug-iphonesimulator/FirebaseAuth/FirebaseAuth.framework/Headers/FIRPhoneAuthCredential.h"
-- "/Users/sandy/Downloads/demo2/build/Debug-iphonesimulator/FirebaseCore/FirebaseCore.framework/Headers/FIRLoggerLevel.h"
-- "/Users/sandy/Downloads/demo2/build/Debug-iphonesimulator/FirebaseCore/FirebaseCore.framework/Headers/FIRVersion.h"
-- "/Users/sandy/Downloads/demo2/build/Debug-iphonesimulator/FirebaseAuth/FirebaseAuth.framework/Headers/FIRMultiFactorSession.h"
-- "/Users/sandy/Downloads/demo2/build/Debug-iphonesimulator/FirebaseCore/FirebaseCore.framework/Headers/FIRConfiguration.h"
-- "/Users/sandy/Downloads/demo2/build/Debug-iphonesimulator/FirebaseAuth/FirebaseAuth.framework/Headers/FIRMultiFactorAssertion.h"
-- "/Users/sandy/Downloads/demo2/build/Debug-iphonesimulator/FirebaseAuth/FirebaseAuth.framework/Headers/FIRPhoneMultiFactorAssertion.h"
-- "/Users/sandy/Downloads/demo2/build/Debug-iphonesimulator/FirebaseAuth/FirebaseAuth.framework/Headers/FIRUserInfo.h"
-- "/Users/sandy/Downloads/demo2/build/Debug-iphonesimulator/FirebaseAuth/FirebaseAuth.framework/Headers/FIRAdditionalUserInfo.h"
-- "/Users/sandy/Downloads/demo2/build/Debug-iphonesimulator/FirebaseAuth/FirebaseAuth.framework/Headers/FIRMultiFactorInfo.h"
-- "/Users/sandy/Downloads/demo2/build/Debug-iphonesimulator/FirebaseAuth/FirebaseAuth.framework/Headers/FIRPhoneMultiFactorInfo.h"
-- "/Users/sandy/Downloads/demo2/build/Debug-iphonesimulator/FirebaseCore/FirebaseCore.framework/Headers/FIRApp.h"
-- "/Users/sandy/Downloads/demo2/build/Debug-iphonesimulator/FirebaseAuth/FirebaseAuth.framework/Headers/FIROAuthProvider.h"
-- "/Users/sandy/Downloads/demo2/build/Debug-iphonesimulator/FirebaseAuth/FirebaseAuth.framework/Headers/FIRGitHubAuthProvider.h"
-- "/Users/sandy/Downloads/demo2/build/Debug-iphonesimulator/FirebaseAuth/FirebaseAuth.framework/Headers/FIRFederatedAuthProvider.h"
-- "/Users/sandy/Downloads/demo2/build/Debug-iphonesimulator/FirebaseAuth/FirebaseAuth.framework/Headers/FIRGoogleAuthProvider.h"
-- "/Users/sandy/Downloads/demo2/build/Debug-iphonesimulator/FirebaseAuth/FirebaseAuth.framework/Headers/FIRPhoneAuthProvider.h"
-- "/Users/sandy/Downloads/demo2/build/Debug-iphonesimulator/FirebaseAuth/FirebaseAuth.framework/Headers/FIRFacebookAuthProvider.h"
-- "/Users/sandy/Downloads/demo2/build/Debug-iphonesimulator/FirebaseAuth/FirebaseAuth.framework/Headers/FIREmailAuthProvider.h"
-- "/Users/sandy/Downloads/demo2/build/Debug-iphonesimulator/FirebaseAuth/FirebaseAuth.framework/Headers/FIRGameCenterAuthProvider.h"
-- "/Users/sandy/Downloads/demo2/build/Debug-iphonesimulator/FirebaseAuth/FirebaseAuth.framework/Headers/FIRTwitterAuthProvider.h"
-- "/Users/sandy/Downloads/demo2/build/Debug-iphonesimulator/FirebaseAuth/FirebaseAuth.framework/Headers/FIRUser.h"
-- "/Users/sandy/Downloads/demo2/build/Debug-iphonesimulator/FirebaseAuth/FirebaseAuth.framework/Headers/FIRMultiFactorResolver.h"
-- "/Users/sandy/Downloads/demo2/build/Debug-iphonesimulator/FirebaseAuth/FirebaseAuth.framework/Headers/FIRPhoneMultiFactorGenerator.h"
-- "/Users/sandy/Downloads/demo2/build/Debug-iphonesimulator/FirebaseAuth/FirebaseAuth.framework/Headers/FIRMultiFactor.h"
-- "/Users/sandy/Downloads/demo2/build/Debug-iphonesimulator/XCFrameworkIntermediates/FirebaseAnalytics/FirebaseAnalytics.framework/Headers/FIRAnalytics.h"
-- "/Users/sandy/Downloads/demo2/build/Debug-iphonesimulator/XCFrameworkIntermediates/FirebaseAnalytics/FirebaseAnalytics.framework/Headers/FirebaseAnalytics.h"
-- "/Users/sandy/Downloads/demo2/build/Debug-iphonesimulator/XCFrameworkIntermediates/FirebaseAnalytics/FirebaseAnalytics.framework/Headers/FIRParameterNames.h"
-- "/Users/sandy/Downloads/demo2/build/Debug-iphonesimulator/XCFrameworkIntermediates/FirebaseAnalytics/FirebaseAnalytics.framework/Headers/FIREventNames.h"
-- "/Users/sandy/Downloads/demo2/build/Debug-iphonesimulator/XCFrameworkIntermediates/FirebaseAnalytics/FirebaseAnalytics.framework/Headers/FIRUserPropertyNames.h"
-- "/Users/sandy/Downloads/demo2/build/Debug-iphonesimulator/FirebaseAuth/FirebaseAuth.framework/Headers/FIRActionCodeSettings.h"
-- "/Users/sandy/Downloads/demo2/build/Debug-iphonesimulator/FirebaseAuth/FirebaseAuth.framework/Headers/FIRAuthSettings.h"
-- "/Users/sandy/Downloads/demo2/build/Debug-iphonesimulator/FirebaseInstallations/FirebaseInstallations.framework/Headers/FIRInstallations.h"
-- "/Users/sandy/Downloads/demo2/build/Debug-iphonesimulator/FirebaseInstallations/FirebaseInstallations.framework/Headers/FirebaseInstallations.h"
-- "/Users/sandy/Downloads/demo2/build/Debug-iphonesimulator/FirebaseCore/FirebaseCore.framework/Headers/FIROptions.h"
-- "/Users/sandy/Downloads/demo2/build/Debug-iphonesimulator/FirebaseAuth/FirebaseAuth.framework/Headers/FIRAuthErrors.h"
-- "/Users/sandy/Downloads/demo2/build/Debug-iphonesimulator/FirebaseInstallations/FirebaseInstallations.framework/Headers/FIRInstallationsErrors.h"
-- "/Users/sandy/Downloads/demo2/build/Debug-iphonesimulator/FirebaseStorage/FirebaseStorage.framework/Headers/FIRStorageConstants.h"
-- "/Users/sandy/Downloads/demo2/build/Debug-iphonesimulator/FirebaseAuth/FirebaseAuth.framework/Headers/FIRAuthDataResult.h"
-- "/Users/sandy/Downloads/demo2/build/Debug-iphonesimulator/FirebaseAuth/FirebaseAuth.framework/Headers/FIRAuthTokenResult.h"
-- "/Users/sandy/Downloads/demo2/build/Debug-iphonesimulator/FirebaseInstallations/FirebaseInstallations.framework/Headers/FIRInstallationsAuthTokenResult.h"
-- "/Users/sandy/Downloads/demo2/build/Debug-iphonesimulator/FirebaseDatabase/FirebaseDatabase.framework/Headers/FIRTransactionResult.h"
-- "/Users/sandy/Downloads/demo2/build/Debug-iphonesimulator/FirebaseStorage/FirebaseStorage.framework/Headers/FIRStorageListResult.h"
-- "/Users/sandy/Downloads/demo2/build/Debug-iphonesimulator/XCFrameworkIntermediates/FirebaseAnalytics/FirebaseAnalytics.framework/Headers/FIRAnalytics+Consent.h"
-- "/Users/sandy/Downloads/demo2/build/Debug-iphonesimulator/FirebaseDatabase/FirebaseDatabase.framework/Headers/FIRDataSnapshot.h"
-- "/Users/sandy/Downloads/demo2/build/Debug-iphonesimulator/FirebaseStorage/FirebaseStorage.framework/Headers/FIRStorageTaskSnapshot.h"
-- "/Users/sandy/Downloads/demo2/build/Debug-iphonesimulator/FirebaseDatabase/FirebaseDatabase.framework/Headers/FIRDatabaseQuery.h"
+- "/Users/sandy/Desktop/demo2 2/build/Debug-iphonesimulator/FirebaseStorage/FirebaseStorage.framework/Headers/FirebaseStorage-umbrella.h"
+- "/Users/sandy/Desktop/demo2 2/build/Debug-iphonesimulator/FirebaseCore/FirebaseCore.framework/Headers/FirebaseCore-umbrella.h"
+- "/Users/sandy/Desktop/demo2 2/build/Debug-iphonesimulator/FirebaseDatabase/FirebaseDatabase.framework/Headers/FirebaseDatabase-umbrella.h"
+- "/Users/sandy/Desktop/demo2 2/build/Debug-iphonesimulator/FirebaseAuth/FirebaseAuth.framework/Headers/FirebaseAuth-umbrella.h"
+- "/Users/sandy/Desktop/demo2 2/build/Debug-iphonesimulator/FirebaseInstallations/FirebaseInstallations.framework/Headers/FirebaseInstallations-umbrella.h"
+- "/Users/sandy/Desktop/demo2 2/build/Debug-iphonesimulator/FirebaseDatabase/FirebaseDatabase.framework/Headers/FIRMutableData.h"
+- "/Users/sandy/Desktop/demo2 2/build/Debug-iphonesimulator/FirebaseStorage/FirebaseStorage.framework/Headers/FIRStorageMetadata.h"
+- "/Users/sandy/Desktop/demo2 2/build/Debug-iphonesimulator/FirebaseAuth/FirebaseAuth.framework/Headers/FIRUserMetadata.h"
+- "/Users/sandy/Desktop/demo2 2/build/Debug-iphonesimulator/FirebaseStorage/FirebaseStorage.framework/Headers/FIRStorageReference.h"
+- "/Users/sandy/Desktop/demo2 2/build/Debug-iphonesimulator/FirebaseDatabase/FirebaseDatabase.framework/Headers/FIRDatabaseReference.h"
+- "/Users/sandy/Desktop/demo2 2/build/Debug-iphonesimulator/FirebaseStorage/FirebaseStorage.framework/Headers/FIRStorage.h"
+- "/Users/sandy/Desktop/demo2 2/build/Debug-iphonesimulator/FirebaseStorage/FirebaseStorage.framework/Headers/FirebaseStorage.h"
+- "/Users/sandy/Desktop/demo2 2/build/Debug-iphonesimulator/FirebaseAuth/FirebaseAuth.framework/Headers/FIRAuthAPNSTokenType.h"
+- "/Users/sandy/Desktop/demo2 2/build/Debug-iphonesimulator/FirebaseDatabase/FirebaseDatabase.framework/Headers/FIRDataEventType.h"
+- "/Users/sandy/Desktop/demo2 2/build/Debug-iphonesimulator/FirebaseCore/FirebaseCore.framework/Headers/FirebaseCore.h"
+- "/Users/sandy/Desktop/demo2 2/build/Debug-iphonesimulator/FirebaseDatabase/FirebaseDatabase.framework/Headers/FIRDatabase.h"
+- "/Users/sandy/Desktop/demo2 2/build/Debug-iphonesimulator/FirebaseDatabase/FirebaseDatabase.framework/Headers/FirebaseDatabase.h"
+- "/Users/sandy/Desktop/demo2 2/Pods/Firebase/CoreOnly/Sources/Firebase.h"
+- "/Users/sandy/Desktop/demo2 2/build/Debug-iphonesimulator/FirebaseAuth/FirebaseAuth.framework/Headers/FIRAuthUIDelegate.h"
+- "/Users/sandy/Desktop/demo2 2/build/Debug-iphonesimulator/XCFrameworkIntermediates/FirebaseAnalytics/FirebaseAnalytics.framework/Headers/FIRAnalytics+AppDelegate.h"
+- "/Users/sandy/Desktop/demo2 2/build/Debug-iphonesimulator/FirebaseDatabase/FirebaseDatabase.framework/Headers/FIRServerValue.h"
+- "/Users/sandy/Desktop/demo2 2/build/Debug-iphonesimulator/FirebaseAuth/FirebaseAuth.framework/Headers/FIRAuth.h"
+- "/Users/sandy/Desktop/demo2 2/build/Debug-iphonesimulator/FirebaseAuth/FirebaseAuth.framework/Headers/FirebaseAuth.h"
+- "/Users/sandy/Desktop/demo2 2/build/Debug-iphonesimulator/FirebaseStorage/FirebaseStorage.framework/Headers/FIRStorageDownloadTask.h"
+- "/Users/sandy/Desktop/demo2 2/build/Debug-iphonesimulator/FirebaseStorage/FirebaseStorage.framework/Headers/FIRStorageUploadTask.h"
+- "/Users/sandy/Desktop/demo2 2/build/Debug-iphonesimulator/FirebaseStorage/FirebaseStorage.framework/Headers/FIRStorageTask.h"
+- "/Users/sandy/Desktop/demo2 2/build/Debug-iphonesimulator/FirebaseStorage/FirebaseStorage.framework/Headers/FIRStorageObservableTask.h"
+- "/Users/sandy/Desktop/demo2 2/build/Debug-iphonesimulator/FirebaseAuth/FirebaseAuth.framework/Headers/FIROAuthCredential.h"
+- "/Users/sandy/Desktop/demo2 2/build/Debug-iphonesimulator/FirebaseAuth/FirebaseAuth.framework/Headers/FIRAuthCredential.h"
+- "/Users/sandy/Desktop/demo2 2/build/Debug-iphonesimulator/FirebaseAuth/FirebaseAuth.framework/Headers/FIRPhoneAuthCredential.h"
+- "/Users/sandy/Desktop/demo2 2/build/Debug-iphonesimulator/FirebaseCore/FirebaseCore.framework/Headers/FIRLoggerLevel.h"
+- "/Users/sandy/Desktop/demo2 2/build/Debug-iphonesimulator/FirebaseCore/FirebaseCore.framework/Headers/FIRVersion.h"
+- "/Users/sandy/Desktop/demo2 2/build/Debug-iphonesimulator/FirebaseAuth/FirebaseAuth.framework/Headers/FIRMultiFactorSession.h"
+- "/Users/sandy/Desktop/demo2 2/build/Debug-iphonesimulator/FirebaseCore/FirebaseCore.framework/Headers/FIRConfiguration.h"
+- "/Users/sandy/Desktop/demo2 2/build/Debug-iphonesimulator/FirebaseAuth/FirebaseAuth.framework/Headers/FIRMultiFactorAssertion.h"
+- "/Users/sandy/Desktop/demo2 2/build/Debug-iphonesimulator/FirebaseAuth/FirebaseAuth.framework/Headers/FIRPhoneMultiFactorAssertion.h"
+- "/Users/sandy/Desktop/demo2 2/build/Debug-iphonesimulator/FirebaseAuth/FirebaseAuth.framework/Headers/FIRUserInfo.h"
+- "/Users/sandy/Desktop/demo2 2/build/Debug-iphonesimulator/FirebaseAuth/FirebaseAuth.framework/Headers/FIRAdditionalUserInfo.h"
+- "/Users/sandy/Desktop/demo2 2/build/Debug-iphonesimulator/FirebaseAuth/FirebaseAuth.framework/Headers/FIRMultiFactorInfo.h"
+- "/Users/sandy/Desktop/demo2 2/build/Debug-iphonesimulator/FirebaseAuth/FirebaseAuth.framework/Headers/FIRPhoneMultiFactorInfo.h"
+- "/Users/sandy/Desktop/demo2 2/build/Debug-iphonesimulator/FirebaseCore/FirebaseCore.framework/Headers/FIRApp.h"
+- "/Users/sandy/Desktop/demo2 2/build/Debug-iphonesimulator/FirebaseAuth/FirebaseAuth.framework/Headers/FIROAuthProvider.h"
+- "/Users/sandy/Desktop/demo2 2/build/Debug-iphonesimulator/FirebaseAuth/FirebaseAuth.framework/Headers/FIRGitHubAuthProvider.h"
+- "/Users/sandy/Desktop/demo2 2/build/Debug-iphonesimulator/FirebaseAuth/FirebaseAuth.framework/Headers/FIRFederatedAuthProvider.h"
+- "/Users/sandy/Desktop/demo2 2/build/Debug-iphonesimulator/FirebaseAuth/FirebaseAuth.framework/Headers/FIRGoogleAuthProvider.h"
+- "/Users/sandy/Desktop/demo2 2/build/Debug-iphonesimulator/FirebaseAuth/FirebaseAuth.framework/Headers/FIRPhoneAuthProvider.h"
+- "/Users/sandy/Desktop/demo2 2/build/Debug-iphonesimulator/FirebaseAuth/FirebaseAuth.framework/Headers/FIRFacebookAuthProvider.h"
+- "/Users/sandy/Desktop/demo2 2/build/Debug-iphonesimulator/FirebaseAuth/FirebaseAuth.framework/Headers/FIREmailAuthProvider.h"
+- "/Users/sandy/Desktop/demo2 2/build/Debug-iphonesimulator/FirebaseAuth/FirebaseAuth.framework/Headers/FIRGameCenterAuthProvider.h"
+- "/Users/sandy/Desktop/demo2 2/build/Debug-iphonesimulator/FirebaseAuth/FirebaseAuth.framework/Headers/FIRTwitterAuthProvider.h"
+- "/Users/sandy/Desktop/demo2 2/build/Debug-iphonesimulator/FirebaseAuth/FirebaseAuth.framework/Headers/FIRUser.h"
+- "/Users/sandy/Desktop/demo2 2/build/Debug-iphonesimulator/FirebaseAuth/FirebaseAuth.framework/Headers/FIRMultiFactorResolver.h"
+- "/Users/sandy/Desktop/demo2 2/build/Debug-iphonesimulator/FirebaseAuth/FirebaseAuth.framework/Headers/FIRPhoneMultiFactorGenerator.h"
+- "/Users/sandy/Desktop/demo2 2/build/Debug-iphonesimulator/FirebaseAuth/FirebaseAuth.framework/Headers/FIRMultiFactor.h"
+- "/Users/sandy/Desktop/demo2 2/build/Debug-iphonesimulator/XCFrameworkIntermediates/FirebaseAnalytics/FirebaseAnalytics.framework/Headers/FIRAnalytics.h"
+- "/Users/sandy/Desktop/demo2 2/build/Debug-iphonesimulator/XCFrameworkIntermediates/FirebaseAnalytics/FirebaseAnalytics.framework/Headers/FirebaseAnalytics.h"
+- "/Users/sandy/Desktop/demo2 2/build/Debug-iphonesimulator/XCFrameworkIntermediates/FirebaseAnalytics/FirebaseAnalytics.framework/Headers/FIRParameterNames.h"
+- "/Users/sandy/Desktop/demo2 2/build/Debug-iphonesimulator/XCFrameworkIntermediates/FirebaseAnalytics/FirebaseAnalytics.framework/Headers/FIREventNames.h"
+- "/Users/sandy/Desktop/demo2 2/build/Debug-iphonesimulator/XCFrameworkIntermediates/FirebaseAnalytics/FirebaseAnalytics.framework/Headers/FIRUserPropertyNames.h"
+- "/Users/sandy/Desktop/demo2 2/build/Debug-iphonesimulator/FirebaseAuth/FirebaseAuth.framework/Headers/FIRActionCodeSettings.h"
+- "/Users/sandy/Desktop/demo2 2/build/Debug-iphonesimulator/FirebaseAuth/FirebaseAuth.framework/Headers/FIRAuthSettings.h"
+- "/Users/sandy/Desktop/demo2 2/build/Debug-iphonesimulator/FirebaseInstallations/FirebaseInstallations.framework/Headers/FIRInstallations.h"
+- "/Users/sandy/Desktop/demo2 2/build/Debug-iphonesimulator/FirebaseInstallations/FirebaseInstallations.framework/Headers/FirebaseInstallations.h"
+- "/Users/sandy/Desktop/demo2 2/build/Debug-iphonesimulator/FirebaseCore/FirebaseCore.framework/Headers/FIROptions.h"
+- "/Users/sandy/Desktop/demo2 2/build/Debug-iphonesimulator/FirebaseAuth/FirebaseAuth.framework/Headers/FIRAuthErrors.h"
+- "/Users/sandy/Desktop/demo2 2/build/Debug-iphonesimulator/FirebaseInstallations/FirebaseInstallations.framework/Headers/FIRInstallationsErrors.h"
+- "/Users/sandy/Desktop/demo2 2/build/Debug-iphonesimulator/FirebaseStorage/FirebaseStorage.framework/Headers/FIRStorageConstants.h"
+- "/Users/sandy/Desktop/demo2 2/build/Debug-iphonesimulator/FirebaseAuth/FirebaseAuth.framework/Headers/FIRAuthDataResult.h"
+- "/Users/sandy/Desktop/demo2 2/build/Debug-iphonesimulator/FirebaseAuth/FirebaseAuth.framework/Headers/FIRAuthTokenResult.h"
+- "/Users/sandy/Desktop/demo2 2/build/Debug-iphonesimulator/FirebaseInstallations/FirebaseInstallations.framework/Headers/FIRInstallationsAuthTokenResult.h"
+- "/Users/sandy/Desktop/demo2 2/build/Debug-iphonesimulator/FirebaseDatabase/FirebaseDatabase.framework/Headers/FIRTransactionResult.h"
+- "/Users/sandy/Desktop/demo2 2/build/Debug-iphonesimulator/FirebaseStorage/FirebaseStorage.framework/Headers/FIRStorageListResult.h"
+- "/Users/sandy/Desktop/demo2 2/build/Debug-iphonesimulator/XCFrameworkIntermediates/FirebaseAnalytics/FirebaseAnalytics.framework/Headers/FIRAnalytics+Consent.h"
+- "/Users/sandy/Desktop/demo2 2/build/Debug-iphonesimulator/FirebaseDatabase/FirebaseDatabase.framework/Headers/FIRDataSnapshot.h"
+- "/Users/sandy/Desktop/demo2 2/build/Debug-iphonesimulator/FirebaseStorage/FirebaseStorage.framework/Headers/FIRStorageTaskSnapshot.h"
+- "/Users/sandy/Desktop/demo2 2/build/Debug-iphonesimulator/FirebaseDatabase/FirebaseDatabase.framework/Headers/FIRDatabaseQuery.h"
 - "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.4.sdk/usr/include/mach-o/dyld.modulemap"
-- "/Users/sandy/Downloads/demo  /Pods/Firebase/CoreOnly/Sources/module.modulemap"
-- "/Users/sandy/Downloads/demo2/Pods/Firebase/CoreOnly/Sources/module.modulemap"
-- "/Users/sandy/Downloads/demo2/build/Debug-iphonesimulator/FirebaseStorage/FirebaseStorage.framework/Modules/module.modulemap"
-- "/Users/sandy/Downloads/demo2/build/Debug-iphonesimulator/FirebaseCore/FirebaseCore.framework/Modules/module.modulemap"
-- "/Users/sandy/Downloads/demo2/build/Debug-iphonesimulator/FirebaseDatabase/FirebaseDatabase.framework/Modules/module.modulemap"
-- "/Users/sandy/Downloads/demo2/build/Debug-iphonesimulator/FirebaseAuth/FirebaseAuth.framework/Modules/module.modulemap"
-- "/Users/sandy/Downloads/demo2/build/Debug-iphonesimulator/XCFrameworkIntermediates/FirebaseAnalytics/FirebaseAnalytics.framework/Modules/module.modulemap"
-- "/Users/sandy/Downloads/demo2/build/Debug-iphonesimulator/FirebaseInstallations/FirebaseInstallations.framework/Modules/module.modulemap"
+- "/Users/sandy/Desktop/demo2 2/Pods/Firebase/CoreOnly/Sources/module.modulemap"
+- "/Users/sandy/Desktop/demo2 2/build/Debug-iphonesimulator/FirebaseStorage/FirebaseStorage.framework/Modules/module.modulemap"
+- "/Users/sandy/Desktop/demo2 2/build/Debug-iphonesimulator/FirebaseCore/FirebaseCore.framework/Modules/module.modulemap"
+- "/Users/sandy/Desktop/demo2 2/build/Debug-iphonesimulator/FirebaseDatabase/FirebaseDatabase.framework/Modules/module.modulemap"
+- "/Users/sandy/Desktop/demo2 2/build/Debug-iphonesimulator/FirebaseAuth/FirebaseAuth.framework/Modules/module.modulemap"
+- "/Users/sandy/Desktop/demo2 2/build/Debug-iphonesimulator/XCFrameworkIntermediates/FirebaseAnalytics/FirebaseAnalytics.framework/Modules/module.modulemap"
+- "/Users/sandy/Desktop/demo2 2/build/Debug-iphonesimulator/FirebaseInstallations/FirebaseInstallations.framework/Modules/module.modulemap"
 - "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.4.sdk/usr/include/mach-o/compact_unwind_encoding.modulemap"
 - "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.4.sdk/usr/include/objc/ObjectiveC.apinotes"
 - "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.4.sdk/System/Library/Frameworks/MessageUI.framework/Headers/MessageUI.apinotes"
@@ -2000,4 +2025,4 @@ depends-external:
 - "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.4.sdk/System/Library/Frameworks/MediaToolbox.framework/Headers/MediaToolbox.apinotes"
 - "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.4.sdk/System/Library/Frameworks/AudioToolbox.framework/Headers/AudioToolbox.apinotes"
 - "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.4.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
-interface-hash: "cfb496f11c2c834db03757f51d313d8b"
+interface-hash: "32d3612c49f886efa77fa0f955e5e731"
